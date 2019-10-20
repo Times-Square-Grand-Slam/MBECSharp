@@ -111,8 +111,13 @@
             this.bnFood = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.invoicesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnPack.SuspendLayout();
             this.pnAddItem.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -763,7 +768,7 @@
             this.btnClearBD.Name = "btnClearBD";
             this.btnClearBD.Size = new System.Drawing.Size(122, 30);
             this.btnClearBD.TabIndex = 94;
-            this.btnClearBD.Text = "Clear Package";
+            this.btnClearBD.Text = "Clear Event";
             this.btnClearBD.UseVisualStyleBackColor = false;
             // 
             // lbBDPack
@@ -904,6 +909,36 @@
             this.button1.Text = "Save Event";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.editToolStripMenuItem,
+            this.invoicesToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1311, 24);
+            this.menuStrip1.TabIndex = 102;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Text = "Edit";
+            // 
+            // invoicesToolStripMenuItem
+            // 
+            this.invoicesToolStripMenuItem.Name = "invoicesToolStripMenuItem";
+            this.invoicesToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.invoicesToolStripMenuItem.Text = "Invoice";
+            // 
             // BDPackages2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -960,12 +995,16 @@
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.lbName);
             this.Controls.Add(this.txtName);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "BDPackages2";
             this.Text = "TSGS Birthday Packages";
             this.pnPack.ResumeLayout(false);
             this.pnPack.PerformLayout();
             this.pnAddItem.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1055,5 +1094,9 @@
         private System.Windows.Forms.Button bnMovie;
         private System.Windows.Forms.Button bnFood;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem invoicesToolStripMenuItem;
     }
 }
