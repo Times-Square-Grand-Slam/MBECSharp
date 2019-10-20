@@ -325,11 +325,20 @@
             // 
             // cbRoom
             // 
+            this.cbRoom.AccessibleName = "cbPRNum";
             this.cbRoom.FormattingEnabled = true;
+            this.cbRoom.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"});
             this.cbRoom.Location = new System.Drawing.Point(357, 115);
             this.cbRoom.Name = "cbRoom";
             this.cbRoom.Size = new System.Drawing.Size(151, 21);
             this.cbRoom.TabIndex = 62;
+            this.cbRoom.SelectedIndexChanged += new System.EventHandler(this.cbRoom_SelectedIndexChanged);
             // 
             // lbHost
             // 

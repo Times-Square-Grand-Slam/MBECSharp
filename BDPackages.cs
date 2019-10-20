@@ -16,5 +16,10 @@ namespace MBECSharp
         {
             InitializeComponent();
         }
+
+        private void cbRoom_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
