@@ -10,14 +10,3 @@ C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj
 C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj\Debug\MBECSharp.pdb
 C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj\Debug\MBECSharp.Form1.resources
 C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj\Debug\MBECSharp.BDPackages2.resources
-F:\MBECSharp\bin\Debug\MBECSharp.exe.config
-F:\MBECSharp\bin\Debug\MBECSharp.exe
-F:\MBECSharp\bin\Debug\MBECSharp.pdb
-F:\MBECSharp\obj\Debug\MBECSharp.csprojAssemblyReference.cache
-F:\MBECSharp\obj\Debug\MBECSharp.BDPackages2.resources
-F:\MBECSharp\obj\Debug\MBECSharp.BDPackages.resources
-F:\MBECSharp\obj\Debug\MBECSharp.Form1.resources
-F:\MBECSharp\obj\Debug\MBECSharp.Properties.Resources.resources
-F:\MBECSharp\obj\Debug\MBECSharp.csproj.GenerateResource.cache
-F:\MBECSharp\obj\Debug\MBECSharp.exe
-F:\MBECSharp\obj\Debug\MBECSharp.pdb

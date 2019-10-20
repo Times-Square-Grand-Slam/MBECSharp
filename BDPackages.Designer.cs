@@ -122,8 +122,30 @@
             this.btnPrintInv = new System.Windows.Forms.Button();
             this.btnCreateInv = new System.Windows.Forms.Button();
             this.btnClearBD = new System.Windows.Forms.Button();
-            this.lbBDPack = new System.Windows.Forms.ListBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.clbPizza2 = new System.Windows.Forms.CheckedListBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.clbPizza1 = new System.Windows.Forms.CheckedListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.checkedListBox6 = new System.Windows.Forms.CheckedListBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -325,20 +347,11 @@
             // 
             // cbRoom
             // 
-            this.cbRoom.AccessibleName = "cbPRNum";
             this.cbRoom.FormattingEnabled = true;
-            this.cbRoom.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"});
             this.cbRoom.Location = new System.Drawing.Point(357, 115);
             this.cbRoom.Name = "cbRoom";
             this.cbRoom.Size = new System.Drawing.Size(151, 21);
             this.cbRoom.TabIndex = 62;
-            this.cbRoom.SelectedIndexChanged += new System.EventHandler(this.cbRoom_SelectedIndexChanged);
             // 
             // lbHost
             // 
@@ -1030,20 +1043,264 @@
             this.btnClearBD.Text = "Clear Packages";
             this.btnClearBD.UseVisualStyleBackColor = false;
             // 
-            // lbBDPack
+            // panel2
             // 
-            this.lbBDPack.FormattingEnabled = true;
-            this.lbBDPack.Location = new System.Drawing.Point(778, 37);
-            this.lbBDPack.Name = "lbBDPack";
-            this.lbBDPack.Size = new System.Drawing.Size(526, 459);
-            this.lbBDPack.TabIndex = 99;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.checkBox9);
+            this.panel2.Controls.Add(this.checkBox4);
+            this.panel2.Controls.Add(this.checkBox3);
+            this.panel2.Controls.Add(this.checkBox2);
+            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.checkedListBox2);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.checkedListBox1);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.clbPizza2);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.clbPizza1);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(12, 501);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(368, 199);
+            this.panel2.TabIndex = 99;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox4.Location = new System.Drawing.Point(187, 156);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(88, 17);
+            this.checkBox4.TabIndex = 98;
+            this.checkBox4.Text = "Snack Packs";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox3.Location = new System.Drawing.Point(3, 179);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(122, 17);
+            this.checkBox3.TabIndex = 97;
+            this.checkBox3.Text = "Unlimited Soft Drinks";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox2.Location = new System.Drawing.Point(95, 156);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(53, 17);
+            this.checkBox2.TabIndex = 96;
+            this.checkBox2.Text = "Water";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox1.Location = new System.Drawing.Point(3, 156);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(75, 17);
+            this.checkBox1.TabIndex = 95;
+            this.checkBox1.Text = "Capri Suns";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(279, 40);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(81, 13);
+            this.label7.TabIndex = 94;
+            this.label7.Text = "Additional Pizza";
+            // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Items.AddRange(new object[] {
+            "Pepperoni",
+            "Hamburger",
+            "Cheese",
+            "Etc..."});
+            this.checkedListBox2.Location = new System.Drawing.Point(279, 56);
+            this.checkedListBox2.MultiColumn = true;
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(86, 94);
+            this.checkedListBox2.TabIndex = 93;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(187, 40);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(81, 13);
+            this.label6.TabIndex = 92;
+            this.label6.Text = "Additional Pizza";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Pepperoni",
+            "Hamburger",
+            "Cheese",
+            "Etc..."});
+            this.checkedListBox1.Location = new System.Drawing.Point(187, 56);
+            this.checkedListBox1.MultiColumn = true;
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(86, 94);
+            this.checkedListBox1.TabIndex = 91;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(95, 40);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 13);
+            this.label5.TabIndex = 90;
+            this.label5.Text = "2nd Pizza";
+            // 
+            // clbPizza2
+            // 
+            this.clbPizza2.FormattingEnabled = true;
+            this.clbPizza2.Items.AddRange(new object[] {
+            "Pepperoni",
+            "Hamburger",
+            "Cheese",
+            "Etc..."});
+            this.clbPizza2.Location = new System.Drawing.Point(95, 56);
+            this.clbPizza2.MultiColumn = true;
+            this.clbPizza2.Name = "clbPizza2";
+            this.clbPizza2.Size = new System.Drawing.Size(86, 94);
+            this.clbPizza2.TabIndex = 89;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.TabIndex = 88;
+            this.label4.Text = "1st Pizza";
+            // 
+            // clbPizza1
+            // 
+            this.clbPizza1.FormattingEnabled = true;
+            this.clbPizza1.Items.AddRange(new object[] {
+            "Pepperoni",
+            "Hamburger",
+            "Cheese",
+            "Etc..."});
+            this.clbPizza1.Location = new System.Drawing.Point(3, 56);
+            this.clbPizza1.MultiColumn = true;
+            this.clbPizza1.Name = "clbPizza1";
+            this.clbPizza1.Size = new System.Drawing.Size(86, 94);
+            this.clbPizza1.TabIndex = 87;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Turquoise;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(362, 28);
+            this.label2.TabIndex = 86;
+            this.label2.Text = "Food";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.checkedListBox3);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.checkedListBox6);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Location = new System.Drawing.Point(404, 501);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(210, 199);
+            this.panel3.TabIndex = 100;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(3, 40);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(62, 13);
+            this.label11.TabIndex = 88;
+            this.label11.Text = "Party Room";
+            // 
+            // checkedListBox6
+            // 
+            this.checkedListBox6.FormattingEnabled = true;
+            this.checkedListBox6.Items.AddRange(new object[] {
+            "Room 1",
+            "Room 2",
+            "Room 3",
+            "Conference",
+            "VIP"});
+            this.checkedListBox6.Location = new System.Drawing.Point(3, 56);
+            this.checkedListBox6.MultiColumn = true;
+            this.checkedListBox6.Name = "checkedListBox6";
+            this.checkedListBox6.Size = new System.Drawing.Size(86, 94);
+            this.checkedListBox6.TabIndex = 87;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.Plum;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(204, 28);
+            this.label12.TabIndex = 86;
+            this.label12.Text = "Party Room";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox9.Location = new System.Drawing.Point(187, 179);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(161, 17);
+            this.checkBox9.TabIndex = 99;
+            this.checkBox9.Text = "Themed Party Place Settings";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(95, 40);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(79, 13);
+            this.label8.TabIndex = 100;
+            this.label8.Text = "Additional Time";
+            // 
+            // checkedListBox3
+            // 
+            this.checkedListBox3.FormattingEnabled = true;
+            this.checkedListBox3.Items.AddRange(new object[] {
+            "Add 30 Minutes",
+            "Add 1 Hour"});
+            this.checkedListBox3.Location = new System.Drawing.Point(95, 56);
+            this.checkedListBox3.MultiColumn = true;
+            this.checkedListBox3.Name = "checkedListBox3";
+            this.checkedListBox3.Size = new System.Drawing.Size(112, 94);
+            this.checkedListBox3.TabIndex = 99;
             // 
             // BDPackages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1311, 801);
-            this.Controls.Add(this.lbBDPack);
+            this.ClientSize = new System.Drawing.Size(1311, 708);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnAcct);
             this.Controls.Add(this.btnEmailInv);
             this.Controls.Add(this.btnPrintInv);
@@ -1099,6 +1356,10 @@
             this.Text = "TSGS Birthday Packages";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1199,6 +1460,26 @@
         private System.Windows.Forms.Button btnPrintInv;
         private System.Windows.Forms.Button btnCreateInv;
         private System.Windows.Forms.Button btnClearBD;
-        private System.Windows.Forms.ListBox lbBDPack;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckedListBox checkedListBox2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckedListBox clbPizza2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckedListBox clbPizza1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.CheckedListBox checkedListBox6;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckedListBox checkedListBox3;
     }
 }
