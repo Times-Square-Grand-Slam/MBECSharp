@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activities.Designer.cs">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arcade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arcade.Designer.cs">
+      <DependentUpon>Arcade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area.Designer.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
     <Compile Include="BDPackages2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,11 +76,35 @@
     <Compile Include="BDPackages.Designer.cs">
       <DependentUpon>BDPackages.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bowling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bowling.Designer.cs">
+      <DependentUpon>Bowling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food.Designer.cs">
+      <DependentUpon>Food.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Misc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misc.Designer.cs">
+      <DependentUpon>Misc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movie.Designer.cs">
+      <DependentUpon>Movie.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

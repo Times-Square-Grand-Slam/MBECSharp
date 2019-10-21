@@ -94,11 +94,10 @@
             this.rbArcade = new System.Windows.Forms.RadioButton();
             this.rbMovie = new System.Windows.Forms.RadioButton();
             this.lbBDType = new System.Windows.Forms.Label();
-            this.btnAcct = new System.Windows.Forms.Button();
-            this.btnEmailInv = new System.Windows.Forms.Button();
-            this.btnPrintInv = new System.Windows.Forms.Button();
-            this.btnCreateInv = new System.Windows.Forms.Button();
-            this.btnClearBD = new System.Windows.Forms.Button();
+            this.bnEmail = new System.Windows.Forms.Button();
+            this.bnPrint = new System.Windows.Forms.Button();
+            this.bnCreate = new System.Windows.Forms.Button();
+            this.bnClear = new System.Windows.Forms.Button();
             this.lbBDPack = new System.Windows.Forms.ListBox();
             this.pnAddItem = new System.Windows.Forms.Panel();
             this.bnExtra = new System.Windows.Forms.Button();
@@ -110,9 +109,26 @@
             this.bnMovie = new System.Windows.Forms.Button();
             this.bnFood = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bnSave = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.tsmiFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFileNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFileOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFileSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFileSaveClose = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFileSaveNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiFileExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiEdit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiEditUndo = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiEditClear = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiInvoice = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiInvoiceCreate = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiInvoicePrint = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiInvoiceEmail = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiInvoiceAcct = new System.Windows.Forms.ToolStripMenuItem();
             this.pnPack.SuspendLayout();
             this.pnAddItem.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -506,6 +522,7 @@
             this.txtCustomAG.Size = new System.Drawing.Size(100, 20);
             this.txtCustomAG.TabIndex = 63;
             this.txtCustomAG.TabStop = false;
+            this.txtCustomAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtActionAG
             // 
@@ -516,6 +533,7 @@
             this.txtActionAG.Size = new System.Drawing.Size(100, 20);
             this.txtActionAG.TabIndex = 62;
             this.txtActionAG.TabStop = false;
+            this.txtActionAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBowlAG
             // 
@@ -526,6 +544,7 @@
             this.txtBowlAG.Size = new System.Drawing.Size(100, 20);
             this.txtBowlAG.TabIndex = 61;
             this.txtBowlAG.TabStop = false;
+            this.txtBowlAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtArcadeAG
             // 
@@ -536,6 +555,7 @@
             this.txtArcadeAG.Size = new System.Drawing.Size(100, 20);
             this.txtArcadeAG.TabIndex = 60;
             this.txtArcadeAG.TabStop = false;
+            this.txtArcadeAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtMovieAG
             // 
@@ -546,6 +566,7 @@
             this.txtMovieAG.Size = new System.Drawing.Size(100, 20);
             this.txtMovieAG.TabIndex = 59;
             this.txtMovieAG.TabStop = false;
+            this.txtMovieAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBasicAG
             // 
@@ -556,6 +577,7 @@
             this.txtBasicAG.Size = new System.Drawing.Size(100, 20);
             this.txtBasicAG.TabIndex = 58;
             this.txtBasicAG.TabStop = false;
+            this.txtBasicAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbBDAddGuest
             // 
@@ -576,6 +598,7 @@
             this.txtCustomPr.Size = new System.Drawing.Size(100, 20);
             this.txtCustomPr.TabIndex = 56;
             this.txtCustomPr.TabStop = false;
+            this.txtCustomPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtActionPr
             // 
@@ -586,6 +609,7 @@
             this.txtActionPr.Size = new System.Drawing.Size(100, 20);
             this.txtActionPr.TabIndex = 55;
             this.txtActionPr.TabStop = false;
+            this.txtActionPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBowlPr
             // 
@@ -596,6 +620,7 @@
             this.txtBowlPr.Size = new System.Drawing.Size(100, 20);
             this.txtBowlPr.TabIndex = 54;
             this.txtBowlPr.TabStop = false;
+            this.txtBowlPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtArcadePr
             // 
@@ -606,6 +631,7 @@
             this.txtArcadePr.Size = new System.Drawing.Size(100, 20);
             this.txtArcadePr.TabIndex = 53;
             this.txtArcadePr.TabStop = false;
+            this.txtArcadePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtMoviePr
             // 
@@ -616,6 +642,7 @@
             this.txtMoviePr.Size = new System.Drawing.Size(100, 20);
             this.txtMoviePr.TabIndex = 52;
             this.txtMoviePr.TabStop = false;
+            this.txtMoviePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBasicPr
             // 
@@ -626,6 +653,8 @@
             this.txtBasicPr.Size = new System.Drawing.Size(100, 20);
             this.txtBasicPr.TabIndex = 51;
             this.txtBasicPr.TabStop = false;
+            this.txtBasicPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtBasicPr.WordWrap = false;
             // 
             // lbBDPrice
             // 
@@ -711,60 +740,49 @@
             this.lbBDType.Text = "Type";
             this.lbBDType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnAcct
+            // bnEmail
             // 
-            this.btnAcct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnAcct.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcct.Location = new System.Drawing.Point(511, 477);
-            this.btnAcct.Name = "btnAcct";
-            this.btnAcct.Size = new System.Drawing.Size(122, 30);
-            this.btnAcct.TabIndex = 98;
-            this.btnAcct.Text = "Print Accounting";
-            this.btnAcct.UseVisualStyleBackColor = false;
+            this.bnEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.bnEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnEmail.Location = new System.Drawing.Point(357, 442);
+            this.bnEmail.Name = "bnEmail";
+            this.bnEmail.Size = new System.Drawing.Size(122, 46);
+            this.bnEmail.TabIndex = 97;
+            this.bnEmail.Text = "Email Customer Invoice";
+            this.bnEmail.UseVisualStyleBackColor = false;
             // 
-            // btnEmailInv
+            // bnPrint
             // 
-            this.btnEmailInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnEmailInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmailInv.Location = new System.Drawing.Point(357, 442);
-            this.btnEmailInv.Name = "btnEmailInv";
-            this.btnEmailInv.Size = new System.Drawing.Size(122, 46);
-            this.btnEmailInv.TabIndex = 97;
-            this.btnEmailInv.Text = "Email Customer Invoice";
-            this.btnEmailInv.UseVisualStyleBackColor = false;
+            this.bnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.bnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnPrint.Location = new System.Drawing.Point(357, 390);
+            this.bnPrint.Name = "bnPrint";
+            this.bnPrint.Size = new System.Drawing.Size(122, 46);
+            this.bnPrint.TabIndex = 96;
+            this.bnPrint.Text = "Print Customer Invoice";
+            this.bnPrint.UseVisualStyleBackColor = false;
             // 
-            // btnPrintInv
+            // bnCreate
             // 
-            this.btnPrintInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnPrintInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrintInv.Location = new System.Drawing.Point(357, 390);
-            this.btnPrintInv.Name = "btnPrintInv";
-            this.btnPrintInv.Size = new System.Drawing.Size(122, 46);
-            this.btnPrintInv.TabIndex = 96;
-            this.btnPrintInv.Text = "Print Customer Invoice";
-            this.btnPrintInv.UseVisualStyleBackColor = false;
+            this.bnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.bnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnCreate.Location = new System.Drawing.Point(357, 338);
+            this.bnCreate.Name = "bnCreate";
+            this.bnCreate.Size = new System.Drawing.Size(122, 46);
+            this.bnCreate.TabIndex = 95;
+            this.bnCreate.Text = "Create Customer Invoice";
+            this.bnCreate.UseVisualStyleBackColor = false;
             // 
-            // btnCreateInv
+            // bnClear
             // 
-            this.btnCreateInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnCreateInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreateInv.Location = new System.Drawing.Point(357, 338);
-            this.btnCreateInv.Name = "btnCreateInv";
-            this.btnCreateInv.Size = new System.Drawing.Size(122, 46);
-            this.btnCreateInv.TabIndex = 95;
-            this.btnCreateInv.Text = "Create Customer Invoice";
-            this.btnCreateInv.UseVisualStyleBackColor = false;
-            // 
-            // btnClearBD
-            // 
-            this.btnClearBD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnClearBD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearBD.Location = new System.Drawing.Point(357, 302);
-            this.btnClearBD.Name = "btnClearBD";
-            this.btnClearBD.Size = new System.Drawing.Size(122, 30);
-            this.btnClearBD.TabIndex = 94;
-            this.btnClearBD.Text = "Clear Package";
-            this.btnClearBD.UseVisualStyleBackColor = false;
+            this.bnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.bnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnClear.Location = new System.Drawing.Point(357, 302);
+            this.bnClear.Name = "bnClear";
+            this.bnClear.Size = new System.Drawing.Size(122, 30);
+            this.bnClear.TabIndex = 94;
+            this.bnClear.Text = "Clear Package";
+            this.bnClear.UseVisualStyleBackColor = false;
             // 
             // lbBDPack
             // 
@@ -812,6 +830,7 @@
             this.bnMisc.TabIndex = 93;
             this.bnMisc.Text = "Misc";
             this.bnMisc.UseVisualStyleBackColor = false;
+            this.bnMisc.Click += new System.EventHandler(this.BnMisc_Click);
             // 
             // bnPartyArea
             // 
@@ -823,6 +842,7 @@
             this.bnPartyArea.TabIndex = 92;
             this.bnPartyArea.Text = "Party Area";
             this.bnPartyArea.UseVisualStyleBackColor = false;
+            this.bnPartyArea.Click += new System.EventHandler(this.BnPartyArea_Click);
             // 
             // bnBowl
             // 
@@ -834,6 +854,7 @@
             this.bnBowl.TabIndex = 91;
             this.bnBowl.Text = "Bowling";
             this.bnBowl.UseVisualStyleBackColor = false;
+            this.bnBowl.Click += new System.EventHandler(this.BnBowl_Click);
             // 
             // bnAct
             // 
@@ -846,6 +867,7 @@
             this.bnAct.TabIndex = 90;
             this.bnAct.Text = "Activities";
             this.bnAct.UseVisualStyleBackColor = false;
+            this.bnAct.Click += new System.EventHandler(this.BnAct_Click);
             // 
             // bnArcade
             // 
@@ -857,6 +879,7 @@
             this.bnArcade.TabIndex = 89;
             this.bnArcade.Text = "Arcade";
             this.bnArcade.UseVisualStyleBackColor = false;
+            this.bnArcade.Click += new System.EventHandler(this.BnArcade_Click);
             // 
             // bnMovie
             // 
@@ -868,6 +891,7 @@
             this.bnMovie.TabIndex = 88;
             this.bnMovie.Text = "Movie";
             this.bnMovie.UseVisualStyleBackColor = false;
+            this.bnMovie.Click += new System.EventHandler(this.BnMovie_Click);
             // 
             // bnFood
             // 
@@ -880,6 +904,7 @@
             this.bnFood.TabIndex = 87;
             this.bnFood.Text = "Food";
             this.bnFood.UseVisualStyleBackColor = false;
+            this.bnFood.Click += new System.EventHandler(this.BnFood_Click);
             // 
             // label2
             // 
@@ -893,30 +918,146 @@
             this.label2.Text = "Additional Items";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // bnSave
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(357, 264);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 30);
-            this.button1.TabIndex = 101;
-            this.button1.Text = "Save Event";
-            this.button1.UseVisualStyleBackColor = false;
+            this.bnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.bnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnSave.Location = new System.Drawing.Point(357, 264);
+            this.bnSave.Name = "bnSave";
+            this.bnSave.Size = new System.Drawing.Size(122, 30);
+            this.bnSave.TabIndex = 101;
+            this.bnSave.Text = "Save Event";
+            this.bnSave.UseVisualStyleBackColor = false;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiFile,
+            this.tsmiEdit,
+            this.tsmiInvoice});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1311, 24);
+            this.menuStrip1.TabIndex = 102;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // tsmiFile
+            // 
+            this.tsmiFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiFileNew,
+            this.tsmiFileOpen,
+            this.tsmiFileSave,
+            this.tsmiFileSaveClose,
+            this.tsmiFileSaveNew,
+            this.tsmiFileExit});
+            this.tsmiFile.Name = "tsmiFile";
+            this.tsmiFile.Size = new System.Drawing.Size(37, 20);
+            this.tsmiFile.Text = "File";
+            // 
+            // tsmiFileNew
+            // 
+            this.tsmiFileNew.Name = "tsmiFileNew";
+            this.tsmiFileNew.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileNew.Text = "New";
+            // 
+            // tsmiFileOpen
+            // 
+            this.tsmiFileOpen.Name = "tsmiFileOpen";
+            this.tsmiFileOpen.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileOpen.Text = "Open";
+            // 
+            // tsmiFileSave
+            // 
+            this.tsmiFileSave.Name = "tsmiFileSave";
+            this.tsmiFileSave.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileSave.Text = "Save";
+            // 
+            // tsmiFileSaveClose
+            // 
+            this.tsmiFileSaveClose.Name = "tsmiFileSaveClose";
+            this.tsmiFileSaveClose.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileSaveClose.Text = "Save && Close";
+            // 
+            // tsmiFileSaveNew
+            // 
+            this.tsmiFileSaveNew.Name = "tsmiFileSaveNew";
+            this.tsmiFileSaveNew.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileSaveNew.Text = "Save && New";
+            // 
+            // tsmiFileExit
+            // 
+            this.tsmiFileExit.Name = "tsmiFileExit";
+            this.tsmiFileExit.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileExit.Text = "Exit";
+            // 
+            // tsmiEdit
+            // 
+            this.tsmiEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiEditUndo,
+            this.tsmiEditClear});
+            this.tsmiEdit.Name = "tsmiEdit";
+            this.tsmiEdit.Size = new System.Drawing.Size(39, 20);
+            this.tsmiEdit.Text = "Edit";
+            // 
+            // tsmiEditUndo
+            // 
+            this.tsmiEditUndo.Name = "tsmiEditUndo";
+            this.tsmiEditUndo.Size = new System.Drawing.Size(180, 22);
+            this.tsmiEditUndo.Text = "Undo";
+            // 
+            // tsmiEditClear
+            // 
+            this.tsmiEditClear.Name = "tsmiEditClear";
+            this.tsmiEditClear.Size = new System.Drawing.Size(180, 22);
+            this.tsmiEditClear.Text = "Clear All";
+            // 
+            // tsmiInvoice
+            // 
+            this.tsmiInvoice.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiInvoiceCreate,
+            this.tsmiInvoicePrint,
+            this.tsmiInvoiceEmail,
+            this.tsmiInvoiceAcct});
+            this.tsmiInvoice.Name = "tsmiInvoice";
+            this.tsmiInvoice.Size = new System.Drawing.Size(57, 20);
+            this.tsmiInvoice.Text = "Invoice";
+            // 
+            // tsmiInvoiceCreate
+            // 
+            this.tsmiInvoiceCreate.Name = "tsmiInvoiceCreate";
+            this.tsmiInvoiceCreate.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoiceCreate.Text = "Create Invoice";
+            // 
+            // tsmiInvoicePrint
+            // 
+            this.tsmiInvoicePrint.Name = "tsmiInvoicePrint";
+            this.tsmiInvoicePrint.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoicePrint.Text = "Print Invoice";
+            // 
+            // tsmiInvoiceEmail
+            // 
+            this.tsmiInvoiceEmail.Name = "tsmiInvoiceEmail";
+            this.tsmiInvoiceEmail.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoiceEmail.Text = "Email Invoice";
+            // 
+            // tsmiInvoiceAcct
+            // 
+            this.tsmiInvoiceAcct.Name = "tsmiInvoiceAcct";
+            this.tsmiInvoiceAcct.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoiceAcct.Text = "Print Accounting Report";
             // 
             // BDPackages2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1311, 507);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bnSave);
             this.Controls.Add(this.pnAddItem);
             this.Controls.Add(this.lbBDPack);
-            this.Controls.Add(this.btnAcct);
-            this.Controls.Add(this.btnEmailInv);
-            this.Controls.Add(this.btnPrintInv);
-            this.Controls.Add(this.btnCreateInv);
-            this.Controls.Add(this.btnClearBD);
+            this.Controls.Add(this.bnEmail);
+            this.Controls.Add(this.bnPrint);
+            this.Controls.Add(this.bnCreate);
+            this.Controls.Add(this.bnClear);
             this.Controls.Add(this.pnPack);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
@@ -960,12 +1101,17 @@
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.lbName);
             this.Controls.Add(this.txtName);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "BDPackages2";
             this.Text = "TSGS Birthday Packages";
+            this.Load += new System.EventHandler(this.BDPackages2_Load);
             this.pnPack.ResumeLayout(false);
             this.pnPack.PerformLayout();
             this.pnAddItem.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1038,11 +1184,10 @@
         private System.Windows.Forms.RadioButton rbArcade;
         private System.Windows.Forms.RadioButton rbMovie;
         private System.Windows.Forms.Label lbBDType;
-        private System.Windows.Forms.Button btnAcct;
-        private System.Windows.Forms.Button btnEmailInv;
-        private System.Windows.Forms.Button btnPrintInv;
-        private System.Windows.Forms.Button btnCreateInv;
-        private System.Windows.Forms.Button btnClearBD;
+        private System.Windows.Forms.Button bnEmail;
+        private System.Windows.Forms.Button bnPrint;
+        private System.Windows.Forms.Button bnCreate;
+        private System.Windows.Forms.Button bnClear;
         private System.Windows.Forms.ListBox lbBDPack;
         private System.Windows.Forms.Panel pnAddItem;
         private System.Windows.Forms.Label label2;
@@ -1054,6 +1199,22 @@
         private System.Windows.Forms.Button bnArcade;
         private System.Windows.Forms.Button bnMovie;
         private System.Windows.Forms.Button bnFood;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bnSave;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFile;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFileNew;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFileOpen;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFileSave;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFileSaveClose;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFileSaveNew;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFileExit;
+        private System.Windows.Forms.ToolStripMenuItem tsmiEdit;
+        private System.Windows.Forms.ToolStripMenuItem tsmiEditUndo;
+        private System.Windows.Forms.ToolStripMenuItem tsmiEditClear;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInvoice;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInvoiceCreate;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInvoicePrint;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInvoiceEmail;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInvoiceAcct;
     }
 }
