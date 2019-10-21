@@ -522,6 +522,7 @@
             this.txtCustomAG.Size = new System.Drawing.Size(100, 20);
             this.txtCustomAG.TabIndex = 63;
             this.txtCustomAG.TabStop = false;
+            this.txtCustomAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtActionAG
             // 
@@ -532,6 +533,7 @@
             this.txtActionAG.Size = new System.Drawing.Size(100, 20);
             this.txtActionAG.TabIndex = 62;
             this.txtActionAG.TabStop = false;
+            this.txtActionAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBowlAG
             // 
@@ -542,6 +544,7 @@
             this.txtBowlAG.Size = new System.Drawing.Size(100, 20);
             this.txtBowlAG.TabIndex = 61;
             this.txtBowlAG.TabStop = false;
+            this.txtBowlAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtArcadeAG
             // 
@@ -552,6 +555,7 @@
             this.txtArcadeAG.Size = new System.Drawing.Size(100, 20);
             this.txtArcadeAG.TabIndex = 60;
             this.txtArcadeAG.TabStop = false;
+            this.txtArcadeAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtMovieAG
             // 
@@ -562,6 +566,7 @@
             this.txtMovieAG.Size = new System.Drawing.Size(100, 20);
             this.txtMovieAG.TabIndex = 59;
             this.txtMovieAG.TabStop = false;
+            this.txtMovieAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBasicAG
             // 
@@ -572,6 +577,7 @@
             this.txtBasicAG.Size = new System.Drawing.Size(100, 20);
             this.txtBasicAG.TabIndex = 58;
             this.txtBasicAG.TabStop = false;
+            this.txtBasicAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbBDAddGuest
             // 
@@ -592,6 +598,7 @@
             this.txtCustomPr.Size = new System.Drawing.Size(100, 20);
             this.txtCustomPr.TabIndex = 56;
             this.txtCustomPr.TabStop = false;
+            this.txtCustomPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtActionPr
             // 
@@ -602,6 +609,7 @@
             this.txtActionPr.Size = new System.Drawing.Size(100, 20);
             this.txtActionPr.TabIndex = 55;
             this.txtActionPr.TabStop = false;
+            this.txtActionPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBowlPr
             // 
@@ -612,6 +620,7 @@
             this.txtBowlPr.Size = new System.Drawing.Size(100, 20);
             this.txtBowlPr.TabIndex = 54;
             this.txtBowlPr.TabStop = false;
+            this.txtBowlPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtArcadePr
             // 
@@ -622,6 +631,7 @@
             this.txtArcadePr.Size = new System.Drawing.Size(100, 20);
             this.txtArcadePr.TabIndex = 53;
             this.txtArcadePr.TabStop = false;
+            this.txtArcadePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtMoviePr
             // 
@@ -632,6 +642,7 @@
             this.txtMoviePr.Size = new System.Drawing.Size(100, 20);
             this.txtMoviePr.TabIndex = 52;
             this.txtMoviePr.TabStop = false;
+            this.txtMoviePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtBasicPr
             // 
@@ -642,6 +653,8 @@
             this.txtBasicPr.Size = new System.Drawing.Size(100, 20);
             this.txtBasicPr.TabIndex = 51;
             this.txtBasicPr.TabStop = false;
+            this.txtBasicPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtBasicPr.WordWrap = false;
             // 
             // lbBDPrice
             // 
@@ -1093,6 +1106,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BDPackages2";
             this.Text = "TSGS Birthday Packages";
+            this.Load += new System.EventHandler(this.BDPackages2_Load);
             this.pnPack.ResumeLayout(false);
             this.pnPack.PerformLayout();
             this.pnAddItem.ResumeLayout(false);
