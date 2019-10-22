@@ -65,6 +65,8 @@ namespace MBECSharp
             {
                 conn.Open();
 
+                double dbPrice = 0;
+                double dbAG = 0;
                 string strPackage = "";
                 OleDbCommand sqlstr = new OleDbCommand();
                 sqlstr.Connection = conn;
@@ -73,36 +75,37 @@ namespace MBECSharp
                 while (reader.Read())
                 {
                     strPackage = reader["Title"].ToString();
-
+                    dbPrice = Convert.ToDouble(reader["Cost"].ToString());
+                    dbAG = Convert.ToDouble(reader["AddGuest"].ToString());
                     if (strPackage == "Basic")
                     {
-                        txtBasicPr.Text = String.Format("{0:C}", reader["Cost"].ToString());
-                        txtBasicAG.Text = String.Format("{0:C}", reader["AddGuest"].ToString());
+                        txtBasicPr.Text = String.Format("{0:C2}", dbPrice);
+                        txtBasicAG.Text = String.Format("{0:C2}", dbAG);
                     }
                     else if (strPackage == "Movie")
                     {
-                        txtMoviePr.Text = String.Format("{0:C}", reader["Cost"].ToString());
-                        txtMovieAG.Text = String.Format("{0:C}", reader["AddGuest"].ToString());
+                        txtMoviePr.Text = String.Format("{0:C2}", dbPrice);
+                        txtMovieAG.Text = String.Format("{0:C2}", dbAG);
                     }
                     else if (strPackage == "Arcade")
                     {
-                        txtArcadePr.Text = String.Format("{0:C}", reader["Cost"].ToString());
-                        txtArcadeAG.Text = String.Format("{0:C}", reader["AddGuest"].ToString());
+                        txtArcadePr.Text = String.Format("{0:C2}", dbPrice);
+                        txtArcadeAG.Text = String.Format("{0:C2}", dbAG);
                     }
                     else if (strPackage == "Bowling")
                     {
-                        txtBowlPr.Text = String.Format("{0:C}", reader["Cost"].ToString());
-                        txtBowlAG.Text = String.Format("{0:C}", reader["AddGuest"].ToString());
+                        txtBowlPr.Text = String.Format("{0:C2}", dbPrice);
+                        txtBowlAG.Text = String.Format("{0:C2}", dbAG);
                     }
                     else if (strPackage == "Action")
                     {
-                        txtActionPr.Text = String.Format("{0:C}", reader["Cost"].ToString());
-                        txtActionAG.Text = String.Format("{0:C}", reader["AddGuest"].ToString());
+                        txtActionPr.Text = String.Format("{0:C2}", dbPrice);
+                        txtActionAG.Text = String.Format("{0:C2}", dbAG);
                     }
                     else if (strPackage == "Custom")
                     {
-                        txtCustomPr.Text = String.Format("{0:C}", reader["Cost"].ToString());
-                        txtCustomAG.Text = String.Format("{0:C}", reader["AddGuest"].ToString());
+                        txtCustomPr.Text = String.Format("{0:C2}", dbPrice);
+                        txtCustomAG.Text = String.Format("{0:C2}", dbAG);
                     }
                 }
 
