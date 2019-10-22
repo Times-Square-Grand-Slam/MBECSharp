@@ -10,3 +10,15 @@ C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj
 C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj\Debug\MBECSharp.pdb
 C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj\Debug\MBECSharp.Form1.resources
 C:\Users\R\Documents\TSC\VB Studio\Events\MarketingEventsBookingC#\MBECSharp\obj\Debug\MBECSharp.BDPackages2.resources
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\bin\Debug\MBECSharp.exe.config
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\bin\Debug\MBECSharp.exe
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\bin\Debug\MBECSharp.pdb
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.csprojAssemblyReference.cache
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.BDPackages2.resources
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.BDPackages.resources
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.MainScreen.resources
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.Properties.Resources.resources
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.csproj.GenerateResource.cache
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.exe
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.pdb
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.CalendarView.resources
