@@ -22,3 +22,4 @@ C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.csproj.Ge
 C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.exe
 C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.pdb
 C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.CalendarView.resources
+C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.About.resources
