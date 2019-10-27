@@ -100,7 +100,7 @@
             this.bnClear = new System.Windows.Forms.Button();
             this.lbBDPack = new System.Windows.Forms.ListBox();
             this.pnAddItem = new System.Windows.Forms.Panel();
-            this.bnExtra = new System.Windows.Forms.Button();
+            this.bnNotes = new System.Windows.Forms.Button();
             this.bnMisc = new System.Windows.Forms.Button();
             this.bnPartyArea = new System.Windows.Forms.Button();
             this.bnBowl = new System.Windows.Forms.Button();
@@ -135,9 +135,9 @@
             // 
             this.label3.Location = new System.Drawing.Point(267, 144);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.Size = new System.Drawing.Size(84, 13);
             this.label3.TabIndex = 92;
-            this.label3.Text = "T-Shirt Size";
+            this.label3.Text = "*T-Shirt Size";
             // 
             // textBox2
             // 
@@ -150,13 +150,13 @@
             // 
             this.lbDisc.Location = new System.Drawing.Point(7, 222);
             this.lbDisc.Name = "lbDisc";
-            this.lbDisc.Size = new System.Drawing.Size(73, 13);
+            this.lbDisc.Size = new System.Drawing.Size(90, 13);
             this.lbDisc.TabIndex = 90;
             this.lbDisc.Text = "Discount";
             // 
             // txtDisc
             // 
-            this.txtDisc.Location = new System.Drawing.Point(97, 219);
+            this.txtDisc.Location = new System.Drawing.Point(105, 219);
             this.txtDisc.Name = "txtDisc";
             this.txtDisc.Size = new System.Drawing.Size(151, 20);
             this.txtDisc.TabIndex = 89;
@@ -182,7 +182,7 @@
             // 
             this.label18.Location = new System.Drawing.Point(267, 222);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(73, 13);
+            this.label18.Size = new System.Drawing.Size(84, 13);
             this.label18.TabIndex = 86;
             this.label18.Text = "Per Guest";
             // 
@@ -332,7 +332,7 @@
             // 
             this.lbHost.Location = new System.Drawing.Point(267, 118);
             this.lbHost.Name = "lbHost";
-            this.lbHost.Size = new System.Drawing.Size(73, 13);
+            this.lbHost.Size = new System.Drawing.Size(84, 13);
             this.lbHost.TabIndex = 70;
             this.lbHost.Text = "Party Host";
             // 
@@ -340,7 +340,7 @@
             // 
             this.lbEnd.Location = new System.Drawing.Point(267, 92);
             this.lbEnd.Name = "lbEnd";
-            this.lbEnd.Size = new System.Drawing.Size(73, 13);
+            this.lbEnd.Size = new System.Drawing.Size(84, 13);
             this.lbEnd.TabIndex = 68;
             this.lbEnd.Text = "End Time";
             // 
@@ -348,16 +348,18 @@
             // 
             this.txtEnd.Location = new System.Drawing.Point(357, 89);
             this.txtEnd.Name = "txtEnd";
+            this.txtEnd.ReadOnly = true;
             this.txtEnd.Size = new System.Drawing.Size(151, 20);
             this.txtEnd.TabIndex = 61;
+            this.txtEnd.TabStop = false;
             // 
             // lbStart
             // 
             this.lbStart.Location = new System.Drawing.Point(267, 66);
             this.lbStart.Name = "lbStart";
-            this.lbStart.Size = new System.Drawing.Size(73, 13);
+            this.lbStart.Size = new System.Drawing.Size(84, 13);
             this.lbStart.TabIndex = 67;
-            this.lbStart.Text = "Start Time";
+            this.lbStart.Text = "*Start Time";
             // 
             // txtStart
             // 
@@ -370,9 +372,9 @@
             // 
             this.lbEDate.Location = new System.Drawing.Point(267, 40);
             this.lbEDate.Name = "lbEDate";
-            this.lbEDate.Size = new System.Drawing.Size(73, 13);
+            this.lbEDate.Size = new System.Drawing.Size(84, 13);
             this.lbEDate.TabIndex = 66;
-            this.lbEDate.Text = "Date of Event";
+            this.lbEDate.Text = "*Date of Event";
             // 
             // txtEDate
             // 
@@ -385,13 +387,13 @@
             // 
             this.lbGuests.Location = new System.Drawing.Point(7, 170);
             this.lbGuests.Name = "lbGuests";
-            this.lbGuests.Size = new System.Drawing.Size(84, 13);
+            this.lbGuests.Size = new System.Drawing.Size(90, 13);
             this.lbGuests.TabIndex = 65;
-            this.lbGuests.Text = "# of Guests";
+            this.lbGuests.Text = "*# of Guests";
             // 
             // txtGuests
             // 
-            this.txtGuests.Location = new System.Drawing.Point(97, 167);
+            this.txtGuests.Location = new System.Drawing.Point(105, 167);
             this.txtGuests.Name = "txtGuests";
             this.txtGuests.Size = new System.Drawing.Size(151, 20);
             this.txtGuests.TabIndex = 57;
@@ -400,13 +402,13 @@
             // 
             this.lbAge.Location = new System.Drawing.Point(7, 144);
             this.lbAge.Name = "lbAge";
-            this.lbAge.Size = new System.Drawing.Size(84, 13);
+            this.lbAge.Size = new System.Drawing.Size(90, 13);
             this.lbAge.TabIndex = 63;
-            this.lbAge.Text = "GOH Age";
+            this.lbAge.Text = "*GOH Age";
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(97, 141);
+            this.txtAge.Location = new System.Drawing.Point(105, 141);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(151, 20);
             this.txtAge.TabIndex = 55;
@@ -415,13 +417,13 @@
             // 
             this.lbGOH.Location = new System.Drawing.Point(7, 118);
             this.lbGOH.Name = "lbGOH";
-            this.lbGOH.Size = new System.Drawing.Size(84, 13);
+            this.lbGOH.Size = new System.Drawing.Size(90, 13);
             this.lbGOH.TabIndex = 59;
-            this.lbGOH.Text = "Guest of Honor";
+            this.lbGOH.Text = "*Guest of Honor";
             // 
             // txtGOH
             // 
-            this.txtGOH.Location = new System.Drawing.Point(97, 115);
+            this.txtGOH.Location = new System.Drawing.Point(105, 115);
             this.txtGOH.Name = "txtGOH";
             this.txtGOH.Size = new System.Drawing.Size(151, 20);
             this.txtGOH.TabIndex = 54;
@@ -430,13 +432,13 @@
             // 
             this.lbEmail.Location = new System.Drawing.Point(7, 92);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(84, 13);
+            this.lbEmail.Size = new System.Drawing.Size(90, 13);
             this.lbEmail.TabIndex = 56;
             this.lbEmail.Text = "Email Address";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(97, 89);
+            this.txtEmail.Location = new System.Drawing.Point(105, 89);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(151, 20);
             this.txtEmail.TabIndex = 52;
@@ -445,13 +447,13 @@
             // 
             this.lbPhone.Location = new System.Drawing.Point(7, 66);
             this.lbPhone.Name = "lbPhone";
-            this.lbPhone.Size = new System.Drawing.Size(84, 13);
+            this.lbPhone.Size = new System.Drawing.Size(90, 13);
             this.lbPhone.TabIndex = 53;
-            this.lbPhone.Text = "Contact Number";
+            this.lbPhone.Text = "*Contact Number";
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(97, 63);
+            this.txtPhone.Location = new System.Drawing.Point(105, 63);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(151, 20);
             this.txtPhone.TabIndex = 51;
@@ -460,13 +462,13 @@
             // 
             this.lbName.Location = new System.Drawing.Point(7, 40);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(84, 13);
+            this.lbName.Size = new System.Drawing.Size(90, 13);
             this.lbName.TabIndex = 50;
-            this.lbName.Text = "Contact Name";
+            this.lbName.Text = "*Contact Name";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(97, 37);
+            this.txtName.Location = new System.Drawing.Point(105, 37);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(151, 20);
             this.txtName.TabIndex = 49;
@@ -795,7 +797,7 @@
             // pnAddItem
             // 
             this.pnAddItem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnAddItem.Controls.Add(this.bnExtra);
+            this.pnAddItem.Controls.Add(this.bnNotes);
             this.pnAddItem.Controls.Add(this.bnMisc);
             this.pnAddItem.Controls.Add(this.bnPartyArea);
             this.pnAddItem.Controls.Add(this.bnBowl);
@@ -809,15 +811,16 @@
             this.pnAddItem.Size = new System.Drawing.Size(261, 214);
             this.pnAddItem.TabIndex = 100;
             // 
-            // bnExtra
+            // bnNotes
             // 
-            this.bnExtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnExtra.Location = new System.Drawing.Point(130, 169);
-            this.bnExtra.Name = "bnExtra";
-            this.bnExtra.Size = new System.Drawing.Size(126, 36);
-            this.bnExtra.TabIndex = 94;
-            this.bnExtra.UseVisualStyleBackColor = true;
-            this.bnExtra.Visible = false;
+            this.bnNotes.BackColor = System.Drawing.Color.Tan;
+            this.bnNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bnNotes.Location = new System.Drawing.Point(130, 169);
+            this.bnNotes.Name = "bnNotes";
+            this.bnNotes.Size = new System.Drawing.Size(126, 36);
+            this.bnNotes.TabIndex = 94;
+            this.bnNotes.Text = "Party Notes";
+            this.bnNotes.UseVisualStyleBackColor = false;
             // 
             // bnMisc
             // 
@@ -957,37 +960,37 @@
             // tsmiFileNew
             // 
             this.tsmiFileNew.Name = "tsmiFileNew";
-            this.tsmiFileNew.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileNew.Size = new System.Drawing.Size(143, 22);
             this.tsmiFileNew.Text = "New";
             // 
             // tsmiFileOpen
             // 
             this.tsmiFileOpen.Name = "tsmiFileOpen";
-            this.tsmiFileOpen.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileOpen.Size = new System.Drawing.Size(143, 22);
             this.tsmiFileOpen.Text = "Open";
             // 
             // tsmiFileSave
             // 
             this.tsmiFileSave.Name = "tsmiFileSave";
-            this.tsmiFileSave.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileSave.Size = new System.Drawing.Size(143, 22);
             this.tsmiFileSave.Text = "Save";
             // 
             // tsmiFileSaveClose
             // 
             this.tsmiFileSaveClose.Name = "tsmiFileSaveClose";
-            this.tsmiFileSaveClose.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileSaveClose.Size = new System.Drawing.Size(143, 22);
             this.tsmiFileSaveClose.Text = "Save && Close";
             // 
             // tsmiFileSaveNew
             // 
             this.tsmiFileSaveNew.Name = "tsmiFileSaveNew";
-            this.tsmiFileSaveNew.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileSaveNew.Size = new System.Drawing.Size(143, 22);
             this.tsmiFileSaveNew.Text = "Save && New";
             // 
             // tsmiFileExit
             // 
             this.tsmiFileExit.Name = "tsmiFileExit";
-            this.tsmiFileExit.Size = new System.Drawing.Size(180, 22);
+            this.tsmiFileExit.Size = new System.Drawing.Size(143, 22);
             this.tsmiFileExit.Text = "Exit";
             // 
             // tsmiEdit
@@ -1002,13 +1005,13 @@
             // tsmiEditUndo
             // 
             this.tsmiEditUndo.Name = "tsmiEditUndo";
-            this.tsmiEditUndo.Size = new System.Drawing.Size(180, 22);
+            this.tsmiEditUndo.Size = new System.Drawing.Size(118, 22);
             this.tsmiEditUndo.Text = "Undo";
             // 
             // tsmiEditClear
             // 
             this.tsmiEditClear.Name = "tsmiEditClear";
-            this.tsmiEditClear.Size = new System.Drawing.Size(180, 22);
+            this.tsmiEditClear.Size = new System.Drawing.Size(118, 22);
             this.tsmiEditClear.Text = "Clear All";
             // 
             // tsmiInvoice
@@ -1191,7 +1194,7 @@
         private System.Windows.Forms.ListBox lbBDPack;
         private System.Windows.Forms.Panel pnAddItem;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button bnExtra;
+        private System.Windows.Forms.Button bnNotes;
         private System.Windows.Forms.Button bnMisc;
         private System.Windows.Forms.Button bnPartyArea;
         private System.Windows.Forms.Button bnBowl;

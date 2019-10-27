@@ -108,7 +108,17 @@ namespace MBECSharp
                         txtCustomAG.Text = String.Format("{0:C2}", dbAG);
                     }
                 }
+                reader.Close();
 
+                sql = "SELECT * FROM EventHost";
+                sqlstr.CommandText = sql;
+                reader = sqlstr.ExecuteReader();
+                while (reader.Read())
+                {
+                    cbHost.Items.Add(reader["FName"].ToString() + " " + reader["LName"].ToString());
+                }
+                reader.Close();
+                sqlstr.Dispose();
                 conn.Close();
             }
             catch(Exception ex)
