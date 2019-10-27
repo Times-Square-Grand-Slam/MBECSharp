@@ -126,5 +126,15 @@ namespace MBECSharp
                 MessageBox.Show("Error: " + ex);
             }
         }
+
+        private void tsmiFileExit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+            string contactName = txtName.Text;
+        }
     }
 }
