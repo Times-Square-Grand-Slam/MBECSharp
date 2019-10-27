@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btBDPack = new System.Windows.Forms.Button();
             this.btBDPack2 = new System.Windows.Forms.Button();
             this.btCorpPack = new System.Windows.Forms.Button();
             this.btCalendarView = new System.Windows.Forms.Button();
@@ -40,20 +39,9 @@
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btBDPack
-            // 
-            this.btBDPack.Location = new System.Drawing.Point(117, 132);
-            this.btBDPack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btBDPack.Name = "btBDPack";
-            this.btBDPack.Size = new System.Drawing.Size(192, 91);
-            this.btBDPack.TabIndex = 0;
-            this.btBDPack.Text = "Open Birthday Packages 1";
-            this.btBDPack.UseVisualStyleBackColor = true;
-            this.btBDPack.Click += new System.EventHandler(this.BtBDPack_Click);
-            // 
             // btBDPack2
             // 
-            this.btBDPack2.Location = new System.Drawing.Point(348, 132);
+            this.btBDPack2.Location = new System.Drawing.Point(117, 135);
             this.btBDPack2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btBDPack2.Name = "btBDPack2";
             this.btBDPack2.Size = new System.Drawing.Size(192, 91);
@@ -64,7 +52,7 @@
             // 
             // btCorpPack
             // 
-            this.btCorpPack.Location = new System.Drawing.Point(117, 257);
+            this.btCorpPack.Location = new System.Drawing.Point(117, 236);
             this.btCorpPack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btCorpPack.Name = "btCorpPack";
             this.btCorpPack.Size = new System.Drawing.Size(192, 91);
@@ -75,7 +63,7 @@
             // 
             // btCalendarView
             // 
-            this.btCalendarView.Location = new System.Drawing.Point(348, 257);
+            this.btCalendarView.Location = new System.Drawing.Point(117, 337);
             this.btCalendarView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btCalendarView.Name = "btCalendarView";
             this.btCalendarView.Size = new System.Drawing.Size(192, 91);
@@ -90,9 +78,9 @@
             this.btExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.btExit.ForeColor = System.Drawing.Color.Black;
-            this.btExit.Location = new System.Drawing.Point(12, 604);
+            this.btExit.Location = new System.Drawing.Point(117, 436);
             this.btExit.Name = "btExit";
-            this.btExit.Size = new System.Drawing.Size(170, 76);
+            this.btExit.Size = new System.Drawing.Size(192, 76);
             this.btExit.TabIndex = 4;
             this.btExit.Text = "EXIT";
             this.btExit.UseVisualStyleBackColor = false;
@@ -100,14 +88,13 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1200, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(438, 33);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -137,12 +124,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btExit;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(438, 692);
             this.Controls.Add(this.btExit);
             this.Controls.Add(this.btCalendarView);
             this.Controls.Add(this.btCorpPack);
             this.Controls.Add(this.btBDPack2);
-            this.Controls.Add(this.btBDPack);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -156,8 +142,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btBDPack;
         private System.Windows.Forms.Button btBDPack2;
         private System.Windows.Forms.Button btCorpPack;
         private System.Windows.Forms.Button btCalendarView;

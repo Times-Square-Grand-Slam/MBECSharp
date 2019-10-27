@@ -118,5 +118,10 @@ namespace MBECSharp
         {
             Close();
         }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+            string contactName = txtName.Text;
+        }
     }
 }

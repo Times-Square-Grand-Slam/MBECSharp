@@ -512,6 +512,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(224, 26);
             this.txtName.TabIndex = 49;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // pnPack
             // 
@@ -1021,7 +1022,7 @@
             this.tsmiInvoice});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1966, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1966, 33);
             this.menuStrip1.TabIndex = 102;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1041,37 +1042,37 @@
             // tsmiFileNew
             // 
             this.tsmiFileNew.Name = "tsmiFileNew";
-            this.tsmiFileNew.Size = new System.Drawing.Size(270, 34);
+            this.tsmiFileNew.Size = new System.Drawing.Size(218, 34);
             this.tsmiFileNew.Text = "New";
             // 
             // tsmiFileOpen
             // 
             this.tsmiFileOpen.Name = "tsmiFileOpen";
-            this.tsmiFileOpen.Size = new System.Drawing.Size(270, 34);
+            this.tsmiFileOpen.Size = new System.Drawing.Size(218, 34);
             this.tsmiFileOpen.Text = "Open";
             // 
             // tsmiFileSave
             // 
             this.tsmiFileSave.Name = "tsmiFileSave";
-            this.tsmiFileSave.Size = new System.Drawing.Size(270, 34);
+            this.tsmiFileSave.Size = new System.Drawing.Size(218, 34);
             this.tsmiFileSave.Text = "Save";
             // 
             // tsmiFileSaveClose
             // 
             this.tsmiFileSaveClose.Name = "tsmiFileSaveClose";
-            this.tsmiFileSaveClose.Size = new System.Drawing.Size(270, 34);
+            this.tsmiFileSaveClose.Size = new System.Drawing.Size(218, 34);
             this.tsmiFileSaveClose.Text = "Save && Close";
             // 
             // tsmiFileSaveNew
             // 
             this.tsmiFileSaveNew.Name = "tsmiFileSaveNew";
-            this.tsmiFileSaveNew.Size = new System.Drawing.Size(270, 34);
+            this.tsmiFileSaveNew.Size = new System.Drawing.Size(218, 34);
             this.tsmiFileSaveNew.Text = "Save && New";
             // 
             // tsmiFileExit
             // 
             this.tsmiFileExit.Name = "tsmiFileExit";
-            this.tsmiFileExit.Size = new System.Drawing.Size(270, 34);
+            this.tsmiFileExit.Size = new System.Drawing.Size(218, 34);
             this.tsmiFileExit.Text = "Exit";
             this.tsmiFileExit.Click += new System.EventHandler(this.tsmiFileExit_Click);
             // 
