@@ -17,36 +17,19 @@ namespace MBECSharp
             InitializeComponent();
         }
 
-        private void btBDPack_Click(object sender, EventArgs e)
+        private void BtBDPack_Click(object sender, EventArgs e)
         {
-            Form fmBD = Application.OpenForms["BDPackages"];
-            if (fmBD != null)
-            {
-                if (fmBD.WindowState == FormWindowState.Minimized)
-                    fmBD.WindowState = FormWindowState.Normal;
+            new BDPackages().Show();
+        }
 
-                fmBD.BringToFront();
-            }
-            else
-            {
-                new BDPackages().Show();
-            }
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            new BDPackages2().Show(); // Opens the birthday party screen. Uses BDPackages2 as BDPackages is the old one
         }
 
         private void btCalendarView_Click(object sender, EventArgs e)
         {
-            Form fmCnd = Application.OpenForms["CalendarView"];
-            if (fmCnd != null)
-            {
-                if (fmCnd.WindowState == FormWindowState.Minimized)
-                    fmCnd.WindowState = FormWindowState.Normal;
-
-                fmCnd.BringToFront();
-            }
-            else
-            {
-                new CalendarView().Show();
-            }            
+            new CalendarView().Show();
         }
 
         private void btExit_Click(object sender, EventArgs e)
@@ -56,7 +39,7 @@ namespace MBECSharp
 
         private void btCorpPack_Click(object sender, EventArgs e)
         {
-            
+            new CorporatePackages().Show();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
