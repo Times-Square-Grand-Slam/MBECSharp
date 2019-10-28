@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.btBDPack2 = new System.Windows.Forms.Button();
             this.btCorpPack = new System.Windows.Forms.Button();
             this.btCalendarView = new System.Windows.Forms.Button();
@@ -46,7 +47,7 @@
             this.btBDPack2.Name = "btBDPack2";
             this.btBDPack2.Size = new System.Drawing.Size(192, 91);
             this.btBDPack2.TabIndex = 1;
-            this.btBDPack2.Text = "Open Birthday Packages 2";
+            this.btBDPack2.Text = "Open Birthday Packages";
             this.btBDPack2.UseVisualStyleBackColor = true;
             this.btBDPack2.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -124,12 +125,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btExit;
-            this.ClientSize = new System.Drawing.Size(438, 692);
+            this.ClientSize = new System.Drawing.Size(438, 637);
             this.Controls.Add(this.btExit);
             this.Controls.Add(this.btCalendarView);
             this.Controls.Add(this.btCorpPack);
             this.Controls.Add(this.btBDPack2);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainScreen";

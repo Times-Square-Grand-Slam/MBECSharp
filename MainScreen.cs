@@ -24,7 +24,7 @@ namespace MBECSharp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            new BDPackages2().Show();
+            new BDPackages2().Show(); // Opens the birthday party screen. Uses BDPackages2 as BDPackages is the old one
         }
 
         private void btCalendarView_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace MBECSharp
 
         private void btCorpPack_Click(object sender, EventArgs e)
         {
-            
+            new CorporatePackages().Show();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
