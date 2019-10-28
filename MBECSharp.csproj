@@ -79,12 +79,6 @@
     <Compile Include="Area.Designer.cs">
       <DependentUpon>Area.cs</DependentUpon>
     </Compile>
-    <Compile Include="BDPackages2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BDPackages2.Designer.cs">
-      <DependentUpon>BDPackages2.cs</DependentUpon>
-    </Compile>
     <Compile Include="BDPackages.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,9 +129,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BDPackages2.resx">
-      <DependentUpon>BDPackages2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="BDPackages.resx">
       <DependentUpon>BDPackages.cs</DependentUpon>
     </EmbeddedResource>

@@ -17,19 +17,36 @@ namespace MBECSharp
             InitializeComponent();
         }
 
-        private void BtBDPack_Click(object sender, EventArgs e)
+        private void btBDPack_Click(object sender, EventArgs e)
         {
-            new BDPackages().Show();
-        }
+            Form fmBD = Application.OpenForms["BDPackages"];
+            if (fmBD != null)
+            {
+                if (fmBD.WindowState == FormWindowState.Minimized)
+                    fmBD.WindowState = FormWindowState.Normal;
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            new BDPackages2().Show();
+                fmBD.BringToFront();
+            }
+            else
+            {
+                new BDPackages().Show();
+            }
         }
 
         private void btCalendarView_Click(object sender, EventArgs e)
         {
-            new CalendarView().Show();
+            Form fmCnd = Application.OpenForms["CalendarView"];
+            if (fmCnd != null)
+            {
+                if (fmCnd.WindowState == FormWindowState.Minimized)
+                    fmCnd.WindowState = FormWindowState.Normal;
+
+                fmCnd.BringToFront();
+            }
+            else
+            {
+                new CalendarView().Show();
+            }            
         }
 
         private void btExit_Click(object sender, EventArgs e)
