@@ -18,7 +18,7 @@ namespace MBECSharp
         {
             InitializeComponent();
             conn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;" +
-                                    @"Data Source=\\TSSERVER\serverfolders\IT\IT Staff\Phil Darden\MBECSharp\Events.accdb;" +
+                                    @"Data Source=F:\MBECSharp\Events.accdb;" +
                                     @"Persist Security Info=False;";
         }
 
@@ -135,6 +135,17 @@ namespace MBECSharp
         private void txtName_TextChanged(object sender, EventArgs e)
         {
             string contactName = txtName.Text;
+        }
+
+        private void bnClear_Click(object sender, EventArgs e)
+        {
+            // clear packages radio buttons
+            rbBasic.Checked = false;
+            rbMovie.Checked = false;
+            rbArcade.Checked = false;
+            rbBowling.Checked = false;
+            rbAction.Checked = false;
+            rbCustom.Checked = false;
         }
     }
 }

@@ -24,3 +24,17 @@ C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.pdb
 C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.CalendarView.resources
 C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.About.resources
 C:\Users\XROUG\OneDrive\Documents\GitHub\MBECSharp\obj\Debug\MBECSharp.CorporatePackages.resources
+F:\MBECSharp\bin\Debug\MBECSharp.exe.config
+F:\MBECSharp\bin\Debug\MBECSharp.exe
+F:\MBECSharp\bin\Debug\MBECSharp.pdb
+F:\MBECSharp\obj\Debug\MBECSharp.csprojAssemblyReference.cache
+F:\MBECSharp\obj\Debug\MBECSharp.BDPackages2.resources
+F:\MBECSharp\obj\Debug\MBECSharp.BDPackages.resources
+F:\MBECSharp\obj\Debug\MBECSharp.CalendarView.resources
+F:\MBECSharp\obj\Debug\MBECSharp.About.resources
+F:\MBECSharp\obj\Debug\MBECSharp.CorporatePackages.resources
+F:\MBECSharp\obj\Debug\MBECSharp.MainScreen.resources
+F:\MBECSharp\obj\Debug\MBECSharp.Properties.Resources.resources
+F:\MBECSharp\obj\Debug\MBECSharp.csproj.GenerateResource.cache
+F:\MBECSharp\obj\Debug\MBECSharp.exe
+F:\MBECSharp\obj\Debug\MBECSharp.pdb

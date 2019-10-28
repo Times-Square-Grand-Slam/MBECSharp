@@ -37,18 +37,20 @@
             // lbName
             // 
             this.lbName.AutoSize = true;
-            this.lbName.Location = new System.Drawing.Point(65, 71);
+            this.lbName.Location = new System.Drawing.Point(43, 46);
+            this.lbName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(225, 20);
+            this.lbName.Size = new System.Drawing.Size(153, 13);
             this.lbName.TabIndex = 0;
             this.lbName.Text = "Marketing Booking and Events";
             // 
             // lklbGithub
             // 
             this.lklbGithub.AutoSize = true;
-            this.lklbGithub.Location = new System.Drawing.Point(123, 229);
+            this.lklbGithub.Location = new System.Drawing.Point(82, 149);
+            this.lklbGithub.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lklbGithub.Name = "lklbGithub";
-            this.lklbGithub.Size = new System.Drawing.Size(108, 20);
+            this.lklbGithub.Size = new System.Drawing.Size(72, 13);
             this.lklbGithub.TabIndex = 1;
             this.lklbGithub.TabStop = true;
             this.lklbGithub.Text = "TSGS GitHub";
@@ -56,18 +58,21 @@
             // lbVersion
             // 
             this.lbVersion.AutoSize = true;
-            this.lbVersion.Location = new System.Drawing.Point(126, 125);
+            this.lbVersion.Location = new System.Drawing.Point(84, 81);
+            this.lbVersion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbVersion.Name = "lbVersion";
-            this.lbVersion.Size = new System.Drawing.Size(102, 20);
+            this.lbVersion.Size = new System.Drawing.Size(69, 13);
             this.lbVersion.TabIndex = 2;
-            this.lbVersion.Text = "Version 0.0.2";
+            this.lbVersion.Text = "Version 0.0.3";
+            this.lbVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lklbReleaseNotes
             // 
             this.lklbReleaseNotes.AutoSize = true;
-            this.lklbReleaseNotes.Location = new System.Drawing.Point(120, 164);
+            this.lklbReleaseNotes.Location = new System.Drawing.Point(80, 107);
+            this.lklbReleaseNotes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lklbReleaseNotes.Name = "lklbReleaseNotes";
-            this.lklbReleaseNotes.Size = new System.Drawing.Size(114, 20);
+            this.lklbReleaseNotes.Size = new System.Drawing.Size(77, 13);
             this.lklbReleaseNotes.TabIndex = 3;
             this.lklbReleaseNotes.TabStop = true;
             this.lklbReleaseNotes.Text = "Release Notes";
@@ -75,13 +80,14 @@
             // 
             // About
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 303);
+            this.ClientSize = new System.Drawing.Size(236, 197);
             this.Controls.Add(this.lklbReleaseNotes);
             this.Controls.Add(this.lbVersion);
             this.Controls.Add(this.lklbGithub);
             this.Controls.Add(this.lbName);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "About";
             this.Text = "About";
             this.ResumeLayout(false);

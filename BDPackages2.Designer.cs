@@ -785,6 +785,7 @@
             this.bnClear.TabIndex = 94;
             this.bnClear.Text = "Clear Package";
             this.bnClear.UseVisualStyleBackColor = false;
+            this.bnClear.Click += new System.EventHandler(this.bnClear_Click);
             // 
             // lbBDPack
             // 
