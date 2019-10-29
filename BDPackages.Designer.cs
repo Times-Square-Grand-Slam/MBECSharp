@@ -149,6 +149,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(151, 20);
             this.textBox2.TabIndex = 91;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbDisc
             // 
@@ -165,6 +166,7 @@
             this.txtDisc.Size = new System.Drawing.Size(151, 20);
             this.txtDisc.TabIndex = 89;
             this.txtDisc.TabStop = false;
+            this.txtDisc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTtlPaid
             // 
@@ -181,6 +183,7 @@
             this.txtTtlPaid.Size = new System.Drawing.Size(151, 20);
             this.txtTtlPaid.TabIndex = 87;
             this.txtTtlPaid.TabStop = false;
+            this.txtTtlPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label18
             // 
@@ -199,6 +202,7 @@
             this.txtPerGuest.Size = new System.Drawing.Size(151, 20);
             this.txtPerGuest.TabIndex = 85;
             this.txtPerGuest.TabStop = false;
+            this.txtPerGuest.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTtlDue
             // 
@@ -217,6 +221,7 @@
             this.txtTtlDue.Size = new System.Drawing.Size(151, 20);
             this.txtTtlDue.TabIndex = 83;
             this.txtTtlDue.TabStop = false;
+            this.txtTtlDue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbDepPaid
             // 
@@ -233,6 +238,7 @@
             this.txtDepPaid.Size = new System.Drawing.Size(151, 20);
             this.txtDepPaid.TabIndex = 81;
             this.txtDepPaid.TabStop = false;
+            this.txtDepPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbDepDue
             // 
@@ -251,6 +257,7 @@
             this.txtDepDue.Size = new System.Drawing.Size(151, 20);
             this.txtDepDue.TabIndex = 79;
             this.txtDepDue.TabStop = false;
+            this.txtDepDue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTtlPrice
             // 
@@ -269,6 +276,7 @@
             this.txtTtlPrice.Size = new System.Drawing.Size(151, 20);
             this.txtTtlPrice.TabIndex = 77;
             this.txtTtlPrice.TabStop = false;
+            this.txtTtlPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbSvcChg
             // 
@@ -287,6 +295,7 @@
             this.txtSvcChg.Size = new System.Drawing.Size(151, 20);
             this.txtSvcChg.TabIndex = 75;
             this.txtSvcChg.TabStop = false;
+            this.txtSvcChg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTax
             // 
@@ -305,6 +314,7 @@
             this.txtTax.Size = new System.Drawing.Size(151, 20);
             this.txtTax.TabIndex = 73;
             this.txtTax.TabStop = false;
+            this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbSub
             // 
@@ -323,6 +333,7 @@
             this.txtSub.Size = new System.Drawing.Size(151, 20);
             this.txtSub.TabIndex = 71;
             this.txtSub.TabStop = false;
+            this.txtSub.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // cbHost
             // 
@@ -357,6 +368,7 @@
             this.txtEnd.Size = new System.Drawing.Size(151, 20);
             this.txtEnd.TabIndex = 61;
             this.txtEnd.TabStop = false;
+            this.txtEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbStart
             // 
@@ -372,6 +384,7 @@
             this.txtStart.Name = "txtStart";
             this.txtStart.Size = new System.Drawing.Size(151, 20);
             this.txtStart.TabIndex = 60;
+            this.txtStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbEDate
             // 
@@ -387,6 +400,7 @@
             this.txtEDate.Name = "txtEDate";
             this.txtEDate.Size = new System.Drawing.Size(151, 20);
             this.txtEDate.TabIndex = 58;
+            this.txtEDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbGuests
             // 
@@ -402,6 +416,7 @@
             this.txtGuests.Name = "txtGuests";
             this.txtGuests.Size = new System.Drawing.Size(151, 20);
             this.txtGuests.TabIndex = 57;
+            this.txtGuests.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbAge
             // 
@@ -417,6 +432,7 @@
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(151, 20);
             this.txtAge.TabIndex = 55;
+            this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbGOH
             // 
@@ -432,6 +448,7 @@
             this.txtGOH.Name = "txtGOH";
             this.txtGOH.Size = new System.Drawing.Size(151, 20);
             this.txtGOH.TabIndex = 54;
+            this.txtGOH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbEmail
             // 
@@ -447,6 +464,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(151, 20);
             this.txtEmail.TabIndex = 52;
+            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbPhone
             // 
@@ -462,6 +480,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(151, 20);
             this.txtPhone.TabIndex = 51;
+            this.txtPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbName
             // 
@@ -477,6 +496,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(151, 20);
             this.txtName.TabIndex = 49;
+            this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // pnPack
             // 
@@ -693,6 +713,7 @@
             this.rbBasic.TabStop = true;
             this.rbBasic.Text = "Basic";
             this.rbBasic.UseVisualStyleBackColor = false;
+            this.rbBasic.CheckedChanged += new System.EventHandler(this.RbBasic_CheckedChanged);
             // 
             // rbAction
             // 
@@ -737,6 +758,7 @@
             this.rbMovie.TabStop = true;
             this.rbMovie.Text = "Movie";
             this.rbMovie.UseVisualStyleBackColor = false;
+            this.rbMovie.CheckedChanged += new System.EventHandler(this.RbMovie_CheckedChanged);
             // 
             // lbBDType
             // 
@@ -1068,6 +1090,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(151, 20);
             this.textBox1.TabIndex = 103;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -1083,8 +1106,9 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(151, 20);
             this.textBox3.TabIndex = 105;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // BDPackages2
+            // BDPackages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1146,7 +1170,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "BDPackages2";
+            this.Name = "BDPackages";
             this.Text = "TSGS Birthday Packages";
             this.Load += new System.EventHandler(this.BDPackages2_Load);
             this.pnPack.ResumeLayout(false);

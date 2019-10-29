@@ -127,10 +127,116 @@ namespace MBECSharp
             }
         }
 
-        private void tsmiFileExit_Click(object sender, EventArgs e)
+        private void RbBasic_CheckedChanged(object sender, EventArgs e)
         {
-            Close();
+            if(rbBasic.Checked == true)
+            {
+                lbBDPack.Items.Insert(0, "  TSGS Birthday T-Shirt for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Drinks");
+                lbBDPack.Items.Insert(0, "  2 One-Topping Pizzas");
+                lbBDPack.Items.Insert(0, "  50 Point Arcade Play Card for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Party Room for 1 Hour");
+                lbBDPack.Items.Insert(0, "Basic Package");
+                fillAmts(1);
+
+            }
+            else
+            {
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+            }
         }
 
+        private void RbMovie_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbMovie.Checked == true)
+            {
+                lbBDPack.Items.Insert(0, "  TSGS Birthday T-Shirt for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Snack Packs");
+                lbBDPack.Items.Insert(0, "  50 Point Arcade Play Card for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Matinee Movie Tickets");
+                lbBDPack.Items.Insert(0, "  Party Room for 1 Hour");
+                lbBDPack.Items.Insert(0, "Movie Package");
+            }
+            else
+            {
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+            }
+        }
+
+        private void fillAmts(int iPkg)
+        {
+            conn.Open();
+
+            string sql = "SELECT Packages.ID, Packages.Cost, (Items.PackCost*Items.NbrPack) AS Amt, AlctType.Tax " +
+                         "FROM((Packages INNER JOIN PackageItems ON Packages.ID = PackageItems.PackageID) INNER JOIN Items ON PackageItems.ItemID = Items.ID) INNER JOIN AlctType ON Items.AlctTypeID = AlctType.ID " +
+                         "WHERE Packages.ID = " + iPkg + ";";
+
+            OleDbCommand sqlstr = new OleDbCommand();
+            sqlstr.Connection = conn;
+            sqlstr.CommandText = sql;
+            OleDbDataReader reader = sqlstr.ExecuteReader();
+            double dbSub = 0;
+            double dbTax = 0;
+            double dbSvc;
+            double dbTtlPrice;
+            double dbDepDue;
+            double dbDepPaid;
+            double dbTtlPaid;
+            double dbTtlDue;
+
+            while (reader.Read())
+            {
+
+                if(reader["Tax"].ToString() == "Y")
+                    dbTax += (Convert.ToDouble(reader["Amt"].ToString())*.0825);
+
+                dbSub = Convert.ToDouble(reader["Cost"].ToString());
+            }
+
+            reader.Close();
+            sqlstr.Dispose();
+            conn.Close();
+
+            dbSvc = dbSub * .15;
+            dbTtlPrice = dbSub + dbTax + dbSvc;
+            dbDepDue = dbTtlPrice / 2;
+
+            if (txtDepPaid.TextLength > 0)
+            {
+                dbDepPaid = Convert.ToDouble(txtDepPaid.Text.Substring(1));
+            }
+            else
+            {
+                dbDepPaid = 0;
+            }
+            if(txtTtlPaid.TextLength > 0)
+            {
+                dbTtlPaid = Convert.ToDouble(txtTtlPaid.Text.Substring(1));
+            }
+            else
+            {
+                dbTtlPaid = 0;
+            }
+
+            dbTtlDue = dbTtlPrice - dbDepPaid - dbTtlPaid;
+
+            txtSub.Text = String.Format("{0:C2}", dbSub);
+            txtTax.Text = String.Format("{0:C2}", dbTax);
+            txtSvcChg.Text = String.Format("{0:C2}", dbSvc);
+            txtTtlPrice.Text = String.Format("{0:C2}", dbTtlPrice);
+            txtDepDue.Text = String.Format("{0:C2}", dbDepDue);
+            txtDepPaid.Text = String.Format("{0:C2}", dbDepPaid);
+            txtTtlDue.Text = String.Format("{0:C2}", dbTtlDue);
+        }
     }
 }
