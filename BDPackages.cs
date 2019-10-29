@@ -208,7 +208,7 @@ namespace MBECSharp
             conn.Close();
 
             dbSvc = dbSub * .15;
-            dbTtlPrice = dbSub + dbTax + dbSvc;
+            dbTtlPrice = dbSub + Math.Round(dbTax,2) + Math.Round(dbSvc,2);
             dbDepDue = dbTtlPrice / 2;
 
             if (txtDepPaid.TextLength > 0)
@@ -237,6 +237,7 @@ namespace MBECSharp
             txtDepDue.Text = String.Format("{0:C2}", dbDepDue);
             txtDepPaid.Text = String.Format("{0:C2}", dbDepPaid);
             txtTtlDue.Text = String.Format("{0:C2}", dbTtlDue);
+            txtTtlPaid.Text = String.Format("{0:C2}", dbTtlPaid);
         }
     }
 }
