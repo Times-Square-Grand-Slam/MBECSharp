@@ -137,200 +137,222 @@
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(267, 169);
+            this.label3.Location = new System.Drawing.Point(400, 260);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 13);
+            this.label3.Size = new System.Drawing.Size(126, 20);
             this.label3.TabIndex = 92;
             this.label3.Text = "*T-Shirt Size";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(357, 166);
+            this.textBox2.Location = new System.Drawing.Point(536, 255);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
+            this.textBox2.Size = new System.Drawing.Size(224, 26);
             this.textBox2.TabIndex = 91;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbDisc
             // 
-            this.lbDisc.Location = new System.Drawing.Point(7, 222);
+            this.lbDisc.Location = new System.Drawing.Point(10, 342);
+            this.lbDisc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDisc.Name = "lbDisc";
-            this.lbDisc.Size = new System.Drawing.Size(90, 13);
+            this.lbDisc.Size = new System.Drawing.Size(135, 20);
             this.lbDisc.TabIndex = 90;
             this.lbDisc.Text = "Discount";
             // 
             // txtDisc
             // 
-            this.txtDisc.Location = new System.Drawing.Point(105, 219);
+            this.txtDisc.Location = new System.Drawing.Point(158, 337);
+            this.txtDisc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDisc.Name = "txtDisc";
-            this.txtDisc.Size = new System.Drawing.Size(151, 20);
+            this.txtDisc.Size = new System.Drawing.Size(224, 26);
             this.txtDisc.TabIndex = 89;
             this.txtDisc.TabStop = false;
             this.txtDisc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTtlPaid
             // 
-            this.lbTtlPaid.Location = new System.Drawing.Point(531, 222);
+            this.lbTtlPaid.Location = new System.Drawing.Point(796, 342);
+            this.lbTtlPaid.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTtlPaid.Name = "lbTtlPaid";
-            this.lbTtlPaid.Size = new System.Drawing.Size(80, 13);
+            this.lbTtlPaid.Size = new System.Drawing.Size(120, 20);
             this.lbTtlPaid.TabIndex = 88;
             this.lbTtlPaid.Text = "Total Paid";
             // 
             // txtTtlPaid
             // 
-            this.txtTtlPaid.Location = new System.Drawing.Point(621, 219);
+            this.txtTtlPaid.Location = new System.Drawing.Point(932, 337);
+            this.txtTtlPaid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTtlPaid.Name = "txtTtlPaid";
-            this.txtTtlPaid.Size = new System.Drawing.Size(151, 20);
+            this.txtTtlPaid.Size = new System.Drawing.Size(224, 26);
             this.txtTtlPaid.TabIndex = 87;
             this.txtTtlPaid.TabStop = false;
             this.txtTtlPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label18
             // 
-            this.label18.Location = new System.Drawing.Point(267, 222);
+            this.label18.Location = new System.Drawing.Point(400, 342);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(84, 13);
+            this.label18.Size = new System.Drawing.Size(126, 20);
             this.label18.TabIndex = 86;
             this.label18.Text = "Per Guest";
             // 
             // txtPerGuest
             // 
             this.txtPerGuest.BackColor = System.Drawing.Color.Snow;
-            this.txtPerGuest.Location = new System.Drawing.Point(357, 219);
+            this.txtPerGuest.Location = new System.Drawing.Point(536, 337);
+            this.txtPerGuest.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPerGuest.Name = "txtPerGuest";
             this.txtPerGuest.ReadOnly = true;
-            this.txtPerGuest.Size = new System.Drawing.Size(151, 20);
+            this.txtPerGuest.Size = new System.Drawing.Size(224, 26);
             this.txtPerGuest.TabIndex = 85;
             this.txtPerGuest.TabStop = false;
             this.txtPerGuest.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTtlDue
             // 
-            this.lbTtlDue.Location = new System.Drawing.Point(531, 196);
+            this.lbTtlDue.Location = new System.Drawing.Point(796, 302);
+            this.lbTtlDue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTtlDue.Name = "lbTtlDue";
-            this.lbTtlDue.Size = new System.Drawing.Size(80, 13);
+            this.lbTtlDue.Size = new System.Drawing.Size(120, 20);
             this.lbTtlDue.TabIndex = 84;
             this.lbTtlDue.Text = "Total Due";
             // 
             // txtTtlDue
             // 
             this.txtTtlDue.BackColor = System.Drawing.Color.Snow;
-            this.txtTtlDue.Location = new System.Drawing.Point(621, 193);
+            this.txtTtlDue.Location = new System.Drawing.Point(932, 297);
+            this.txtTtlDue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTtlDue.Name = "txtTtlDue";
             this.txtTtlDue.ReadOnly = true;
-            this.txtTtlDue.Size = new System.Drawing.Size(151, 20);
+            this.txtTtlDue.Size = new System.Drawing.Size(224, 26);
             this.txtTtlDue.TabIndex = 83;
             this.txtTtlDue.TabStop = false;
             this.txtTtlDue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbDepPaid
             // 
-            this.lbDepPaid.Location = new System.Drawing.Point(531, 170);
+            this.lbDepPaid.Location = new System.Drawing.Point(796, 262);
+            this.lbDepPaid.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDepPaid.Name = "lbDepPaid";
-            this.lbDepPaid.Size = new System.Drawing.Size(80, 13);
+            this.lbDepPaid.Size = new System.Drawing.Size(120, 20);
             this.lbDepPaid.TabIndex = 82;
             this.lbDepPaid.Text = "Deposit Paid";
             // 
             // txtDepPaid
             // 
-            this.txtDepPaid.Location = new System.Drawing.Point(621, 167);
+            this.txtDepPaid.Location = new System.Drawing.Point(932, 257);
+            this.txtDepPaid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDepPaid.Name = "txtDepPaid";
-            this.txtDepPaid.Size = new System.Drawing.Size(151, 20);
+            this.txtDepPaid.Size = new System.Drawing.Size(224, 26);
             this.txtDepPaid.TabIndex = 81;
             this.txtDepPaid.TabStop = false;
             this.txtDepPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbDepDue
             // 
-            this.lbDepDue.Location = new System.Drawing.Point(531, 144);
+            this.lbDepDue.Location = new System.Drawing.Point(796, 222);
+            this.lbDepDue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDepDue.Name = "lbDepDue";
-            this.lbDepDue.Size = new System.Drawing.Size(80, 13);
+            this.lbDepDue.Size = new System.Drawing.Size(120, 20);
             this.lbDepDue.TabIndex = 80;
             this.lbDepDue.Text = "Deposit Due";
             // 
             // txtDepDue
             // 
             this.txtDepDue.BackColor = System.Drawing.Color.Snow;
-            this.txtDepDue.Location = new System.Drawing.Point(621, 141);
+            this.txtDepDue.Location = new System.Drawing.Point(932, 217);
+            this.txtDepDue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDepDue.Name = "txtDepDue";
             this.txtDepDue.ReadOnly = true;
-            this.txtDepDue.Size = new System.Drawing.Size(151, 20);
+            this.txtDepDue.Size = new System.Drawing.Size(224, 26);
             this.txtDepDue.TabIndex = 79;
             this.txtDepDue.TabStop = false;
             this.txtDepDue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTtlPrice
             // 
-            this.lbTtlPrice.Location = new System.Drawing.Point(531, 118);
+            this.lbTtlPrice.Location = new System.Drawing.Point(796, 182);
+            this.lbTtlPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTtlPrice.Name = "lbTtlPrice";
-            this.lbTtlPrice.Size = new System.Drawing.Size(80, 13);
+            this.lbTtlPrice.Size = new System.Drawing.Size(120, 20);
             this.lbTtlPrice.TabIndex = 78;
             this.lbTtlPrice.Text = "Total Price";
             // 
             // txtTtlPrice
             // 
             this.txtTtlPrice.BackColor = System.Drawing.Color.Snow;
-            this.txtTtlPrice.Location = new System.Drawing.Point(621, 115);
+            this.txtTtlPrice.Location = new System.Drawing.Point(932, 177);
+            this.txtTtlPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTtlPrice.Name = "txtTtlPrice";
             this.txtTtlPrice.ReadOnly = true;
-            this.txtTtlPrice.Size = new System.Drawing.Size(151, 20);
+            this.txtTtlPrice.Size = new System.Drawing.Size(224, 26);
             this.txtTtlPrice.TabIndex = 77;
             this.txtTtlPrice.TabStop = false;
             this.txtTtlPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbSvcChg
             // 
-            this.lbSvcChg.Location = new System.Drawing.Point(531, 92);
+            this.lbSvcChg.Location = new System.Drawing.Point(796, 142);
+            this.lbSvcChg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbSvcChg.Name = "lbSvcChg";
-            this.lbSvcChg.Size = new System.Drawing.Size(80, 13);
+            this.lbSvcChg.Size = new System.Drawing.Size(120, 20);
             this.lbSvcChg.TabIndex = 76;
             this.lbSvcChg.Text = "Service Charge";
             // 
             // txtSvcChg
             // 
             this.txtSvcChg.BackColor = System.Drawing.Color.Snow;
-            this.txtSvcChg.Location = new System.Drawing.Point(621, 89);
+            this.txtSvcChg.Location = new System.Drawing.Point(932, 137);
+            this.txtSvcChg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSvcChg.Name = "txtSvcChg";
             this.txtSvcChg.ReadOnly = true;
-            this.txtSvcChg.Size = new System.Drawing.Size(151, 20);
+            this.txtSvcChg.Size = new System.Drawing.Size(224, 26);
             this.txtSvcChg.TabIndex = 75;
             this.txtSvcChg.TabStop = false;
             this.txtSvcChg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbTax
             // 
-            this.lbTax.Location = new System.Drawing.Point(531, 66);
+            this.lbTax.Location = new System.Drawing.Point(796, 102);
+            this.lbTax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTax.Name = "lbTax";
-            this.lbTax.Size = new System.Drawing.Size(80, 13);
+            this.lbTax.Size = new System.Drawing.Size(120, 20);
             this.lbTax.TabIndex = 74;
             this.lbTax.Text = "Taxes";
             // 
             // txtTax
             // 
             this.txtTax.BackColor = System.Drawing.Color.Snow;
-            this.txtTax.Location = new System.Drawing.Point(621, 63);
+            this.txtTax.Location = new System.Drawing.Point(932, 97);
+            this.txtTax.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTax.Name = "txtTax";
             this.txtTax.ReadOnly = true;
-            this.txtTax.Size = new System.Drawing.Size(151, 20);
+            this.txtTax.Size = new System.Drawing.Size(224, 26);
             this.txtTax.TabIndex = 73;
             this.txtTax.TabStop = false;
             this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbSub
             // 
-            this.lbSub.Location = new System.Drawing.Point(531, 40);
+            this.lbSub.Location = new System.Drawing.Point(796, 62);
+            this.lbSub.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbSub.Name = "lbSub";
-            this.lbSub.Size = new System.Drawing.Size(80, 13);
+            this.lbSub.Size = new System.Drawing.Size(120, 20);
             this.lbSub.TabIndex = 72;
             this.lbSub.Text = "Subtotal";
             // 
             // txtSub
             // 
             this.txtSub.BackColor = System.Drawing.Color.Snow;
-            this.txtSub.Location = new System.Drawing.Point(621, 37);
+            this.txtSub.Location = new System.Drawing.Point(932, 57);
+            this.txtSub.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSub.Name = "txtSub";
             this.txtSub.ReadOnly = true;
-            this.txtSub.Size = new System.Drawing.Size(151, 20);
+            this.txtSub.Size = new System.Drawing.Size(224, 26);
             this.txtSub.TabIndex = 71;
             this.txtSub.TabStop = false;
             this.txtSub.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -338,163 +360,183 @@
             // cbHost
             // 
             this.cbHost.FormattingEnabled = true;
-            this.cbHost.Location = new System.Drawing.Point(357, 140);
+            this.cbHost.Location = new System.Drawing.Point(536, 215);
+            this.cbHost.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbHost.Name = "cbHost";
-            this.cbHost.Size = new System.Drawing.Size(151, 21);
+            this.cbHost.Size = new System.Drawing.Size(224, 28);
             this.cbHost.TabIndex = 64;
             this.cbHost.Text = "Select from List";
             // 
             // lbHost
             // 
-            this.lbHost.Location = new System.Drawing.Point(267, 143);
+            this.lbHost.Location = new System.Drawing.Point(400, 220);
+            this.lbHost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbHost.Name = "lbHost";
-            this.lbHost.Size = new System.Drawing.Size(84, 13);
+            this.lbHost.Size = new System.Drawing.Size(126, 20);
             this.lbHost.TabIndex = 70;
             this.lbHost.Text = "Party Host";
             // 
             // lbEnd
             // 
-            this.lbEnd.Location = new System.Drawing.Point(267, 92);
+            this.lbEnd.Location = new System.Drawing.Point(400, 142);
+            this.lbEnd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbEnd.Name = "lbEnd";
-            this.lbEnd.Size = new System.Drawing.Size(84, 13);
+            this.lbEnd.Size = new System.Drawing.Size(126, 20);
             this.lbEnd.TabIndex = 68;
             this.lbEnd.Text = "End Time";
             // 
             // txtEnd
             // 
-            this.txtEnd.Location = new System.Drawing.Point(357, 89);
+            this.txtEnd.Location = new System.Drawing.Point(536, 137);
+            this.txtEnd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.ReadOnly = true;
-            this.txtEnd.Size = new System.Drawing.Size(151, 20);
+            this.txtEnd.Size = new System.Drawing.Size(224, 26);
             this.txtEnd.TabIndex = 61;
             this.txtEnd.TabStop = false;
             this.txtEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbStart
             // 
-            this.lbStart.Location = new System.Drawing.Point(267, 66);
+            this.lbStart.Location = new System.Drawing.Point(400, 102);
+            this.lbStart.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbStart.Name = "lbStart";
-            this.lbStart.Size = new System.Drawing.Size(84, 13);
+            this.lbStart.Size = new System.Drawing.Size(126, 20);
             this.lbStart.TabIndex = 67;
             this.lbStart.Text = "*Start Time";
             // 
             // txtStart
             // 
-            this.txtStart.Location = new System.Drawing.Point(357, 63);
+            this.txtStart.Location = new System.Drawing.Point(536, 97);
+            this.txtStart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtStart.Name = "txtStart";
-            this.txtStart.Size = new System.Drawing.Size(151, 20);
+            this.txtStart.Size = new System.Drawing.Size(224, 26);
             this.txtStart.TabIndex = 60;
             this.txtStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbEDate
             // 
-            this.lbEDate.Location = new System.Drawing.Point(267, 40);
+            this.lbEDate.Location = new System.Drawing.Point(400, 62);
+            this.lbEDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbEDate.Name = "lbEDate";
-            this.lbEDate.Size = new System.Drawing.Size(84, 13);
+            this.lbEDate.Size = new System.Drawing.Size(126, 20);
             this.lbEDate.TabIndex = 66;
             this.lbEDate.Text = "*Date of Event";
             // 
             // txtEDate
             // 
-            this.txtEDate.Location = new System.Drawing.Point(357, 37);
+            this.txtEDate.Location = new System.Drawing.Point(536, 57);
+            this.txtEDate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEDate.Name = "txtEDate";
-            this.txtEDate.Size = new System.Drawing.Size(151, 20);
+            this.txtEDate.Size = new System.Drawing.Size(224, 26);
             this.txtEDate.TabIndex = 58;
             this.txtEDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbGuests
             // 
-            this.lbGuests.Location = new System.Drawing.Point(267, 118);
+            this.lbGuests.Location = new System.Drawing.Point(400, 182);
+            this.lbGuests.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbGuests.Name = "lbGuests";
-            this.lbGuests.Size = new System.Drawing.Size(84, 13);
+            this.lbGuests.Size = new System.Drawing.Size(126, 20);
             this.lbGuests.TabIndex = 65;
             this.lbGuests.Text = "*# of Guests";
             // 
             // txtGuests
             // 
-            this.txtGuests.Location = new System.Drawing.Point(357, 115);
+            this.txtGuests.Location = new System.Drawing.Point(536, 177);
+            this.txtGuests.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGuests.Name = "txtGuests";
-            this.txtGuests.Size = new System.Drawing.Size(151, 20);
+            this.txtGuests.Size = new System.Drawing.Size(224, 26);
             this.txtGuests.TabIndex = 57;
             this.txtGuests.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbAge
             // 
-            this.lbAge.Location = new System.Drawing.Point(7, 196);
+            this.lbAge.Location = new System.Drawing.Point(10, 302);
+            this.lbAge.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbAge.Name = "lbAge";
-            this.lbAge.Size = new System.Drawing.Size(90, 13);
+            this.lbAge.Size = new System.Drawing.Size(135, 20);
             this.lbAge.TabIndex = 63;
             this.lbAge.Text = "*GOH Age";
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(105, 193);
+            this.txtAge.Location = new System.Drawing.Point(158, 297);
+            this.txtAge.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(151, 20);
+            this.txtAge.Size = new System.Drawing.Size(224, 26);
             this.txtAge.TabIndex = 55;
             this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbGOH
             // 
-            this.lbGOH.Location = new System.Drawing.Point(7, 170);
+            this.lbGOH.Location = new System.Drawing.Point(10, 262);
+            this.lbGOH.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbGOH.Name = "lbGOH";
-            this.lbGOH.Size = new System.Drawing.Size(90, 13);
+            this.lbGOH.Size = new System.Drawing.Size(135, 20);
             this.lbGOH.TabIndex = 59;
             this.lbGOH.Text = "*Guest of Honor";
             // 
             // txtGOH
             // 
-            this.txtGOH.Location = new System.Drawing.Point(105, 167);
+            this.txtGOH.Location = new System.Drawing.Point(158, 257);
+            this.txtGOH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGOH.Name = "txtGOH";
-            this.txtGOH.Size = new System.Drawing.Size(151, 20);
+            this.txtGOH.Size = new System.Drawing.Size(224, 26);
             this.txtGOH.TabIndex = 54;
             this.txtGOH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbEmail
             // 
-            this.lbEmail.Location = new System.Drawing.Point(7, 118);
+            this.lbEmail.Location = new System.Drawing.Point(10, 182);
+            this.lbEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(90, 13);
+            this.lbEmail.Size = new System.Drawing.Size(135, 20);
             this.lbEmail.TabIndex = 56;
             this.lbEmail.Text = "Email Address";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(105, 115);
+            this.txtEmail.Location = new System.Drawing.Point(158, 177);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(151, 20);
+            this.txtEmail.Size = new System.Drawing.Size(224, 26);
             this.txtEmail.TabIndex = 52;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbPhone
             // 
-            this.lbPhone.Location = new System.Drawing.Point(7, 66);
+            this.lbPhone.Location = new System.Drawing.Point(10, 102);
+            this.lbPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbPhone.Name = "lbPhone";
-            this.lbPhone.Size = new System.Drawing.Size(90, 13);
+            this.lbPhone.Size = new System.Drawing.Size(135, 20);
             this.lbPhone.TabIndex = 53;
             this.lbPhone.Text = "*Home Number";
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(105, 63);
+            this.txtPhone.Location = new System.Drawing.Point(158, 97);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(151, 20);
+            this.txtPhone.Size = new System.Drawing.Size(224, 26);
             this.txtPhone.TabIndex = 51;
             this.txtPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lbName
             // 
-            this.lbName.Location = new System.Drawing.Point(7, 40);
+            this.lbName.Location = new System.Drawing.Point(10, 62);
+            this.lbName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(90, 13);
+            this.lbName.Size = new System.Drawing.Size(135, 20);
             this.lbName.TabIndex = 50;
             this.lbName.Text = "*Contact Name";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(105, 37);
+            this.txtName.Location = new System.Drawing.Point(158, 57);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(151, 20);
+            this.txtName.Size = new System.Drawing.Size(224, 26);
             this.txtName.TabIndex = 49;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -523,9 +565,10 @@
             this.pnPack.Controls.Add(this.rbArcade);
             this.pnPack.Controls.Add(this.rbMovie);
             this.pnPack.Controls.Add(this.lbBDType);
-            this.pnPack.Location = new System.Drawing.Point(10, 257);
+            this.pnPack.Location = new System.Drawing.Point(15, 395);
+            this.pnPack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnPack.Name = "pnPack";
-            this.pnPack.Size = new System.Drawing.Size(315, 238);
+            this.pnPack.Size = new System.Drawing.Size(472, 365);
             this.pnPack.TabIndex = 93;
             // 
             // label1
@@ -533,9 +576,10 @@
             this.label1.BackColor = System.Drawing.Color.Lime;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(11, 9);
+            this.label1.Location = new System.Drawing.Point(16, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 28);
+            this.label1.Size = new System.Drawing.Size(436, 42);
             this.label1.TabIndex = 85;
             this.label1.Text = "Packages";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -543,10 +587,11 @@
             // txtCustomAG
             // 
             this.txtCustomAG.BackColor = System.Drawing.Color.Snow;
-            this.txtCustomAG.Location = new System.Drawing.Point(202, 210);
+            this.txtCustomAG.Location = new System.Drawing.Point(303, 323);
+            this.txtCustomAG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCustomAG.Name = "txtCustomAG";
             this.txtCustomAG.ReadOnly = true;
-            this.txtCustomAG.Size = new System.Drawing.Size(100, 20);
+            this.txtCustomAG.Size = new System.Drawing.Size(148, 26);
             this.txtCustomAG.TabIndex = 63;
             this.txtCustomAG.TabStop = false;
             this.txtCustomAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -554,10 +599,11 @@
             // txtActionAG
             // 
             this.txtActionAG.BackColor = System.Drawing.Color.Snow;
-            this.txtActionAG.Location = new System.Drawing.Point(202, 182);
+            this.txtActionAG.Location = new System.Drawing.Point(303, 280);
+            this.txtActionAG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtActionAG.Name = "txtActionAG";
             this.txtActionAG.ReadOnly = true;
-            this.txtActionAG.Size = new System.Drawing.Size(100, 20);
+            this.txtActionAG.Size = new System.Drawing.Size(148, 26);
             this.txtActionAG.TabIndex = 62;
             this.txtActionAG.TabStop = false;
             this.txtActionAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -565,10 +611,11 @@
             // txtBowlAG
             // 
             this.txtBowlAG.BackColor = System.Drawing.Color.Snow;
-            this.txtBowlAG.Location = new System.Drawing.Point(202, 154);
+            this.txtBowlAG.Location = new System.Drawing.Point(303, 237);
+            this.txtBowlAG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBowlAG.Name = "txtBowlAG";
             this.txtBowlAG.ReadOnly = true;
-            this.txtBowlAG.Size = new System.Drawing.Size(100, 20);
+            this.txtBowlAG.Size = new System.Drawing.Size(148, 26);
             this.txtBowlAG.TabIndex = 61;
             this.txtBowlAG.TabStop = false;
             this.txtBowlAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -576,10 +623,11 @@
             // txtArcadeAG
             // 
             this.txtArcadeAG.BackColor = System.Drawing.Color.Snow;
-            this.txtArcadeAG.Location = new System.Drawing.Point(202, 126);
+            this.txtArcadeAG.Location = new System.Drawing.Point(303, 194);
+            this.txtArcadeAG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArcadeAG.Name = "txtArcadeAG";
             this.txtArcadeAG.ReadOnly = true;
-            this.txtArcadeAG.Size = new System.Drawing.Size(100, 20);
+            this.txtArcadeAG.Size = new System.Drawing.Size(148, 26);
             this.txtArcadeAG.TabIndex = 60;
             this.txtArcadeAG.TabStop = false;
             this.txtArcadeAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -587,10 +635,11 @@
             // txtMovieAG
             // 
             this.txtMovieAG.BackColor = System.Drawing.Color.Snow;
-            this.txtMovieAG.Location = new System.Drawing.Point(202, 98);
+            this.txtMovieAG.Location = new System.Drawing.Point(303, 151);
+            this.txtMovieAG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMovieAG.Name = "txtMovieAG";
             this.txtMovieAG.ReadOnly = true;
-            this.txtMovieAG.Size = new System.Drawing.Size(100, 20);
+            this.txtMovieAG.Size = new System.Drawing.Size(148, 26);
             this.txtMovieAG.TabIndex = 59;
             this.txtMovieAG.TabStop = false;
             this.txtMovieAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -598,10 +647,11 @@
             // txtBasicAG
             // 
             this.txtBasicAG.BackColor = System.Drawing.Color.Snow;
-            this.txtBasicAG.Location = new System.Drawing.Point(202, 70);
+            this.txtBasicAG.Location = new System.Drawing.Point(303, 108);
+            this.txtBasicAG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBasicAG.Name = "txtBasicAG";
             this.txtBasicAG.ReadOnly = true;
-            this.txtBasicAG.Size = new System.Drawing.Size(100, 20);
+            this.txtBasicAG.Size = new System.Drawing.Size(148, 26);
             this.txtBasicAG.TabIndex = 58;
             this.txtBasicAG.TabStop = false;
             this.txtBasicAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -609,9 +659,10 @@
             // lbBDAddGuest
             // 
             this.lbBDAddGuest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBDAddGuest.Location = new System.Drawing.Point(202, 39);
+            this.lbBDAddGuest.Location = new System.Drawing.Point(303, 60);
+            this.lbBDAddGuest.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBDAddGuest.Name = "lbBDAddGuest";
-            this.lbBDAddGuest.Size = new System.Drawing.Size(100, 22);
+            this.lbBDAddGuest.Size = new System.Drawing.Size(150, 34);
             this.lbBDAddGuest.TabIndex = 57;
             this.lbBDAddGuest.Text = "Additional Guest";
             this.lbBDAddGuest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -619,10 +670,11 @@
             // txtCustomPr
             // 
             this.txtCustomPr.BackColor = System.Drawing.Color.Snow;
-            this.txtCustomPr.Location = new System.Drawing.Point(96, 210);
+            this.txtCustomPr.Location = new System.Drawing.Point(144, 323);
+            this.txtCustomPr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCustomPr.Name = "txtCustomPr";
             this.txtCustomPr.ReadOnly = true;
-            this.txtCustomPr.Size = new System.Drawing.Size(100, 20);
+            this.txtCustomPr.Size = new System.Drawing.Size(148, 26);
             this.txtCustomPr.TabIndex = 56;
             this.txtCustomPr.TabStop = false;
             this.txtCustomPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -630,10 +682,11 @@
             // txtActionPr
             // 
             this.txtActionPr.BackColor = System.Drawing.Color.Snow;
-            this.txtActionPr.Location = new System.Drawing.Point(96, 182);
+            this.txtActionPr.Location = new System.Drawing.Point(144, 280);
+            this.txtActionPr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtActionPr.Name = "txtActionPr";
             this.txtActionPr.ReadOnly = true;
-            this.txtActionPr.Size = new System.Drawing.Size(100, 20);
+            this.txtActionPr.Size = new System.Drawing.Size(148, 26);
             this.txtActionPr.TabIndex = 55;
             this.txtActionPr.TabStop = false;
             this.txtActionPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -641,10 +694,11 @@
             // txtBowlPr
             // 
             this.txtBowlPr.BackColor = System.Drawing.Color.Snow;
-            this.txtBowlPr.Location = new System.Drawing.Point(96, 154);
+            this.txtBowlPr.Location = new System.Drawing.Point(144, 237);
+            this.txtBowlPr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBowlPr.Name = "txtBowlPr";
             this.txtBowlPr.ReadOnly = true;
-            this.txtBowlPr.Size = new System.Drawing.Size(100, 20);
+            this.txtBowlPr.Size = new System.Drawing.Size(148, 26);
             this.txtBowlPr.TabIndex = 54;
             this.txtBowlPr.TabStop = false;
             this.txtBowlPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -652,10 +706,11 @@
             // txtArcadePr
             // 
             this.txtArcadePr.BackColor = System.Drawing.Color.Snow;
-            this.txtArcadePr.Location = new System.Drawing.Point(96, 126);
+            this.txtArcadePr.Location = new System.Drawing.Point(144, 194);
+            this.txtArcadePr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArcadePr.Name = "txtArcadePr";
             this.txtArcadePr.ReadOnly = true;
-            this.txtArcadePr.Size = new System.Drawing.Size(100, 20);
+            this.txtArcadePr.Size = new System.Drawing.Size(148, 26);
             this.txtArcadePr.TabIndex = 53;
             this.txtArcadePr.TabStop = false;
             this.txtArcadePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -663,10 +718,11 @@
             // txtMoviePr
             // 
             this.txtMoviePr.BackColor = System.Drawing.Color.Snow;
-            this.txtMoviePr.Location = new System.Drawing.Point(96, 98);
+            this.txtMoviePr.Location = new System.Drawing.Point(144, 151);
+            this.txtMoviePr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMoviePr.Name = "txtMoviePr";
             this.txtMoviePr.ReadOnly = true;
-            this.txtMoviePr.Size = new System.Drawing.Size(100, 20);
+            this.txtMoviePr.Size = new System.Drawing.Size(148, 26);
             this.txtMoviePr.TabIndex = 52;
             this.txtMoviePr.TabStop = false;
             this.txtMoviePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -674,10 +730,11 @@
             // txtBasicPr
             // 
             this.txtBasicPr.BackColor = System.Drawing.Color.Snow;
-            this.txtBasicPr.Location = new System.Drawing.Point(96, 70);
+            this.txtBasicPr.Location = new System.Drawing.Point(144, 108);
+            this.txtBasicPr.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBasicPr.Name = "txtBasicPr";
             this.txtBasicPr.ReadOnly = true;
-            this.txtBasicPr.Size = new System.Drawing.Size(100, 20);
+            this.txtBasicPr.Size = new System.Drawing.Size(148, 26);
             this.txtBasicPr.TabIndex = 51;
             this.txtBasicPr.TabStop = false;
             this.txtBasicPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -685,9 +742,10 @@
             // 
             // lbBDPrice
             // 
-            this.lbBDPrice.Location = new System.Drawing.Point(96, 39);
+            this.lbBDPrice.Location = new System.Drawing.Point(144, 60);
+            this.lbBDPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBDPrice.Name = "lbBDPrice";
-            this.lbBDPrice.Size = new System.Drawing.Size(100, 22);
+            this.lbBDPrice.Size = new System.Drawing.Size(150, 34);
             this.lbBDPrice.TabIndex = 50;
             this.lbBDPrice.Text = "Price";
             this.lbBDPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -695,9 +753,10 @@
             // rbCustom
             // 
             this.rbCustom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.rbCustom.Location = new System.Drawing.Point(11, 208);
+            this.rbCustom.Location = new System.Drawing.Point(16, 320);
+            this.rbCustom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbCustom.Name = "rbCustom";
-            this.rbCustom.Size = new System.Drawing.Size(79, 22);
+            this.rbCustom.Size = new System.Drawing.Size(118, 34);
             this.rbCustom.TabIndex = 49;
             this.rbCustom.TabStop = true;
             this.rbCustom.Text = "Custom";
@@ -706,9 +765,10 @@
             // rbBasic
             // 
             this.rbBasic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rbBasic.Location = new System.Drawing.Point(11, 68);
+            this.rbBasic.Location = new System.Drawing.Point(16, 105);
+            this.rbBasic.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbBasic.Name = "rbBasic";
-            this.rbBasic.Size = new System.Drawing.Size(79, 22);
+            this.rbBasic.Size = new System.Drawing.Size(118, 34);
             this.rbBasic.TabIndex = 43;
             this.rbBasic.TabStop = true;
             this.rbBasic.Text = "Basic";
@@ -718,9 +778,10 @@
             // rbAction
             // 
             this.rbAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.rbAction.Location = new System.Drawing.Point(11, 180);
+            this.rbAction.Location = new System.Drawing.Point(16, 277);
+            this.rbAction.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbAction.Name = "rbAction";
-            this.rbAction.Size = new System.Drawing.Size(79, 22);
+            this.rbAction.Size = new System.Drawing.Size(118, 34);
             this.rbAction.TabIndex = 48;
             this.rbAction.TabStop = true;
             this.rbAction.Text = "Action";
@@ -729,9 +790,10 @@
             // rbBowling
             // 
             this.rbBowling.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.rbBowling.Location = new System.Drawing.Point(11, 152);
+            this.rbBowling.Location = new System.Drawing.Point(16, 234);
+            this.rbBowling.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbBowling.Name = "rbBowling";
-            this.rbBowling.Size = new System.Drawing.Size(79, 22);
+            this.rbBowling.Size = new System.Drawing.Size(118, 34);
             this.rbBowling.TabIndex = 47;
             this.rbBowling.TabStop = true;
             this.rbBowling.Text = "Bowling";
@@ -740,9 +802,10 @@
             // rbArcade
             // 
             this.rbArcade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rbArcade.Location = new System.Drawing.Point(11, 124);
+            this.rbArcade.Location = new System.Drawing.Point(16, 191);
+            this.rbArcade.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbArcade.Name = "rbArcade";
-            this.rbArcade.Size = new System.Drawing.Size(79, 22);
+            this.rbArcade.Size = new System.Drawing.Size(118, 34);
             this.rbArcade.TabIndex = 46;
             this.rbArcade.TabStop = true;
             this.rbArcade.Text = "Arcade";
@@ -751,9 +814,10 @@
             // rbMovie
             // 
             this.rbMovie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.rbMovie.Location = new System.Drawing.Point(11, 96);
+            this.rbMovie.Location = new System.Drawing.Point(16, 148);
+            this.rbMovie.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rbMovie.Name = "rbMovie";
-            this.rbMovie.Size = new System.Drawing.Size(79, 22);
+            this.rbMovie.Size = new System.Drawing.Size(118, 34);
             this.rbMovie.TabIndex = 45;
             this.rbMovie.TabStop = true;
             this.rbMovie.Text = "Movie";
@@ -762,9 +826,10 @@
             // 
             // lbBDType
             // 
-            this.lbBDType.Location = new System.Drawing.Point(11, 40);
+            this.lbBDType.Location = new System.Drawing.Point(16, 62);
+            this.lbBDType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBDType.Name = "lbBDType";
-            this.lbBDType.Size = new System.Drawing.Size(79, 22);
+            this.lbBDType.Size = new System.Drawing.Size(118, 34);
             this.lbBDType.TabIndex = 44;
             this.lbBDType.Text = "Type";
             this.lbBDType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -773,9 +838,10 @@
             // 
             this.bnEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bnEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnEmail.Location = new System.Drawing.Point(357, 442);
+            this.bnEmail.Location = new System.Drawing.Point(536, 680);
+            this.bnEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnEmail.Name = "bnEmail";
-            this.bnEmail.Size = new System.Drawing.Size(122, 46);
+            this.bnEmail.Size = new System.Drawing.Size(183, 71);
             this.bnEmail.TabIndex = 97;
             this.bnEmail.Text = "Email Customer Invoice";
             this.bnEmail.UseVisualStyleBackColor = false;
@@ -784,9 +850,10 @@
             // 
             this.bnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.bnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnPrint.Location = new System.Drawing.Point(357, 390);
+            this.bnPrint.Location = new System.Drawing.Point(536, 600);
+            this.bnPrint.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnPrint.Name = "bnPrint";
-            this.bnPrint.Size = new System.Drawing.Size(122, 46);
+            this.bnPrint.Size = new System.Drawing.Size(183, 71);
             this.bnPrint.TabIndex = 96;
             this.bnPrint.Text = "Print Customer Invoice";
             this.bnPrint.UseVisualStyleBackColor = false;
@@ -795,9 +862,10 @@
             // 
             this.bnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.bnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnCreate.Location = new System.Drawing.Point(357, 338);
+            this.bnCreate.Location = new System.Drawing.Point(536, 520);
+            this.bnCreate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnCreate.Name = "bnCreate";
-            this.bnCreate.Size = new System.Drawing.Size(122, 46);
+            this.bnCreate.Size = new System.Drawing.Size(183, 71);
             this.bnCreate.TabIndex = 95;
             this.bnCreate.Text = "Create Customer Invoice";
             this.bnCreate.UseVisualStyleBackColor = false;
@@ -806,19 +874,23 @@
             // 
             this.bnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.bnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnClear.Location = new System.Drawing.Point(357, 302);
+            this.bnClear.Location = new System.Drawing.Point(536, 465);
+            this.bnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnClear.Name = "bnClear";
-            this.bnClear.Size = new System.Drawing.Size(122, 30);
+            this.bnClear.Size = new System.Drawing.Size(183, 46);
             this.bnClear.TabIndex = 94;
             this.bnClear.Text = "Clear Package";
             this.bnClear.UseVisualStyleBackColor = false;
+            this.bnClear.Click += new System.EventHandler(this.bnClear_Click);
             // 
             // lbBDPack
             // 
             this.lbBDPack.FormattingEnabled = true;
-            this.lbBDPack.Location = new System.Drawing.Point(778, 37);
+            this.lbBDPack.ItemHeight = 20;
+            this.lbBDPack.Location = new System.Drawing.Point(1167, 57);
+            this.lbBDPack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbBDPack.Name = "lbBDPack";
-            this.lbBDPack.Size = new System.Drawing.Size(526, 459);
+            this.lbBDPack.Size = new System.Drawing.Size(787, 704);
             this.lbBDPack.TabIndex = 99;
             // 
             // pnAddItem
@@ -833,18 +905,20 @@
             this.pnAddItem.Controls.Add(this.bnMovie);
             this.pnAddItem.Controls.Add(this.bnFood);
             this.pnAddItem.Controls.Add(this.label2);
-            this.pnAddItem.Location = new System.Drawing.Point(511, 257);
+            this.pnAddItem.Location = new System.Drawing.Point(766, 395);
+            this.pnAddItem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnAddItem.Name = "pnAddItem";
-            this.pnAddItem.Size = new System.Drawing.Size(261, 214);
+            this.pnAddItem.Size = new System.Drawing.Size(390, 328);
             this.pnAddItem.TabIndex = 100;
             // 
             // bnNotes
             // 
             this.bnNotes.BackColor = System.Drawing.Color.Tan;
             this.bnNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnNotes.Location = new System.Drawing.Point(130, 169);
+            this.bnNotes.Location = new System.Drawing.Point(195, 260);
+            this.bnNotes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnNotes.Name = "bnNotes";
-            this.bnNotes.Size = new System.Drawing.Size(126, 36);
+            this.bnNotes.Size = new System.Drawing.Size(189, 55);
             this.bnNotes.TabIndex = 94;
             this.bnNotes.Text = "Party Notes";
             this.bnNotes.UseVisualStyleBackColor = false;
@@ -854,9 +928,10 @@
             this.bnMisc.BackColor = System.Drawing.Color.Blue;
             this.bnMisc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnMisc.ForeColor = System.Drawing.Color.White;
-            this.bnMisc.Location = new System.Drawing.Point(3, 169);
+            this.bnMisc.Location = new System.Drawing.Point(4, 260);
+            this.bnMisc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnMisc.Name = "bnMisc";
-            this.bnMisc.Size = new System.Drawing.Size(126, 36);
+            this.bnMisc.Size = new System.Drawing.Size(189, 55);
             this.bnMisc.TabIndex = 93;
             this.bnMisc.Text = "Misc";
             this.bnMisc.UseVisualStyleBackColor = false;
@@ -866,9 +941,10 @@
             // 
             this.bnPartyArea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.bnPartyArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnPartyArea.Location = new System.Drawing.Point(130, 127);
+            this.bnPartyArea.Location = new System.Drawing.Point(195, 195);
+            this.bnPartyArea.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnPartyArea.Name = "bnPartyArea";
-            this.bnPartyArea.Size = new System.Drawing.Size(126, 36);
+            this.bnPartyArea.Size = new System.Drawing.Size(189, 55);
             this.bnPartyArea.TabIndex = 92;
             this.bnPartyArea.Text = "Party Area";
             this.bnPartyArea.UseVisualStyleBackColor = false;
@@ -878,9 +954,10 @@
             // 
             this.bnBowl.BackColor = System.Drawing.Color.Yellow;
             this.bnBowl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnBowl.Location = new System.Drawing.Point(3, 85);
+            this.bnBowl.Location = new System.Drawing.Point(4, 131);
+            this.bnBowl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnBowl.Name = "bnBowl";
-            this.bnBowl.Size = new System.Drawing.Size(126, 36);
+            this.bnBowl.Size = new System.Drawing.Size(189, 55);
             this.bnBowl.TabIndex = 91;
             this.bnBowl.Text = "Bowling";
             this.bnBowl.UseVisualStyleBackColor = false;
@@ -891,9 +968,10 @@
             this.bnAct.BackColor = System.Drawing.Color.Red;
             this.bnAct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnAct.ForeColor = System.Drawing.Color.White;
-            this.bnAct.Location = new System.Drawing.Point(3, 127);
+            this.bnAct.Location = new System.Drawing.Point(4, 195);
+            this.bnAct.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnAct.Name = "bnAct";
-            this.bnAct.Size = new System.Drawing.Size(126, 36);
+            this.bnAct.Size = new System.Drawing.Size(189, 55);
             this.bnAct.TabIndex = 90;
             this.bnAct.Text = "Activities";
             this.bnAct.UseVisualStyleBackColor = false;
@@ -903,9 +981,10 @@
             // 
             this.bnArcade.BackColor = System.Drawing.Color.Lime;
             this.bnArcade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnArcade.Location = new System.Drawing.Point(130, 85);
+            this.bnArcade.Location = new System.Drawing.Point(195, 131);
+            this.bnArcade.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnArcade.Name = "bnArcade";
-            this.bnArcade.Size = new System.Drawing.Size(126, 36);
+            this.bnArcade.Size = new System.Drawing.Size(189, 55);
             this.bnArcade.TabIndex = 89;
             this.bnArcade.Text = "Arcade";
             this.bnArcade.UseVisualStyleBackColor = false;
@@ -915,9 +994,10 @@
             // 
             this.bnMovie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.bnMovie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnMovie.Location = new System.Drawing.Point(130, 43);
+            this.bnMovie.Location = new System.Drawing.Point(195, 66);
+            this.bnMovie.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnMovie.Name = "bnMovie";
-            this.bnMovie.Size = new System.Drawing.Size(126, 36);
+            this.bnMovie.Size = new System.Drawing.Size(189, 55);
             this.bnMovie.TabIndex = 88;
             this.bnMovie.Text = "Movie";
             this.bnMovie.UseVisualStyleBackColor = false;
@@ -928,9 +1008,10 @@
             this.bnFood.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.bnFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnFood.ForeColor = System.Drawing.Color.White;
-            this.bnFood.Location = new System.Drawing.Point(3, 43);
+            this.bnFood.Location = new System.Drawing.Point(4, 66);
+            this.bnFood.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnFood.Name = "bnFood";
-            this.bnFood.Size = new System.Drawing.Size(126, 36);
+            this.bnFood.Size = new System.Drawing.Size(189, 55);
             this.bnFood.TabIndex = 87;
             this.bnFood.Text = "Food";
             this.bnFood.UseVisualStyleBackColor = false;
@@ -941,9 +1022,10 @@
             this.label2.BackColor = System.Drawing.Color.Aqua;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 8);
+            this.label2.Location = new System.Drawing.Point(4, 12);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(253, 28);
+            this.label2.Size = new System.Drawing.Size(378, 42);
             this.label2.TabIndex = 86;
             this.label2.Text = "Additional Items";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -952,22 +1034,25 @@
             // 
             this.bnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.bnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnSave.Location = new System.Drawing.Point(357, 264);
+            this.bnSave.Location = new System.Drawing.Point(536, 406);
+            this.bnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bnSave.Name = "bnSave";
-            this.bnSave.Size = new System.Drawing.Size(122, 30);
+            this.bnSave.Size = new System.Drawing.Size(183, 46);
             this.bnSave.TabIndex = 101;
             this.bnSave.Text = "Save Event";
             this.bnSave.UseVisualStyleBackColor = false;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiFile,
             this.tsmiEdit,
             this.tsmiInvoice});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1311, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1966, 35);
             this.menuStrip1.TabIndex = 102;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -981,44 +1066,45 @@
             this.tsmiFileSaveNew,
             this.tsmiFileExit});
             this.tsmiFile.Name = "tsmiFile";
-            this.tsmiFile.Size = new System.Drawing.Size(37, 20);
+            this.tsmiFile.Size = new System.Drawing.Size(54, 29);
             this.tsmiFile.Text = "File";
             // 
             // tsmiFileNew
             // 
             this.tsmiFileNew.Name = "tsmiFileNew";
-            this.tsmiFileNew.Size = new System.Drawing.Size(143, 22);
+            this.tsmiFileNew.Size = new System.Drawing.Size(270, 34);
             this.tsmiFileNew.Text = "New";
             // 
             // tsmiFileOpen
             // 
             this.tsmiFileOpen.Name = "tsmiFileOpen";
-            this.tsmiFileOpen.Size = new System.Drawing.Size(143, 22);
+            this.tsmiFileOpen.Size = new System.Drawing.Size(270, 34);
             this.tsmiFileOpen.Text = "Open";
             // 
             // tsmiFileSave
             // 
             this.tsmiFileSave.Name = "tsmiFileSave";
-            this.tsmiFileSave.Size = new System.Drawing.Size(143, 22);
+            this.tsmiFileSave.Size = new System.Drawing.Size(270, 34);
             this.tsmiFileSave.Text = "Save";
             // 
             // tsmiFileSaveClose
             // 
             this.tsmiFileSaveClose.Name = "tsmiFileSaveClose";
-            this.tsmiFileSaveClose.Size = new System.Drawing.Size(143, 22);
+            this.tsmiFileSaveClose.Size = new System.Drawing.Size(270, 34);
             this.tsmiFileSaveClose.Text = "Save && Close";
             // 
             // tsmiFileSaveNew
             // 
             this.tsmiFileSaveNew.Name = "tsmiFileSaveNew";
-            this.tsmiFileSaveNew.Size = new System.Drawing.Size(143, 22);
+            this.tsmiFileSaveNew.Size = new System.Drawing.Size(270, 34);
             this.tsmiFileSaveNew.Text = "Save && New";
             // 
             // tsmiFileExit
             // 
             this.tsmiFileExit.Name = "tsmiFileExit";
-            this.tsmiFileExit.Size = new System.Drawing.Size(143, 22);
+            this.tsmiFileExit.Size = new System.Drawing.Size(270, 34);
             this.tsmiFileExit.Text = "Exit";
+            this.tsmiFileExit.Click += new System.EventHandler(this.tsmiFileExit_Click);
             // 
             // tsmiEdit
             // 
@@ -1026,19 +1112,19 @@
             this.tsmiEditUndo,
             this.tsmiEditClear});
             this.tsmiEdit.Name = "tsmiEdit";
-            this.tsmiEdit.Size = new System.Drawing.Size(39, 20);
+            this.tsmiEdit.Size = new System.Drawing.Size(58, 29);
             this.tsmiEdit.Text = "Edit";
             // 
             // tsmiEditUndo
             // 
             this.tsmiEditUndo.Name = "tsmiEditUndo";
-            this.tsmiEditUndo.Size = new System.Drawing.Size(118, 22);
+            this.tsmiEditUndo.Size = new System.Drawing.Size(178, 34);
             this.tsmiEditUndo.Text = "Undo";
             // 
             // tsmiEditClear
             // 
             this.tsmiEditClear.Name = "tsmiEditClear";
-            this.tsmiEditClear.Size = new System.Drawing.Size(118, 22);
+            this.tsmiEditClear.Size = new System.Drawing.Size(178, 34);
             this.tsmiEditClear.Text = "Clear All";
             // 
             // tsmiInvoice
@@ -1049,70 +1135,74 @@
             this.tsmiInvoiceEmail,
             this.tsmiInvoiceAcct});
             this.tsmiInvoice.Name = "tsmiInvoice";
-            this.tsmiInvoice.Size = new System.Drawing.Size(57, 20);
+            this.tsmiInvoice.Size = new System.Drawing.Size(84, 29);
             this.tsmiInvoice.Text = "Invoice";
             // 
             // tsmiInvoiceCreate
             // 
             this.tsmiInvoiceCreate.Name = "tsmiInvoiceCreate";
-            this.tsmiInvoiceCreate.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoiceCreate.Size = new System.Drawing.Size(303, 34);
             this.tsmiInvoiceCreate.Text = "Create Invoice";
             // 
             // tsmiInvoicePrint
             // 
             this.tsmiInvoicePrint.Name = "tsmiInvoicePrint";
-            this.tsmiInvoicePrint.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoicePrint.Size = new System.Drawing.Size(303, 34);
             this.tsmiInvoicePrint.Text = "Print Invoice";
             // 
             // tsmiInvoiceEmail
             // 
             this.tsmiInvoiceEmail.Name = "tsmiInvoiceEmail";
-            this.tsmiInvoiceEmail.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoiceEmail.Size = new System.Drawing.Size(303, 34);
             this.tsmiInvoiceEmail.Text = "Email Invoice";
             // 
             // tsmiInvoiceAcct
             // 
             this.tsmiInvoiceAcct.Name = "tsmiInvoiceAcct";
-            this.tsmiInvoiceAcct.Size = new System.Drawing.Size(202, 22);
+            this.tsmiInvoiceAcct.Size = new System.Drawing.Size(303, 34);
             this.tsmiInvoiceAcct.Text = "Print Accounting Report";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(7, 144);
+            this.label4.Location = new System.Drawing.Point(10, 222);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.Size = new System.Drawing.Size(135, 20);
             this.label4.TabIndex = 104;
             this.label4.Text = "Contact Method";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(105, 141);
+            this.textBox1.Location = new System.Drawing.Point(158, 217);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 20);
+            this.textBox1.Size = new System.Drawing.Size(224, 26);
             this.textBox1.TabIndex = 103;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(7, 92);
+            this.label5.Location = new System.Drawing.Point(10, 142);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 13);
+            this.label5.Size = new System.Drawing.Size(135, 20);
             this.label5.TabIndex = 106;
             this.label5.Text = "*Cell Number";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(105, 89);
+            this.textBox3.Location = new System.Drawing.Point(158, 137);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 20);
+            this.textBox3.Size = new System.Drawing.Size(224, 26);
             this.textBox3.TabIndex = 105;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BDPackages
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1311, 507);
+            this.ClientSize = new System.Drawing.Size(1966, 780);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
@@ -1170,6 +1260,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "BDPackages";
             this.Text = "TSGS Birthday Packages";
             this.Load += new System.EventHandler(this.BDPackages2_Load);
