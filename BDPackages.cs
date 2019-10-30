@@ -14,6 +14,9 @@ namespace MBECSharp
     public partial class BDPackages : Form
     {
         private OleDbConnection conn = new OleDbConnection();
+
+        Package curPackage = new Package();
+
         public BDPackages()
         {
             InitializeComponent();
@@ -161,6 +164,7 @@ namespace MBECSharp
                 lbBDPack.Items.Insert(0, "  Matinee Movie Tickets");
                 lbBDPack.Items.Insert(0, "  Party Room for 1 Hour");
                 lbBDPack.Items.Insert(0, "Movie Package");
+                fillAmts(2);
             }
             else
             {
@@ -238,6 +242,84 @@ namespace MBECSharp
             txtDepPaid.Text = String.Format("{0:C2}", dbDepPaid);
             txtTtlDue.Text = String.Format("{0:C2}", dbTtlDue);
             txtTtlPaid.Text = String.Format("{0:C2}", dbTtlPaid);
+        }
+
+        private void RbArcade_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbArcade.Checked == true)
+            {
+                lbBDPack.Items.Insert(0, "  TSGS Birthday T-Shirt for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Drinks");
+                lbBDPack.Items.Insert(0, "  2 Large One-Topping Pizzas");
+                lbBDPack.Items.Insert(0, "  50 Point Arcade Play Card for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  50 Point Arcade Play Cards for Guests");
+                lbBDPack.Items.Insert(0, "  Party Room for 1 Hour");
+                lbBDPack.Items.Insert(0, "Arcade Package");
+                fillAmts(3);
+            }
+            else
+            {
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+            }
+        }
+
+        private void RbBowling_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbArcade.Checked == true)
+            {
+                lbBDPack.Items.Insert(0, "  TSGS Birthday T-Shirt for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Drinks");
+                lbBDPack.Items.Insert(0, "  2 Large One-Topping Pizzas");
+                lbBDPack.Items.Insert(0, "  50 Point Arcade Play Card for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  1 Hour of Bowling");
+                lbBDPack.Items.Insert(0, "  Bowling Shoes");
+                lbBDPack.Items.Insert(0, "  Party Room for 1 Hour");
+                lbBDPack.Items.Insert(0, "Arcade Package");
+                fillAmts(4);
+            }
+            else
+            {
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+            }
+        }
+
+        private void RbAction_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (rbArcade.Checked == true)
+            {
+                lbBDPack.Items.Insert(0, "  TSGS Birthday T-Shirt for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Drinks");
+                lbBDPack.Items.Insert(0, "  2 Large One-Topping Pizzas");
+                lbBDPack.Items.Insert(0, "  50 Point Arcade Play Card for Guest of Honor");
+                lbBDPack.Items.Insert(0, "  Activity Play Cards with 2 Activities (Laser Tag, HoloGate, and/or Rope Course)");
+                lbBDPack.Items.Insert(0, "  Party Room for 1 Hour");
+                lbBDPack.Items.Insert(0, curPackage.Name + " Package");
+                fillAmts(4);
+            }
+            else
+            {
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+                lbBDPack.Items.RemoveAt(0);
+            }
         }
     }
 }

@@ -113,6 +113,7 @@
     <Compile Include="Bowling.Designer.cs">
       <DependentUpon>Bowling.cs</DependentUpon>
     </Compile>
+    <Compile Include="classPackage.cs" />
     <Compile Include="Food.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -725,6 +725,7 @@
             this.rbAction.TabStop = true;
             this.rbAction.Text = "Action";
             this.rbAction.UseVisualStyleBackColor = false;
+            this.rbAction.CheckedChanged += new System.EventHandler(this.RbAction_CheckedChanged);
             // 
             // rbBowling
             // 
@@ -736,6 +737,7 @@
             this.rbBowling.TabStop = true;
             this.rbBowling.Text = "Bowling";
             this.rbBowling.UseVisualStyleBackColor = false;
+            this.rbBowling.CheckedChanged += new System.EventHandler(this.RbBowling_CheckedChanged);
             // 
             // rbArcade
             // 
@@ -747,6 +749,7 @@
             this.rbArcade.TabStop = true;
             this.rbArcade.Text = "Arcade";
             this.rbArcade.UseVisualStyleBackColor = false;
+            this.rbArcade.CheckedChanged += new System.EventHandler(this.RbArcade_CheckedChanged);
             // 
             // rbMovie
             // 
