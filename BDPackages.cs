@@ -18,7 +18,7 @@ namespace MBECSharp
         {
             InitializeComponent();
             conn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;" +
-                                    @"Data Source=\\TSSERVER\serverfolders\IT\IT Staff\Phil Darden\MBECSharp\Events.accdb;" +
+                                    @"Data Source=\\TSSERVER\serverfolders\IT\MarketingEventsApplication\Application Files\Events.accdb;" +
                                     @"Persist Security Info=False;";
         }
 
