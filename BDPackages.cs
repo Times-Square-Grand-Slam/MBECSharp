@@ -239,20 +239,5 @@ namespace MBECSharp
             txtTtlDue.Text = String.Format("{0:C2}", dbTtlDue);
             txtTtlPaid.Text = String.Format("{0:C2}", dbTtlPaid);
         }
-
-        private void bnClear_Click(object sender, EventArgs e)
-        {
-            rbBasic.Checked = false;
-            rbMovie.Checked = false;
-            rbArcade.Checked = false;
-            rbBowling.Checked = false;
-            rbAction.Checked = false;
-            rbCustom.Checked = false;
-        }
-
-        private void tsmiFileExit_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
     }
 }

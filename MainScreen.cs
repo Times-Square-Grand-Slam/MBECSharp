@@ -63,10 +63,5 @@ namespace MBECSharp
         {
             new About().Show();
         }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
     }
 }
