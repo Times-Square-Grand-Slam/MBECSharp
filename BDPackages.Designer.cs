@@ -29,71 +29,53 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BDPackages));
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lbDisc = new System.Windows.Forms.Label();
+            this.lblTShirt = new System.Windows.Forms.Label();
+            this.txtTShirt = new System.Windows.Forms.TextBox();
+            this.lblDisc = new System.Windows.Forms.Label();
             this.txtDisc = new System.Windows.Forms.TextBox();
-            this.lbTtlPaid = new System.Windows.Forms.Label();
+            this.lblTtlPaid = new System.Windows.Forms.Label();
             this.txtTtlPaid = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lblPerGuest = new System.Windows.Forms.Label();
             this.txtPerGuest = new System.Windows.Forms.TextBox();
-            this.lbTtlDue = new System.Windows.Forms.Label();
+            this.lblTtlDue = new System.Windows.Forms.Label();
             this.txtTtlDue = new System.Windows.Forms.TextBox();
-            this.lbDepPaid = new System.Windows.Forms.Label();
+            this.lblDepPaid = new System.Windows.Forms.Label();
             this.txtDepPaid = new System.Windows.Forms.TextBox();
-            this.lbDepDue = new System.Windows.Forms.Label();
+            this.lblDepDue = new System.Windows.Forms.Label();
             this.txtDepDue = new System.Windows.Forms.TextBox();
-            this.lbTtlPrice = new System.Windows.Forms.Label();
+            this.lblTtlPrice = new System.Windows.Forms.Label();
             this.txtTtlPrice = new System.Windows.Forms.TextBox();
-            this.lbSvcChg = new System.Windows.Forms.Label();
+            this.lblSvcChg = new System.Windows.Forms.Label();
             this.txtSvcChg = new System.Windows.Forms.TextBox();
-            this.lbTax = new System.Windows.Forms.Label();
+            this.lblTax = new System.Windows.Forms.Label();
             this.txtTax = new System.Windows.Forms.TextBox();
-            this.lbSub = new System.Windows.Forms.Label();
+            this.lblSub = new System.Windows.Forms.Label();
             this.txtSub = new System.Windows.Forms.TextBox();
             this.cbHost = new System.Windows.Forms.ComboBox();
-            this.lbHost = new System.Windows.Forms.Label();
-            this.lbEnd = new System.Windows.Forms.Label();
+            this.lblHost = new System.Windows.Forms.Label();
+            this.lblEnd = new System.Windows.Forms.Label();
             this.txtEnd = new System.Windows.Forms.TextBox();
-            this.lbStart = new System.Windows.Forms.Label();
+            this.lblStart = new System.Windows.Forms.Label();
             this.txtStart = new System.Windows.Forms.TextBox();
-            this.lbEDate = new System.Windows.Forms.Label();
+            this.lblEDate = new System.Windows.Forms.Label();
             this.txtEDate = new System.Windows.Forms.TextBox();
-            this.lbGuests = new System.Windows.Forms.Label();
+            this.lblGuests = new System.Windows.Forms.Label();
             this.txtGuests = new System.Windows.Forms.TextBox();
-            this.lbAge = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
             this.txtAge = new System.Windows.Forms.TextBox();
-            this.lbGOH = new System.Windows.Forms.Label();
+            this.lblGOH = new System.Windows.Forms.Label();
             this.txtGOH = new System.Windows.Forms.TextBox();
-            this.lbEmail = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lbPhone = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
             this.txtPhone = new System.Windows.Forms.TextBox();
-            this.lbName = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.pnPack = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtCustomAG = new System.Windows.Forms.TextBox();
-            this.txtActionAG = new System.Windows.Forms.TextBox();
-            this.txtBowlAG = new System.Windows.Forms.TextBox();
-            this.txtArcadeAG = new System.Windows.Forms.TextBox();
-            this.txtMovieAG = new System.Windows.Forms.TextBox();
-            this.txtBasicAG = new System.Windows.Forms.TextBox();
-            this.lbBDAddGuest = new System.Windows.Forms.Label();
-            this.txtCustomPr = new System.Windows.Forms.TextBox();
-            this.txtActionPr = new System.Windows.Forms.TextBox();
-            this.txtBowlPr = new System.Windows.Forms.TextBox();
-            this.txtArcadePr = new System.Windows.Forms.TextBox();
-            this.txtMoviePr = new System.Windows.Forms.TextBox();
-            this.txtBasicPr = new System.Windows.Forms.TextBox();
-            this.lbBDPrice = new System.Windows.Forms.Label();
-            this.rbCustom = new System.Windows.Forms.RadioButton();
-            this.rbBasic = new System.Windows.Forms.RadioButton();
-            this.rbAction = new System.Windows.Forms.RadioButton();
-            this.rbBowling = new System.Windows.Forms.RadioButton();
-            this.rbArcade = new System.Windows.Forms.RadioButton();
-            this.rbMovie = new System.Windows.Forms.RadioButton();
-            this.lbBDType = new System.Windows.Forms.Label();
+            this.lblPackages = new System.Windows.Forms.Label();
+            this.lblBDAddGuest = new System.Windows.Forms.Label();
+            this.lblBDPrice = new System.Windows.Forms.Label();
+            this.lblBDType = new System.Windows.Forms.Label();
             this.bnEmail = new System.Windows.Forms.Button();
             this.bnPrint = new System.Windows.Forms.Button();
             this.bnCreate = new System.Windows.Forms.Button();
@@ -108,7 +90,7 @@
             this.bnArcade = new System.Windows.Forms.Button();
             this.bnMovie = new System.Windows.Forms.Button();
             this.bnFood = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblAddItems = new System.Windows.Forms.Label();
             this.bnSave = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmiFile = new System.Windows.Forms.ToolStripMenuItem();
@@ -126,38 +108,38 @@
             this.tsmiInvoicePrint = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiInvoiceEmail = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiInvoiceAcct = new System.Windows.Forms.ToolStripMenuItem();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblCM = new System.Windows.Forms.Label();
+            this.txtCM = new System.Windows.Forms.TextBox();
+            this.lblCell = new System.Windows.Forms.Label();
+            this.txtCell = new System.Windows.Forms.TextBox();
             this.pnPack.SuspendLayout();
             this.pnAddItem.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label3
+            // lblTShirt
             // 
-            this.label3.Location = new System.Drawing.Point(267, 169);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 13);
-            this.label3.TabIndex = 92;
-            this.label3.Text = "*T-Shirt Size";
+            this.lblTShirt.Location = new System.Drawing.Point(267, 169);
+            this.lblTShirt.Name = "lblTShirt";
+            this.lblTShirt.Size = new System.Drawing.Size(84, 13);
+            this.lblTShirt.TabIndex = 92;
+            this.lblTShirt.Text = "*T-Shirt Size";
             // 
-            // textBox2
+            // txtTShirt
             // 
-            this.textBox2.Location = new System.Drawing.Point(357, 166);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 91;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTShirt.Location = new System.Drawing.Point(357, 166);
+            this.txtTShirt.Name = "txtTShirt";
+            this.txtTShirt.Size = new System.Drawing.Size(151, 20);
+            this.txtTShirt.TabIndex = 91;
+            this.txtTShirt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbDisc
+            // lblDisc
             // 
-            this.lbDisc.Location = new System.Drawing.Point(7, 222);
-            this.lbDisc.Name = "lbDisc";
-            this.lbDisc.Size = new System.Drawing.Size(90, 13);
-            this.lbDisc.TabIndex = 90;
-            this.lbDisc.Text = "Discount";
+            this.lblDisc.Location = new System.Drawing.Point(7, 222);
+            this.lblDisc.Name = "lblDisc";
+            this.lblDisc.Size = new System.Drawing.Size(90, 13);
+            this.lblDisc.TabIndex = 90;
+            this.lblDisc.Text = "Discount";
             // 
             // txtDisc
             // 
@@ -168,13 +150,13 @@
             this.txtDisc.TabStop = false;
             this.txtDisc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbTtlPaid
+            // lblTtlPaid
             // 
-            this.lbTtlPaid.Location = new System.Drawing.Point(531, 222);
-            this.lbTtlPaid.Name = "lbTtlPaid";
-            this.lbTtlPaid.Size = new System.Drawing.Size(80, 13);
-            this.lbTtlPaid.TabIndex = 88;
-            this.lbTtlPaid.Text = "Total Paid";
+            this.lblTtlPaid.Location = new System.Drawing.Point(531, 222);
+            this.lblTtlPaid.Name = "lblTtlPaid";
+            this.lblTtlPaid.Size = new System.Drawing.Size(80, 13);
+            this.lblTtlPaid.TabIndex = 88;
+            this.lblTtlPaid.Text = "Total Paid";
             // 
             // txtTtlPaid
             // 
@@ -185,13 +167,13 @@
             this.txtTtlPaid.TabStop = false;
             this.txtTtlPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label18
+            // lblPerGuest
             // 
-            this.label18.Location = new System.Drawing.Point(267, 222);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(84, 13);
-            this.label18.TabIndex = 86;
-            this.label18.Text = "Per Guest";
+            this.lblPerGuest.Location = new System.Drawing.Point(267, 222);
+            this.lblPerGuest.Name = "lblPerGuest";
+            this.lblPerGuest.Size = new System.Drawing.Size(84, 13);
+            this.lblPerGuest.TabIndex = 86;
+            this.lblPerGuest.Text = "Per Guest";
             // 
             // txtPerGuest
             // 
@@ -204,13 +186,13 @@
             this.txtPerGuest.TabStop = false;
             this.txtPerGuest.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbTtlDue
+            // lblTtlDue
             // 
-            this.lbTtlDue.Location = new System.Drawing.Point(531, 196);
-            this.lbTtlDue.Name = "lbTtlDue";
-            this.lbTtlDue.Size = new System.Drawing.Size(80, 13);
-            this.lbTtlDue.TabIndex = 84;
-            this.lbTtlDue.Text = "Total Due";
+            this.lblTtlDue.Location = new System.Drawing.Point(531, 196);
+            this.lblTtlDue.Name = "lblTtlDue";
+            this.lblTtlDue.Size = new System.Drawing.Size(80, 13);
+            this.lblTtlDue.TabIndex = 84;
+            this.lblTtlDue.Text = "Total Due";
             // 
             // txtTtlDue
             // 
@@ -223,13 +205,13 @@
             this.txtTtlDue.TabStop = false;
             this.txtTtlDue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbDepPaid
+            // lblDepPaid
             // 
-            this.lbDepPaid.Location = new System.Drawing.Point(531, 170);
-            this.lbDepPaid.Name = "lbDepPaid";
-            this.lbDepPaid.Size = new System.Drawing.Size(80, 13);
-            this.lbDepPaid.TabIndex = 82;
-            this.lbDepPaid.Text = "Deposit Paid";
+            this.lblDepPaid.Location = new System.Drawing.Point(531, 170);
+            this.lblDepPaid.Name = "lblDepPaid";
+            this.lblDepPaid.Size = new System.Drawing.Size(80, 13);
+            this.lblDepPaid.TabIndex = 82;
+            this.lblDepPaid.Text = "Deposit Paid";
             // 
             // txtDepPaid
             // 
@@ -240,13 +222,13 @@
             this.txtDepPaid.TabStop = false;
             this.txtDepPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbDepDue
+            // lblDepDue
             // 
-            this.lbDepDue.Location = new System.Drawing.Point(531, 144);
-            this.lbDepDue.Name = "lbDepDue";
-            this.lbDepDue.Size = new System.Drawing.Size(80, 13);
-            this.lbDepDue.TabIndex = 80;
-            this.lbDepDue.Text = "Deposit Due";
+            this.lblDepDue.Location = new System.Drawing.Point(531, 144);
+            this.lblDepDue.Name = "lblDepDue";
+            this.lblDepDue.Size = new System.Drawing.Size(80, 13);
+            this.lblDepDue.TabIndex = 80;
+            this.lblDepDue.Text = "Deposit Due";
             // 
             // txtDepDue
             // 
@@ -259,13 +241,13 @@
             this.txtDepDue.TabStop = false;
             this.txtDepDue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbTtlPrice
+            // lblTtlPrice
             // 
-            this.lbTtlPrice.Location = new System.Drawing.Point(531, 118);
-            this.lbTtlPrice.Name = "lbTtlPrice";
-            this.lbTtlPrice.Size = new System.Drawing.Size(80, 13);
-            this.lbTtlPrice.TabIndex = 78;
-            this.lbTtlPrice.Text = "Total Price";
+            this.lblTtlPrice.Location = new System.Drawing.Point(531, 118);
+            this.lblTtlPrice.Name = "lblTtlPrice";
+            this.lblTtlPrice.Size = new System.Drawing.Size(80, 13);
+            this.lblTtlPrice.TabIndex = 78;
+            this.lblTtlPrice.Text = "Total Price";
             // 
             // txtTtlPrice
             // 
@@ -278,13 +260,13 @@
             this.txtTtlPrice.TabStop = false;
             this.txtTtlPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbSvcChg
+            // lblSvcChg
             // 
-            this.lbSvcChg.Location = new System.Drawing.Point(531, 92);
-            this.lbSvcChg.Name = "lbSvcChg";
-            this.lbSvcChg.Size = new System.Drawing.Size(80, 13);
-            this.lbSvcChg.TabIndex = 76;
-            this.lbSvcChg.Text = "Service Charge";
+            this.lblSvcChg.Location = new System.Drawing.Point(531, 92);
+            this.lblSvcChg.Name = "lblSvcChg";
+            this.lblSvcChg.Size = new System.Drawing.Size(80, 13);
+            this.lblSvcChg.TabIndex = 76;
+            this.lblSvcChg.Text = "Service Charge";
             // 
             // txtSvcChg
             // 
@@ -297,13 +279,13 @@
             this.txtSvcChg.TabStop = false;
             this.txtSvcChg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbTax
+            // lblTax
             // 
-            this.lbTax.Location = new System.Drawing.Point(531, 66);
-            this.lbTax.Name = "lbTax";
-            this.lbTax.Size = new System.Drawing.Size(80, 13);
-            this.lbTax.TabIndex = 74;
-            this.lbTax.Text = "Taxes";
+            this.lblTax.Location = new System.Drawing.Point(531, 66);
+            this.lblTax.Name = "lblTax";
+            this.lblTax.Size = new System.Drawing.Size(80, 13);
+            this.lblTax.TabIndex = 74;
+            this.lblTax.Text = "Taxes";
             // 
             // txtTax
             // 
@@ -316,13 +298,13 @@
             this.txtTax.TabStop = false;
             this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbSub
+            // lblSub
             // 
-            this.lbSub.Location = new System.Drawing.Point(531, 40);
-            this.lbSub.Name = "lbSub";
-            this.lbSub.Size = new System.Drawing.Size(80, 13);
-            this.lbSub.TabIndex = 72;
-            this.lbSub.Text = "Subtotal";
+            this.lblSub.Location = new System.Drawing.Point(531, 40);
+            this.lblSub.Name = "lblSub";
+            this.lblSub.Size = new System.Drawing.Size(80, 13);
+            this.lblSub.TabIndex = 72;
+            this.lblSub.Text = "Subtotal";
             // 
             // txtSub
             // 
@@ -344,21 +326,21 @@
             this.cbHost.TabIndex = 64;
             this.cbHost.Text = "Select from List";
             // 
-            // lbHost
+            // lblHost
             // 
-            this.lbHost.Location = new System.Drawing.Point(267, 143);
-            this.lbHost.Name = "lbHost";
-            this.lbHost.Size = new System.Drawing.Size(84, 13);
-            this.lbHost.TabIndex = 70;
-            this.lbHost.Text = "Party Host";
+            this.lblHost.Location = new System.Drawing.Point(267, 143);
+            this.lblHost.Name = "lblHost";
+            this.lblHost.Size = new System.Drawing.Size(84, 13);
+            this.lblHost.TabIndex = 70;
+            this.lblHost.Text = "Party Host";
             // 
-            // lbEnd
+            // lblEnd
             // 
-            this.lbEnd.Location = new System.Drawing.Point(267, 92);
-            this.lbEnd.Name = "lbEnd";
-            this.lbEnd.Size = new System.Drawing.Size(84, 13);
-            this.lbEnd.TabIndex = 68;
-            this.lbEnd.Text = "End Time";
+            this.lblEnd.Location = new System.Drawing.Point(267, 92);
+            this.lblEnd.Name = "lblEnd";
+            this.lblEnd.Size = new System.Drawing.Size(84, 13);
+            this.lblEnd.TabIndex = 68;
+            this.lblEnd.Text = "End Time";
             // 
             // txtEnd
             // 
@@ -370,13 +352,13 @@
             this.txtEnd.TabStop = false;
             this.txtEnd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbStart
+            // lblStart
             // 
-            this.lbStart.Location = new System.Drawing.Point(267, 66);
-            this.lbStart.Name = "lbStart";
-            this.lbStart.Size = new System.Drawing.Size(84, 13);
-            this.lbStart.TabIndex = 67;
-            this.lbStart.Text = "*Start Time";
+            this.lblStart.Location = new System.Drawing.Point(267, 66);
+            this.lblStart.Name = "lblStart";
+            this.lblStart.Size = new System.Drawing.Size(84, 13);
+            this.lblStart.TabIndex = 67;
+            this.lblStart.Text = "*Start Time";
             // 
             // txtStart
             // 
@@ -386,13 +368,13 @@
             this.txtStart.TabIndex = 60;
             this.txtStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbEDate
+            // lblEDate
             // 
-            this.lbEDate.Location = new System.Drawing.Point(267, 40);
-            this.lbEDate.Name = "lbEDate";
-            this.lbEDate.Size = new System.Drawing.Size(84, 13);
-            this.lbEDate.TabIndex = 66;
-            this.lbEDate.Text = "*Date of Event";
+            this.lblEDate.Location = new System.Drawing.Point(267, 40);
+            this.lblEDate.Name = "lblEDate";
+            this.lblEDate.Size = new System.Drawing.Size(84, 13);
+            this.lblEDate.TabIndex = 66;
+            this.lblEDate.Text = "*Date of Event";
             // 
             // txtEDate
             // 
@@ -402,13 +384,13 @@
             this.txtEDate.TabIndex = 58;
             this.txtEDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbGuests
+            // lblGuests
             // 
-            this.lbGuests.Location = new System.Drawing.Point(267, 118);
-            this.lbGuests.Name = "lbGuests";
-            this.lbGuests.Size = new System.Drawing.Size(84, 13);
-            this.lbGuests.TabIndex = 65;
-            this.lbGuests.Text = "*# of Guests";
+            this.lblGuests.Location = new System.Drawing.Point(267, 118);
+            this.lblGuests.Name = "lblGuests";
+            this.lblGuests.Size = new System.Drawing.Size(84, 13);
+            this.lblGuests.TabIndex = 65;
+            this.lblGuests.Text = "*# of Guests";
             // 
             // txtGuests
             // 
@@ -417,14 +399,16 @@
             this.txtGuests.Size = new System.Drawing.Size(151, 20);
             this.txtGuests.TabIndex = 57;
             this.txtGuests.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGuests.Enter += new System.EventHandler(this.TxtGuests_Enter);
+            this.txtGuests.Leave += new System.EventHandler(this.TxtGuests_Leave);
             // 
-            // lbAge
+            // lblAge
             // 
-            this.lbAge.Location = new System.Drawing.Point(7, 196);
-            this.lbAge.Name = "lbAge";
-            this.lbAge.Size = new System.Drawing.Size(90, 13);
-            this.lbAge.TabIndex = 63;
-            this.lbAge.Text = "*GOH Age";
+            this.lblAge.Location = new System.Drawing.Point(7, 196);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(90, 13);
+            this.lblAge.TabIndex = 63;
+            this.lblAge.Text = "*GOH Age";
             // 
             // txtAge
             // 
@@ -434,13 +418,13 @@
             this.txtAge.TabIndex = 55;
             this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbGOH
+            // lblGOH
             // 
-            this.lbGOH.Location = new System.Drawing.Point(7, 170);
-            this.lbGOH.Name = "lbGOH";
-            this.lbGOH.Size = new System.Drawing.Size(90, 13);
-            this.lbGOH.TabIndex = 59;
-            this.lbGOH.Text = "*Guest of Honor";
+            this.lblGOH.Location = new System.Drawing.Point(7, 170);
+            this.lblGOH.Name = "lblGOH";
+            this.lblGOH.Size = new System.Drawing.Size(90, 13);
+            this.lblGOH.TabIndex = 59;
+            this.lblGOH.Text = "*Guest of Honor";
             // 
             // txtGOH
             // 
@@ -450,13 +434,13 @@
             this.txtGOH.TabIndex = 54;
             this.txtGOH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbEmail
+            // lblEmail
             // 
-            this.lbEmail.Location = new System.Drawing.Point(7, 118);
-            this.lbEmail.Name = "lbEmail";
-            this.lbEmail.Size = new System.Drawing.Size(90, 13);
-            this.lbEmail.TabIndex = 56;
-            this.lbEmail.Text = "Email Address";
+            this.lblEmail.Location = new System.Drawing.Point(7, 118);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(90, 13);
+            this.lblEmail.TabIndex = 56;
+            this.lblEmail.Text = "Email Address";
             // 
             // txtEmail
             // 
@@ -466,13 +450,13 @@
             this.txtEmail.TabIndex = 52;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbPhone
+            // lblPhone
             // 
-            this.lbPhone.Location = new System.Drawing.Point(7, 66);
-            this.lbPhone.Name = "lbPhone";
-            this.lbPhone.Size = new System.Drawing.Size(90, 13);
-            this.lbPhone.TabIndex = 53;
-            this.lbPhone.Text = "*Home Number";
+            this.lblPhone.Location = new System.Drawing.Point(7, 66);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(90, 13);
+            this.lblPhone.TabIndex = 53;
+            this.lblPhone.Text = "*Home Number";
             // 
             // txtPhone
             // 
@@ -482,13 +466,13 @@
             this.txtPhone.TabIndex = 51;
             this.txtPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbName
+            // lblName
             // 
-            this.lbName.Location = new System.Drawing.Point(7, 40);
-            this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(90, 13);
-            this.lbName.TabIndex = 50;
-            this.lbName.Text = "*Contact Name";
+            this.lblName.Location = new System.Drawing.Point(7, 40);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(90, 13);
+            this.lblName.TabIndex = 50;
+            this.lblName.Text = "*Contact Name";
             // 
             // txtName
             // 
@@ -501,276 +485,55 @@
             // pnPack
             // 
             this.pnPack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnPack.Controls.Add(this.label1);
-            this.pnPack.Controls.Add(this.txtCustomAG);
-            this.pnPack.Controls.Add(this.txtActionAG);
-            this.pnPack.Controls.Add(this.txtBowlAG);
-            this.pnPack.Controls.Add(this.txtArcadeAG);
-            this.pnPack.Controls.Add(this.txtMovieAG);
-            this.pnPack.Controls.Add(this.txtBasicAG);
-            this.pnPack.Controls.Add(this.lbBDAddGuest);
-            this.pnPack.Controls.Add(this.txtCustomPr);
-            this.pnPack.Controls.Add(this.txtActionPr);
-            this.pnPack.Controls.Add(this.txtBowlPr);
-            this.pnPack.Controls.Add(this.txtArcadePr);
-            this.pnPack.Controls.Add(this.txtMoviePr);
-            this.pnPack.Controls.Add(this.txtBasicPr);
-            this.pnPack.Controls.Add(this.lbBDPrice);
-            this.pnPack.Controls.Add(this.rbCustom);
-            this.pnPack.Controls.Add(this.rbBasic);
-            this.pnPack.Controls.Add(this.rbAction);
-            this.pnPack.Controls.Add(this.rbBowling);
-            this.pnPack.Controls.Add(this.rbArcade);
-            this.pnPack.Controls.Add(this.rbMovie);
-            this.pnPack.Controls.Add(this.lbBDType);
+            this.pnPack.Controls.Add(this.lblPackages);
+            this.pnPack.Controls.Add(this.lblBDAddGuest);
+            this.pnPack.Controls.Add(this.lblBDPrice);
+            this.pnPack.Controls.Add(this.lblBDType);
             this.pnPack.Location = new System.Drawing.Point(10, 257);
             this.pnPack.Name = "pnPack";
-            this.pnPack.Size = new System.Drawing.Size(315, 238);
+            this.pnPack.Size = new System.Drawing.Size(315, 70);
             this.pnPack.TabIndex = 93;
             // 
-            // label1
+            // lblPackages
             // 
-            this.label1.BackColor = System.Drawing.Color.Lime;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(11, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 28);
-            this.label1.TabIndex = 85;
-            this.label1.Text = "Packages";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPackages.BackColor = System.Drawing.Color.Lime;
+            this.lblPackages.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPackages.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPackages.Location = new System.Drawing.Point(11, 9);
+            this.lblPackages.Name = "lblPackages";
+            this.lblPackages.Size = new System.Drawing.Size(291, 28);
+            this.lblPackages.TabIndex = 85;
+            this.lblPackages.Text = "Packages";
+            this.lblPackages.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtCustomAG
+            // lblBDAddGuest
             // 
-            this.txtCustomAG.BackColor = System.Drawing.Color.Snow;
-            this.txtCustomAG.Location = new System.Drawing.Point(202, 210);
-            this.txtCustomAG.Name = "txtCustomAG";
-            this.txtCustomAG.ReadOnly = true;
-            this.txtCustomAG.Size = new System.Drawing.Size(100, 20);
-            this.txtCustomAG.TabIndex = 63;
-            this.txtCustomAG.TabStop = false;
-            this.txtCustomAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.lblBDAddGuest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBDAddGuest.Location = new System.Drawing.Point(202, 39);
+            this.lblBDAddGuest.Name = "lblBDAddGuest";
+            this.lblBDAddGuest.Size = new System.Drawing.Size(100, 22);
+            this.lblBDAddGuest.TabIndex = 57;
+            this.lblBDAddGuest.Text = "Additional Guest";
+            this.lblBDAddGuest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtActionAG
+            // lblBDPrice
             // 
-            this.txtActionAG.BackColor = System.Drawing.Color.Snow;
-            this.txtActionAG.Location = new System.Drawing.Point(202, 182);
-            this.txtActionAG.Name = "txtActionAG";
-            this.txtActionAG.ReadOnly = true;
-            this.txtActionAG.Size = new System.Drawing.Size(100, 20);
-            this.txtActionAG.TabIndex = 62;
-            this.txtActionAG.TabStop = false;
-            this.txtActionAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.lblBDPrice.Location = new System.Drawing.Point(96, 39);
+            this.lblBDPrice.Name = "lblBDPrice";
+            this.lblBDPrice.Size = new System.Drawing.Size(100, 22);
+            this.lblBDPrice.TabIndex = 50;
+            this.lblBDPrice.Text = "Price";
+            this.lblBDPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtBowlAG
+            // lblBDType
             // 
-            this.txtBowlAG.BackColor = System.Drawing.Color.Snow;
-            this.txtBowlAG.Location = new System.Drawing.Point(202, 154);
-            this.txtBowlAG.Name = "txtBowlAG";
-            this.txtBowlAG.ReadOnly = true;
-            this.txtBowlAG.Size = new System.Drawing.Size(100, 20);
-            this.txtBowlAG.TabIndex = 61;
-            this.txtBowlAG.TabStop = false;
-            this.txtBowlAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtArcadeAG
-            // 
-            this.txtArcadeAG.BackColor = System.Drawing.Color.Snow;
-            this.txtArcadeAG.Location = new System.Drawing.Point(202, 126);
-            this.txtArcadeAG.Name = "txtArcadeAG";
-            this.txtArcadeAG.ReadOnly = true;
-            this.txtArcadeAG.Size = new System.Drawing.Size(100, 20);
-            this.txtArcadeAG.TabIndex = 60;
-            this.txtArcadeAG.TabStop = false;
-            this.txtArcadeAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtMovieAG
-            // 
-            this.txtMovieAG.BackColor = System.Drawing.Color.Snow;
-            this.txtMovieAG.Location = new System.Drawing.Point(202, 98);
-            this.txtMovieAG.Name = "txtMovieAG";
-            this.txtMovieAG.ReadOnly = true;
-            this.txtMovieAG.Size = new System.Drawing.Size(100, 20);
-            this.txtMovieAG.TabIndex = 59;
-            this.txtMovieAG.TabStop = false;
-            this.txtMovieAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtBasicAG
-            // 
-            this.txtBasicAG.BackColor = System.Drawing.Color.Snow;
-            this.txtBasicAG.Location = new System.Drawing.Point(202, 70);
-            this.txtBasicAG.Name = "txtBasicAG";
-            this.txtBasicAG.ReadOnly = true;
-            this.txtBasicAG.Size = new System.Drawing.Size(100, 20);
-            this.txtBasicAG.TabIndex = 58;
-            this.txtBasicAG.TabStop = false;
-            this.txtBasicAG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // lbBDAddGuest
-            // 
-            this.lbBDAddGuest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBDAddGuest.Location = new System.Drawing.Point(202, 39);
-            this.lbBDAddGuest.Name = "lbBDAddGuest";
-            this.lbBDAddGuest.Size = new System.Drawing.Size(100, 22);
-            this.lbBDAddGuest.TabIndex = 57;
-            this.lbBDAddGuest.Text = "Additional Guest";
-            this.lbBDAddGuest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtCustomPr
-            // 
-            this.txtCustomPr.BackColor = System.Drawing.Color.Snow;
-            this.txtCustomPr.Location = new System.Drawing.Point(96, 210);
-            this.txtCustomPr.Name = "txtCustomPr";
-            this.txtCustomPr.ReadOnly = true;
-            this.txtCustomPr.Size = new System.Drawing.Size(100, 20);
-            this.txtCustomPr.TabIndex = 56;
-            this.txtCustomPr.TabStop = false;
-            this.txtCustomPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtActionPr
-            // 
-            this.txtActionPr.BackColor = System.Drawing.Color.Snow;
-            this.txtActionPr.Location = new System.Drawing.Point(96, 182);
-            this.txtActionPr.Name = "txtActionPr";
-            this.txtActionPr.ReadOnly = true;
-            this.txtActionPr.Size = new System.Drawing.Size(100, 20);
-            this.txtActionPr.TabIndex = 55;
-            this.txtActionPr.TabStop = false;
-            this.txtActionPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtBowlPr
-            // 
-            this.txtBowlPr.BackColor = System.Drawing.Color.Snow;
-            this.txtBowlPr.Location = new System.Drawing.Point(96, 154);
-            this.txtBowlPr.Name = "txtBowlPr";
-            this.txtBowlPr.ReadOnly = true;
-            this.txtBowlPr.Size = new System.Drawing.Size(100, 20);
-            this.txtBowlPr.TabIndex = 54;
-            this.txtBowlPr.TabStop = false;
-            this.txtBowlPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtArcadePr
-            // 
-            this.txtArcadePr.BackColor = System.Drawing.Color.Snow;
-            this.txtArcadePr.Location = new System.Drawing.Point(96, 126);
-            this.txtArcadePr.Name = "txtArcadePr";
-            this.txtArcadePr.ReadOnly = true;
-            this.txtArcadePr.Size = new System.Drawing.Size(100, 20);
-            this.txtArcadePr.TabIndex = 53;
-            this.txtArcadePr.TabStop = false;
-            this.txtArcadePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtMoviePr
-            // 
-            this.txtMoviePr.BackColor = System.Drawing.Color.Snow;
-            this.txtMoviePr.Location = new System.Drawing.Point(96, 98);
-            this.txtMoviePr.Name = "txtMoviePr";
-            this.txtMoviePr.ReadOnly = true;
-            this.txtMoviePr.Size = new System.Drawing.Size(100, 20);
-            this.txtMoviePr.TabIndex = 52;
-            this.txtMoviePr.TabStop = false;
-            this.txtMoviePr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtBasicPr
-            // 
-            this.txtBasicPr.BackColor = System.Drawing.Color.Snow;
-            this.txtBasicPr.Location = new System.Drawing.Point(96, 70);
-            this.txtBasicPr.Name = "txtBasicPr";
-            this.txtBasicPr.ReadOnly = true;
-            this.txtBasicPr.Size = new System.Drawing.Size(100, 20);
-            this.txtBasicPr.TabIndex = 51;
-            this.txtBasicPr.TabStop = false;
-            this.txtBasicPr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtBasicPr.WordWrap = false;
-            // 
-            // lbBDPrice
-            // 
-            this.lbBDPrice.Location = new System.Drawing.Point(96, 39);
-            this.lbBDPrice.Name = "lbBDPrice";
-            this.lbBDPrice.Size = new System.Drawing.Size(100, 22);
-            this.lbBDPrice.TabIndex = 50;
-            this.lbBDPrice.Text = "Price";
-            this.lbBDPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // rbCustom
-            // 
-            this.rbCustom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.rbCustom.Location = new System.Drawing.Point(11, 208);
-            this.rbCustom.Name = "rbCustom";
-            this.rbCustom.Size = new System.Drawing.Size(79, 22);
-            this.rbCustom.TabIndex = 49;
-            this.rbCustom.TabStop = true;
-            this.rbCustom.Text = "Custom";
-            this.rbCustom.UseVisualStyleBackColor = false;
-            // 
-            // rbBasic
-            // 
-            this.rbBasic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rbBasic.Location = new System.Drawing.Point(11, 68);
-            this.rbBasic.Name = "rbBasic";
-            this.rbBasic.Size = new System.Drawing.Size(79, 22);
-            this.rbBasic.TabIndex = 43;
-            this.rbBasic.TabStop = true;
-            this.rbBasic.Text = "Basic";
-            this.rbBasic.UseVisualStyleBackColor = false;
-            this.rbBasic.CheckedChanged += new System.EventHandler(this.RbBasic_CheckedChanged);
-            // 
-            // rbAction
-            // 
-            this.rbAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.rbAction.Location = new System.Drawing.Point(11, 180);
-            this.rbAction.Name = "rbAction";
-            this.rbAction.Size = new System.Drawing.Size(79, 22);
-            this.rbAction.TabIndex = 48;
-            this.rbAction.TabStop = true;
-            this.rbAction.Text = "Action";
-            this.rbAction.UseVisualStyleBackColor = false;
-            this.rbAction.CheckedChanged += new System.EventHandler(this.RbAction_CheckedChanged);
-            // 
-            // rbBowling
-            // 
-            this.rbBowling.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.rbBowling.Location = new System.Drawing.Point(11, 152);
-            this.rbBowling.Name = "rbBowling";
-            this.rbBowling.Size = new System.Drawing.Size(79, 22);
-            this.rbBowling.TabIndex = 47;
-            this.rbBowling.TabStop = true;
-            this.rbBowling.Text = "Bowling";
-            this.rbBowling.UseVisualStyleBackColor = false;
-            this.rbBowling.CheckedChanged += new System.EventHandler(this.RbBowling_CheckedChanged);
-            // 
-            // rbArcade
-            // 
-            this.rbArcade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rbArcade.Location = new System.Drawing.Point(11, 124);
-            this.rbArcade.Name = "rbArcade";
-            this.rbArcade.Size = new System.Drawing.Size(79, 22);
-            this.rbArcade.TabIndex = 46;
-            this.rbArcade.TabStop = true;
-            this.rbArcade.Text = "Arcade";
-            this.rbArcade.UseVisualStyleBackColor = false;
-            this.rbArcade.CheckedChanged += new System.EventHandler(this.RbArcade_CheckedChanged);
-            // 
-            // rbMovie
-            // 
-            this.rbMovie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.rbMovie.Location = new System.Drawing.Point(11, 96);
-            this.rbMovie.Name = "rbMovie";
-            this.rbMovie.Size = new System.Drawing.Size(79, 22);
-            this.rbMovie.TabIndex = 45;
-            this.rbMovie.TabStop = true;
-            this.rbMovie.Text = "Movie";
-            this.rbMovie.UseVisualStyleBackColor = false;
-            this.rbMovie.CheckedChanged += new System.EventHandler(this.RbMovie_CheckedChanged);
-            // 
-            // lbBDType
-            // 
-            this.lbBDType.Location = new System.Drawing.Point(11, 40);
-            this.lbBDType.Name = "lbBDType";
-            this.lbBDType.Size = new System.Drawing.Size(79, 22);
-            this.lbBDType.TabIndex = 44;
-            this.lbBDType.Text = "Type";
-            this.lbBDType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBDType.BackColor = System.Drawing.SystemColors.Control;
+            this.lblBDType.Location = new System.Drawing.Point(11, 40);
+            this.lblBDType.Name = "lblBDType";
+            this.lblBDType.Size = new System.Drawing.Size(79, 22);
+            this.lblBDType.TabIndex = 44;
+            this.lblBDType.Text = "Type";
+            this.lblBDType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bnEmail
             // 
@@ -835,7 +598,7 @@
             this.pnAddItem.Controls.Add(this.bnArcade);
             this.pnAddItem.Controls.Add(this.bnMovie);
             this.pnAddItem.Controls.Add(this.bnFood);
-            this.pnAddItem.Controls.Add(this.label2);
+            this.pnAddItem.Controls.Add(this.lblAddItems);
             this.pnAddItem.Location = new System.Drawing.Point(511, 257);
             this.pnAddItem.Name = "pnAddItem";
             this.pnAddItem.Size = new System.Drawing.Size(261, 214);
@@ -863,7 +626,6 @@
             this.bnMisc.TabIndex = 93;
             this.bnMisc.Text = "Misc";
             this.bnMisc.UseVisualStyleBackColor = false;
-            this.bnMisc.Click += new System.EventHandler(this.BnMisc_Click);
             // 
             // bnPartyArea
             // 
@@ -875,7 +637,6 @@
             this.bnPartyArea.TabIndex = 92;
             this.bnPartyArea.Text = "Party Area";
             this.bnPartyArea.UseVisualStyleBackColor = false;
-            this.bnPartyArea.Click += new System.EventHandler(this.BnPartyArea_Click);
             // 
             // bnBowl
             // 
@@ -887,7 +648,6 @@
             this.bnBowl.TabIndex = 91;
             this.bnBowl.Text = "Bowling";
             this.bnBowl.UseVisualStyleBackColor = false;
-            this.bnBowl.Click += new System.EventHandler(this.BnBowl_Click);
             // 
             // bnAct
             // 
@@ -900,7 +660,6 @@
             this.bnAct.TabIndex = 90;
             this.bnAct.Text = "Activities";
             this.bnAct.UseVisualStyleBackColor = false;
-            this.bnAct.Click += new System.EventHandler(this.BnAct_Click);
             // 
             // bnArcade
             // 
@@ -912,7 +671,6 @@
             this.bnArcade.TabIndex = 89;
             this.bnArcade.Text = "Arcade";
             this.bnArcade.UseVisualStyleBackColor = false;
-            this.bnArcade.Click += new System.EventHandler(this.BnArcade_Click);
             // 
             // bnMovie
             // 
@@ -924,7 +682,6 @@
             this.bnMovie.TabIndex = 88;
             this.bnMovie.Text = "Movie";
             this.bnMovie.UseVisualStyleBackColor = false;
-            this.bnMovie.Click += new System.EventHandler(this.BnMovie_Click);
             // 
             // bnFood
             // 
@@ -937,19 +694,18 @@
             this.bnFood.TabIndex = 87;
             this.bnFood.Text = "Food";
             this.bnFood.UseVisualStyleBackColor = false;
-            this.bnFood.Click += new System.EventHandler(this.BnFood_Click);
             // 
-            // label2
+            // lblAddItems
             // 
-            this.label2.BackColor = System.Drawing.Color.Aqua;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 8);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(253, 28);
-            this.label2.TabIndex = 86;
-            this.label2.Text = "Additional Items";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAddItems.BackColor = System.Drawing.Color.Aqua;
+            this.lblAddItems.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblAddItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddItems.Location = new System.Drawing.Point(3, 8);
+            this.lblAddItems.Name = "lblAddItems";
+            this.lblAddItems.Size = new System.Drawing.Size(253, 28);
+            this.lblAddItems.TabIndex = 86;
+            this.lblAddItems.Text = "Additional Items";
+            this.lblAddItems.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bnSave
             // 
@@ -1079,47 +835,47 @@
             this.tsmiInvoiceAcct.Size = new System.Drawing.Size(202, 22);
             this.tsmiInvoiceAcct.Text = "Print Accounting Report";
             // 
-            // label4
+            // lblCM
             // 
-            this.label4.Location = new System.Drawing.Point(7, 144);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
-            this.label4.TabIndex = 104;
-            this.label4.Text = "Contact Method";
+            this.lblCM.Location = new System.Drawing.Point(7, 144);
+            this.lblCM.Name = "lblCM";
+            this.lblCM.Size = new System.Drawing.Size(90, 13);
+            this.lblCM.TabIndex = 104;
+            this.lblCM.Text = "Contact Method";
             // 
-            // textBox1
+            // txtCM
             // 
-            this.textBox1.Location = new System.Drawing.Point(105, 141);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 20);
-            this.textBox1.TabIndex = 103;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCM.Location = new System.Drawing.Point(105, 141);
+            this.txtCM.Name = "txtCM";
+            this.txtCM.Size = new System.Drawing.Size(151, 20);
+            this.txtCM.TabIndex = 103;
+            this.txtCM.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label5
+            // lblCell
             // 
-            this.label5.Location = new System.Drawing.Point(7, 92);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 13);
-            this.label5.TabIndex = 106;
-            this.label5.Text = "*Cell Number";
+            this.lblCell.Location = new System.Drawing.Point(7, 92);
+            this.lblCell.Name = "lblCell";
+            this.lblCell.Size = new System.Drawing.Size(90, 13);
+            this.lblCell.TabIndex = 106;
+            this.lblCell.Text = "*Cell Number";
             // 
-            // textBox3
+            // txtCell
             // 
-            this.textBox3.Location = new System.Drawing.Point(105, 89);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 20);
-            this.textBox3.TabIndex = 105;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCell.Location = new System.Drawing.Point(105, 89);
+            this.txtCell.Name = "txtCell";
+            this.txtCell.Size = new System.Drawing.Size(151, 20);
+            this.txtCell.TabIndex = 105;
+            this.txtCell.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BDPackages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1311, 507);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblCell);
+            this.Controls.Add(this.txtCell);
+            this.Controls.Add(this.lblCM);
+            this.Controls.Add(this.txtCM);
             this.Controls.Add(this.bnSave);
             this.Controls.Add(this.pnAddItem);
             this.Controls.Add(this.lbBDPack);
@@ -1128,56 +884,55 @@
             this.Controls.Add(this.bnCreate);
             this.Controls.Add(this.bnClear);
             this.Controls.Add(this.pnPack);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lbDisc);
+            this.Controls.Add(this.lblTShirt);
+            this.Controls.Add(this.txtTShirt);
+            this.Controls.Add(this.lblDisc);
             this.Controls.Add(this.txtDisc);
-            this.Controls.Add(this.lbTtlPaid);
+            this.Controls.Add(this.lblTtlPaid);
             this.Controls.Add(this.txtTtlPaid);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.lblPerGuest);
             this.Controls.Add(this.txtPerGuest);
-            this.Controls.Add(this.lbTtlDue);
+            this.Controls.Add(this.lblTtlDue);
             this.Controls.Add(this.txtTtlDue);
-            this.Controls.Add(this.lbDepPaid);
+            this.Controls.Add(this.lblDepPaid);
             this.Controls.Add(this.txtDepPaid);
-            this.Controls.Add(this.lbDepDue);
+            this.Controls.Add(this.lblDepDue);
             this.Controls.Add(this.txtDepDue);
-            this.Controls.Add(this.lbTtlPrice);
+            this.Controls.Add(this.lblTtlPrice);
             this.Controls.Add(this.txtTtlPrice);
-            this.Controls.Add(this.lbSvcChg);
+            this.Controls.Add(this.lblSvcChg);
             this.Controls.Add(this.txtSvcChg);
-            this.Controls.Add(this.lbTax);
+            this.Controls.Add(this.lblTax);
             this.Controls.Add(this.txtTax);
-            this.Controls.Add(this.lbSub);
+            this.Controls.Add(this.lblSub);
             this.Controls.Add(this.txtSub);
             this.Controls.Add(this.cbHost);
-            this.Controls.Add(this.lbHost);
-            this.Controls.Add(this.lbEnd);
+            this.Controls.Add(this.lblHost);
+            this.Controls.Add(this.lblEnd);
             this.Controls.Add(this.txtEnd);
-            this.Controls.Add(this.lbStart);
+            this.Controls.Add(this.lblStart);
             this.Controls.Add(this.txtStart);
-            this.Controls.Add(this.lbEDate);
+            this.Controls.Add(this.lblEDate);
             this.Controls.Add(this.txtEDate);
-            this.Controls.Add(this.lbGuests);
+            this.Controls.Add(this.lblGuests);
             this.Controls.Add(this.txtGuests);
-            this.Controls.Add(this.lbAge);
+            this.Controls.Add(this.lblAge);
             this.Controls.Add(this.txtAge);
-            this.Controls.Add(this.lbGOH);
+            this.Controls.Add(this.lblGOH);
             this.Controls.Add(this.txtGOH);
-            this.Controls.Add(this.lbEmail);
+            this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.lbPhone);
+            this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.txtPhone);
-            this.Controls.Add(this.lbName);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "BDPackages";
             this.Text = "TSGS Birthday Packages";
-            this.Load += new System.EventHandler(this.BDPackages2_Load);
+            this.Load += new System.EventHandler(this.BDPackages_Load);
             this.pnPack.ResumeLayout(false);
-            this.pnPack.PerformLayout();
             this.pnAddItem.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -1188,78 +943,60 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label lbDisc;
+        private System.Windows.Forms.Label lblTShirt;
+        private System.Windows.Forms.TextBox txtTShirt;
+        private System.Windows.Forms.Label lblDisc;
         private System.Windows.Forms.TextBox txtDisc;
-        private System.Windows.Forms.Label lbTtlPaid;
+        private System.Windows.Forms.Label lblTtlPaid;
         private System.Windows.Forms.TextBox txtTtlPaid;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblPerGuest;
         private System.Windows.Forms.TextBox txtPerGuest;
-        private System.Windows.Forms.Label lbTtlDue;
+        private System.Windows.Forms.Label lblTtlDue;
         private System.Windows.Forms.TextBox txtTtlDue;
-        private System.Windows.Forms.Label lbDepPaid;
+        private System.Windows.Forms.Label lblDepPaid;
         private System.Windows.Forms.TextBox txtDepPaid;
-        private System.Windows.Forms.Label lbDepDue;
+        private System.Windows.Forms.Label lblDepDue;
         private System.Windows.Forms.TextBox txtDepDue;
-        private System.Windows.Forms.Label lbTtlPrice;
+        private System.Windows.Forms.Label lblTtlPrice;
         private System.Windows.Forms.TextBox txtTtlPrice;
-        private System.Windows.Forms.Label lbSvcChg;
+        private System.Windows.Forms.Label lblSvcChg;
         private System.Windows.Forms.TextBox txtSvcChg;
-        private System.Windows.Forms.Label lbTax;
+        private System.Windows.Forms.Label lblTax;
         private System.Windows.Forms.TextBox txtTax;
-        private System.Windows.Forms.Label lbSub;
+        private System.Windows.Forms.Label lblSub;
         private System.Windows.Forms.TextBox txtSub;
         private System.Windows.Forms.ComboBox cbHost;
-        private System.Windows.Forms.Label lbHost;
-        private System.Windows.Forms.Label lbEnd;
+        private System.Windows.Forms.Label lblHost;
+        private System.Windows.Forms.Label lblEnd;
         private System.Windows.Forms.TextBox txtEnd;
-        private System.Windows.Forms.Label lbStart;
+        private System.Windows.Forms.Label lblStart;
         private System.Windows.Forms.TextBox txtStart;
-        private System.Windows.Forms.Label lbEDate;
+        private System.Windows.Forms.Label lblEDate;
         private System.Windows.Forms.TextBox txtEDate;
-        private System.Windows.Forms.Label lbGuests;
+        private System.Windows.Forms.Label lblGuests;
         private System.Windows.Forms.TextBox txtGuests;
-        private System.Windows.Forms.Label lbAge;
+        private System.Windows.Forms.Label lblAge;
         private System.Windows.Forms.TextBox txtAge;
-        private System.Windows.Forms.Label lbGOH;
+        private System.Windows.Forms.Label lblGOH;
         private System.Windows.Forms.TextBox txtGOH;
-        private System.Windows.Forms.Label lbEmail;
+        private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.Label lbPhone;
+        private System.Windows.Forms.Label lblPhone;
         private System.Windows.Forms.TextBox txtPhone;
-        private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Panel pnPack;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtCustomAG;
-        private System.Windows.Forms.TextBox txtActionAG;
-        private System.Windows.Forms.TextBox txtBowlAG;
-        private System.Windows.Forms.TextBox txtArcadeAG;
-        private System.Windows.Forms.TextBox txtMovieAG;
-        private System.Windows.Forms.TextBox txtBasicAG;
-        private System.Windows.Forms.Label lbBDAddGuest;
-        private System.Windows.Forms.TextBox txtCustomPr;
-        private System.Windows.Forms.TextBox txtActionPr;
-        private System.Windows.Forms.TextBox txtBowlPr;
-        private System.Windows.Forms.TextBox txtArcadePr;
-        private System.Windows.Forms.TextBox txtMoviePr;
-        private System.Windows.Forms.TextBox txtBasicPr;
-        private System.Windows.Forms.Label lbBDPrice;
-        private System.Windows.Forms.RadioButton rbCustom;
-        private System.Windows.Forms.RadioButton rbBasic;
-        private System.Windows.Forms.RadioButton rbAction;
-        private System.Windows.Forms.RadioButton rbBowling;
-        private System.Windows.Forms.RadioButton rbArcade;
-        private System.Windows.Forms.RadioButton rbMovie;
-        private System.Windows.Forms.Label lbBDType;
+        private System.Windows.Forms.Label lblPackages;
+        private System.Windows.Forms.Label lblBDAddGuest;
+        private System.Windows.Forms.Label lblBDPrice;
+        private System.Windows.Forms.Label lblBDType;
         private System.Windows.Forms.Button bnEmail;
         private System.Windows.Forms.Button bnPrint;
         private System.Windows.Forms.Button bnCreate;
         private System.Windows.Forms.Button bnClear;
         private System.Windows.Forms.ListBox lbBDPack;
         private System.Windows.Forms.Panel pnAddItem;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblAddItems;
         private System.Windows.Forms.Button bnNotes;
         private System.Windows.Forms.Button bnMisc;
         private System.Windows.Forms.Button bnPartyArea;
@@ -1285,9 +1022,9 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiInvoicePrint;
         private System.Windows.Forms.ToolStripMenuItem tsmiInvoiceEmail;
         private System.Windows.Forms.ToolStripMenuItem tsmiInvoiceAcct;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblCM;
+        private System.Windows.Forms.TextBox txtCM;
+        private System.Windows.Forms.Label lblCell;
+        private System.Windows.Forms.TextBox txtCell;
     }
 }

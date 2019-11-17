@@ -12,9 +12,17 @@ namespace MBECSharp
 {
     public partial class Food : Form
     {
-        public Food()
+        int PID;
+
+        public Food(int id)
         {
             InitializeComponent();
+            PID = id;
+        }
+
+        private void Food_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

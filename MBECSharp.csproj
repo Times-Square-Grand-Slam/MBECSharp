@@ -113,6 +113,7 @@
     <Compile Include="Bowling.Designer.cs">
       <DependentUpon>Bowling.cs</DependentUpon>
     </Compile>
+    <Compile Include="classAddItems.cs" />
     <Compile Include="classPackage.cs" />
     <Compile Include="Food.cs">
       <SubType>Form</SubType>
@@ -160,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food.resx">
+      <DependentUpon>Food.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
