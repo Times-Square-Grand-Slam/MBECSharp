@@ -33,8 +33,6 @@
             this.txtTShirt = new System.Windows.Forms.TextBox();
             this.lblDisc = new System.Windows.Forms.Label();
             this.txtDisc = new System.Windows.Forms.TextBox();
-            this.lblTtlPaid = new System.Windows.Forms.Label();
-            this.txtTtlPaid = new System.Windows.Forms.TextBox();
             this.lblPerGuest = new System.Windows.Forms.Label();
             this.txtPerGuest = new System.Windows.Forms.TextBox();
             this.lblTtlDue = new System.Windows.Forms.Label();
@@ -112,6 +110,10 @@
             this.txtCM = new System.Windows.Forms.TextBox();
             this.lblCell = new System.Windows.Forms.Label();
             this.txtCell = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblGOHCard = new System.Windows.Forms.Label();
+            this.txtGOHCard = new System.Windows.Forms.TextBox();
             this.pnPack.SuspendLayout();
             this.pnAddItem.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -119,7 +121,7 @@
             // 
             // lblTShirt
             // 
-            this.lblTShirt.Location = new System.Drawing.Point(267, 169);
+            this.lblTShirt.Location = new System.Drawing.Point(267, 144);
             this.lblTShirt.Name = "lblTShirt";
             this.lblTShirt.Size = new System.Drawing.Size(84, 13);
             this.lblTShirt.TabIndex = 92;
@@ -127,49 +129,32 @@
             // 
             // txtTShirt
             // 
-            this.txtTShirt.Location = new System.Drawing.Point(357, 166);
+            this.txtTShirt.Location = new System.Drawing.Point(357, 141);
             this.txtTShirt.Name = "txtTShirt";
             this.txtTShirt.Size = new System.Drawing.Size(151, 20);
-            this.txtTShirt.TabIndex = 91;
+            this.txtTShirt.TabIndex = 11;
             this.txtTShirt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblDisc
             // 
-            this.lblDisc.Location = new System.Drawing.Point(7, 222);
+            this.lblDisc.Location = new System.Drawing.Point(7, 248);
             this.lblDisc.Name = "lblDisc";
-            this.lblDisc.Size = new System.Drawing.Size(90, 13);
+            this.lblDisc.Size = new System.Drawing.Size(84, 13);
             this.lblDisc.TabIndex = 90;
             this.lblDisc.Text = "Discount";
             // 
             // txtDisc
             // 
-            this.txtDisc.Location = new System.Drawing.Point(105, 219);
+            this.txtDisc.Location = new System.Drawing.Point(105, 245);
             this.txtDisc.Name = "txtDisc";
             this.txtDisc.Size = new System.Drawing.Size(151, 20);
             this.txtDisc.TabIndex = 89;
             this.txtDisc.TabStop = false;
             this.txtDisc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lblTtlPaid
-            // 
-            this.lblTtlPaid.Location = new System.Drawing.Point(531, 222);
-            this.lblTtlPaid.Name = "lblTtlPaid";
-            this.lblTtlPaid.Size = new System.Drawing.Size(80, 13);
-            this.lblTtlPaid.TabIndex = 88;
-            this.lblTtlPaid.Text = "Total Paid";
-            // 
-            // txtTtlPaid
-            // 
-            this.txtTtlPaid.Location = new System.Drawing.Point(621, 219);
-            this.txtTtlPaid.Name = "txtTtlPaid";
-            this.txtTtlPaid.Size = new System.Drawing.Size(151, 20);
-            this.txtTtlPaid.TabIndex = 87;
-            this.txtTtlPaid.TabStop = false;
-            this.txtTtlPaid.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // lblPerGuest
             // 
-            this.lblPerGuest.Location = new System.Drawing.Point(267, 222);
+            this.lblPerGuest.Location = new System.Drawing.Point(531, 248);
             this.lblPerGuest.Name = "lblPerGuest";
             this.lblPerGuest.Size = new System.Drawing.Size(84, 13);
             this.lblPerGuest.TabIndex = 86;
@@ -178,7 +163,7 @@
             // txtPerGuest
             // 
             this.txtPerGuest.BackColor = System.Drawing.Color.Snow;
-            this.txtPerGuest.Location = new System.Drawing.Point(357, 219);
+            this.txtPerGuest.Location = new System.Drawing.Point(621, 245);
             this.txtPerGuest.Name = "txtPerGuest";
             this.txtPerGuest.ReadOnly = true;
             this.txtPerGuest.Size = new System.Drawing.Size(151, 20);
@@ -192,7 +177,7 @@
             this.lblTtlDue.Name = "lblTtlDue";
             this.lblTtlDue.Size = new System.Drawing.Size(80, 13);
             this.lblTtlDue.TabIndex = 84;
-            this.lblTtlDue.Text = "Total Due";
+            this.lblTtlDue.Text = "Amount Due";
             // 
             // txtTtlDue
             // 
@@ -211,7 +196,7 @@
             this.lblDepPaid.Name = "lblDepPaid";
             this.lblDepPaid.Size = new System.Drawing.Size(80, 13);
             this.lblDepPaid.TabIndex = 82;
-            this.lblDepPaid.Text = "Deposit Paid";
+            this.lblDepPaid.Text = "Amount Paid";
             // 
             // txtDepPaid
             // 
@@ -320,15 +305,16 @@
             // cbHost
             // 
             this.cbHost.FormattingEnabled = true;
-            this.cbHost.Location = new System.Drawing.Point(357, 140);
+            this.cbHost.Location = new System.Drawing.Point(357, 245);
             this.cbHost.Name = "cbHost";
             this.cbHost.Size = new System.Drawing.Size(151, 21);
             this.cbHost.TabIndex = 64;
+            this.cbHost.TabStop = false;
             this.cbHost.Text = "Select from List";
             // 
             // lblHost
             // 
-            this.lblHost.Location = new System.Drawing.Point(267, 143);
+            this.lblHost.Location = new System.Drawing.Point(267, 248);
             this.lblHost.Name = "lblHost";
             this.lblHost.Size = new System.Drawing.Size(84, 13);
             this.lblHost.TabIndex = 70;
@@ -365,7 +351,7 @@
             this.txtStart.Location = new System.Drawing.Point(357, 63);
             this.txtStart.Name = "txtStart";
             this.txtStart.Size = new System.Drawing.Size(151, 20);
-            this.txtStart.TabIndex = 60;
+            this.txtStart.TabIndex = 9;
             this.txtStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblEDate
@@ -381,7 +367,7 @@
             this.txtEDate.Location = new System.Drawing.Point(357, 37);
             this.txtEDate.Name = "txtEDate";
             this.txtEDate.Size = new System.Drawing.Size(151, 20);
-            this.txtEDate.TabIndex = 58;
+            this.txtEDate.TabIndex = 8;
             this.txtEDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblGuests
@@ -397,8 +383,9 @@
             this.txtGuests.Location = new System.Drawing.Point(357, 115);
             this.txtGuests.Name = "txtGuests";
             this.txtGuests.Size = new System.Drawing.Size(151, 20);
-            this.txtGuests.TabIndex = 57;
+            this.txtGuests.TabIndex = 10;
             this.txtGuests.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGuests.TextChanged += new System.EventHandler(this.TxtGuests_TextChanged);
             this.txtGuests.Enter += new System.EventHandler(this.TxtGuests_Enter);
             this.txtGuests.Leave += new System.EventHandler(this.TxtGuests_Leave);
             // 
@@ -415,7 +402,7 @@
             this.txtAge.Location = new System.Drawing.Point(105, 193);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(151, 20);
-            this.txtAge.TabIndex = 55;
+            this.txtAge.TabIndex = 7;
             this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblGOH
@@ -431,7 +418,7 @@
             this.txtGOH.Location = new System.Drawing.Point(105, 167);
             this.txtGOH.Name = "txtGOH";
             this.txtGOH.Size = new System.Drawing.Size(151, 20);
-            this.txtGOH.TabIndex = 54;
+            this.txtGOH.TabIndex = 6;
             this.txtGOH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblEmail
@@ -447,7 +434,7 @@
             this.txtEmail.Location = new System.Drawing.Point(105, 115);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(151, 20);
-            this.txtEmail.TabIndex = 52;
+            this.txtEmail.TabIndex = 4;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblPhone
@@ -463,7 +450,7 @@
             this.txtPhone.Location = new System.Drawing.Point(105, 63);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(151, 20);
-            this.txtPhone.TabIndex = 51;
+            this.txtPhone.TabIndex = 2;
             this.txtPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblName
@@ -479,7 +466,7 @@
             this.txtName.Location = new System.Drawing.Point(105, 37);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(151, 20);
-            this.txtName.TabIndex = 49;
+            this.txtName.TabIndex = 1;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // pnPack
@@ -489,7 +476,7 @@
             this.pnPack.Controls.Add(this.lblBDAddGuest);
             this.pnPack.Controls.Add(this.lblBDPrice);
             this.pnPack.Controls.Add(this.lblBDType);
-            this.pnPack.Location = new System.Drawing.Point(10, 257);
+            this.pnPack.Location = new System.Drawing.Point(10, 281);
             this.pnPack.Name = "pnPack";
             this.pnPack.Size = new System.Drawing.Size(315, 70);
             this.pnPack.TabIndex = 93;
@@ -539,10 +526,10 @@
             // 
             this.bnEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bnEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnEmail.Location = new System.Drawing.Point(357, 442);
+            this.bnEmail.Location = new System.Drawing.Point(357, 466);
             this.bnEmail.Name = "bnEmail";
             this.bnEmail.Size = new System.Drawing.Size(122, 46);
-            this.bnEmail.TabIndex = 97;
+            this.bnEmail.TabIndex = 104;
             this.bnEmail.Text = "Email Customer Invoice";
             this.bnEmail.UseVisualStyleBackColor = false;
             // 
@@ -550,10 +537,10 @@
             // 
             this.bnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.bnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnPrint.Location = new System.Drawing.Point(357, 390);
+            this.bnPrint.Location = new System.Drawing.Point(357, 414);
             this.bnPrint.Name = "bnPrint";
             this.bnPrint.Size = new System.Drawing.Size(122, 46);
-            this.bnPrint.TabIndex = 96;
+            this.bnPrint.TabIndex = 103;
             this.bnPrint.Text = "Print Customer Invoice";
             this.bnPrint.UseVisualStyleBackColor = false;
             // 
@@ -561,10 +548,10 @@
             // 
             this.bnCreate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.bnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnCreate.Location = new System.Drawing.Point(357, 338);
+            this.bnCreate.Location = new System.Drawing.Point(357, 362);
             this.bnCreate.Name = "bnCreate";
             this.bnCreate.Size = new System.Drawing.Size(122, 46);
-            this.bnCreate.TabIndex = 95;
+            this.bnCreate.TabIndex = 102;
             this.bnCreate.Text = "Create Customer Invoice";
             this.bnCreate.UseVisualStyleBackColor = false;
             // 
@@ -572,10 +559,10 @@
             // 
             this.bnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.bnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnClear.Location = new System.Drawing.Point(357, 302);
+            this.bnClear.Location = new System.Drawing.Point(357, 326);
             this.bnClear.Name = "bnClear";
             this.bnClear.Size = new System.Drawing.Size(122, 30);
-            this.bnClear.TabIndex = 94;
+            this.bnClear.TabIndex = 101;
             this.bnClear.Text = "Clear Package";
             this.bnClear.UseVisualStyleBackColor = false;
             // 
@@ -584,7 +571,7 @@
             this.lbBDPack.FormattingEnabled = true;
             this.lbBDPack.Location = new System.Drawing.Point(778, 37);
             this.lbBDPack.Name = "lbBDPack";
-            this.lbBDPack.Size = new System.Drawing.Size(526, 459);
+            this.lbBDPack.Size = new System.Drawing.Size(462, 459);
             this.lbBDPack.TabIndex = 99;
             // 
             // pnAddItem
@@ -599,7 +586,7 @@
             this.pnAddItem.Controls.Add(this.bnMovie);
             this.pnAddItem.Controls.Add(this.bnFood);
             this.pnAddItem.Controls.Add(this.lblAddItems);
-            this.pnAddItem.Location = new System.Drawing.Point(511, 257);
+            this.pnAddItem.Location = new System.Drawing.Point(511, 281);
             this.pnAddItem.Name = "pnAddItem";
             this.pnAddItem.Size = new System.Drawing.Size(261, 214);
             this.pnAddItem.TabIndex = 100;
@@ -611,7 +598,7 @@
             this.bnNotes.Location = new System.Drawing.Point(130, 169);
             this.bnNotes.Name = "bnNotes";
             this.bnNotes.Size = new System.Drawing.Size(126, 36);
-            this.bnNotes.TabIndex = 94;
+            this.bnNotes.TabIndex = 67;
             this.bnNotes.Text = "Party Notes";
             this.bnNotes.UseVisualStyleBackColor = false;
             // 
@@ -623,7 +610,7 @@
             this.bnMisc.Location = new System.Drawing.Point(3, 169);
             this.bnMisc.Name = "bnMisc";
             this.bnMisc.Size = new System.Drawing.Size(126, 36);
-            this.bnMisc.TabIndex = 93;
+            this.bnMisc.TabIndex = 66;
             this.bnMisc.Text = "Misc";
             this.bnMisc.UseVisualStyleBackColor = false;
             // 
@@ -634,7 +621,7 @@
             this.bnPartyArea.Location = new System.Drawing.Point(130, 127);
             this.bnPartyArea.Name = "bnPartyArea";
             this.bnPartyArea.Size = new System.Drawing.Size(126, 36);
-            this.bnPartyArea.TabIndex = 92;
+            this.bnPartyArea.TabIndex = 65;
             this.bnPartyArea.Text = "Party Area";
             this.bnPartyArea.UseVisualStyleBackColor = false;
             // 
@@ -645,7 +632,7 @@
             this.bnBowl.Location = new System.Drawing.Point(3, 85);
             this.bnBowl.Name = "bnBowl";
             this.bnBowl.Size = new System.Drawing.Size(126, 36);
-            this.bnBowl.TabIndex = 91;
+            this.bnBowl.TabIndex = 62;
             this.bnBowl.Text = "Bowling";
             this.bnBowl.UseVisualStyleBackColor = false;
             // 
@@ -657,7 +644,7 @@
             this.bnAct.Location = new System.Drawing.Point(3, 127);
             this.bnAct.Name = "bnAct";
             this.bnAct.Size = new System.Drawing.Size(126, 36);
-            this.bnAct.TabIndex = 90;
+            this.bnAct.TabIndex = 64;
             this.bnAct.Text = "Activities";
             this.bnAct.UseVisualStyleBackColor = false;
             // 
@@ -668,7 +655,7 @@
             this.bnArcade.Location = new System.Drawing.Point(130, 85);
             this.bnArcade.Name = "bnArcade";
             this.bnArcade.Size = new System.Drawing.Size(126, 36);
-            this.bnArcade.TabIndex = 89;
+            this.bnArcade.TabIndex = 63;
             this.bnArcade.Text = "Arcade";
             this.bnArcade.UseVisualStyleBackColor = false;
             // 
@@ -679,7 +666,7 @@
             this.bnMovie.Location = new System.Drawing.Point(130, 43);
             this.bnMovie.Name = "bnMovie";
             this.bnMovie.Size = new System.Drawing.Size(126, 36);
-            this.bnMovie.TabIndex = 88;
+            this.bnMovie.TabIndex = 61;
             this.bnMovie.Text = "Movie";
             this.bnMovie.UseVisualStyleBackColor = false;
             // 
@@ -691,9 +678,10 @@
             this.bnFood.Location = new System.Drawing.Point(3, 43);
             this.bnFood.Name = "bnFood";
             this.bnFood.Size = new System.Drawing.Size(126, 36);
-            this.bnFood.TabIndex = 87;
+            this.bnFood.TabIndex = 60;
             this.bnFood.Text = "Food";
             this.bnFood.UseVisualStyleBackColor = false;
+            this.bnFood.Click += new System.EventHandler(this.BnFood_Click);
             // 
             // lblAddItems
             // 
@@ -711,10 +699,10 @@
             // 
             this.bnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.bnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnSave.Location = new System.Drawing.Point(357, 264);
+            this.bnSave.Location = new System.Drawing.Point(357, 288);
             this.bnSave.Name = "bnSave";
             this.bnSave.Size = new System.Drawing.Size(122, 30);
-            this.bnSave.TabIndex = 101;
+            this.bnSave.TabIndex = 100;
             this.bnSave.Text = "Save Event";
             this.bnSave.UseVisualStyleBackColor = false;
             // 
@@ -726,7 +714,7 @@
             this.tsmiInvoice});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1311, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1244, 24);
             this.menuStrip1.TabIndex = 102;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -848,7 +836,7 @@
             this.txtCM.Location = new System.Drawing.Point(105, 141);
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(151, 20);
-            this.txtCM.TabIndex = 103;
+            this.txtCM.TabIndex = 5;
             this.txtCM.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblCell
@@ -864,14 +852,50 @@
             this.txtCell.Location = new System.Drawing.Point(105, 89);
             this.txtCell.Name = "txtCell";
             this.txtCell.Size = new System.Drawing.Size(151, 20);
-            this.txtCell.TabIndex = 105;
+            this.txtCell.TabIndex = 3;
             this.txtCell.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(267, 196);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.TabIndex = 108;
+            this.label1.Text = "Wristband Color";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(357, 193);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(151, 20);
+            this.textBox1.TabIndex = 13;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lblGOHCard
+            // 
+            this.lblGOHCard.Location = new System.Drawing.Point(267, 170);
+            this.lblGOHCard.Name = "lblGOHCard";
+            this.lblGOHCard.Size = new System.Drawing.Size(84, 13);
+            this.lblGOHCard.TabIndex = 110;
+            this.lblGOHCard.Text = "GOH Card #";
+            // 
+            // txtGOHCard
+            // 
+            this.txtGOHCard.Location = new System.Drawing.Point(357, 167);
+            this.txtGOHCard.Name = "txtGOHCard";
+            this.txtGOHCard.Size = new System.Drawing.Size(151, 20);
+            this.txtGOHCard.TabIndex = 12;
+            this.txtGOHCard.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BDPackages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1311, 507);
+            this.ClientSize = new System.Drawing.Size(1244, 559);
+            this.Controls.Add(this.lblGOHCard);
+            this.Controls.Add(this.txtGOHCard);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblCell);
             this.Controls.Add(this.txtCell);
             this.Controls.Add(this.lblCM);
@@ -888,8 +912,6 @@
             this.Controls.Add(this.txtTShirt);
             this.Controls.Add(this.lblDisc);
             this.Controls.Add(this.txtDisc);
-            this.Controls.Add(this.lblTtlPaid);
-            this.Controls.Add(this.txtTtlPaid);
             this.Controls.Add(this.lblPerGuest);
             this.Controls.Add(this.txtPerGuest);
             this.Controls.Add(this.lblTtlDue);
@@ -947,8 +969,6 @@
         private System.Windows.Forms.TextBox txtTShirt;
         private System.Windows.Forms.Label lblDisc;
         private System.Windows.Forms.TextBox txtDisc;
-        private System.Windows.Forms.Label lblTtlPaid;
-        private System.Windows.Forms.TextBox txtTtlPaid;
         private System.Windows.Forms.Label lblPerGuest;
         private System.Windows.Forms.TextBox txtPerGuest;
         private System.Windows.Forms.Label lblTtlDue;
@@ -1026,5 +1046,9 @@
         private System.Windows.Forms.TextBox txtCM;
         private System.Windows.Forms.Label lblCell;
         private System.Windows.Forms.TextBox txtCell;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lblGOHCard;
+        private System.Windows.Forms.TextBox txtGOHCard;
     }
 }

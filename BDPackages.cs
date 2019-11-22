@@ -31,7 +31,7 @@ namespace MBECSharp
 
         private void BnFood_Click(object sender, EventArgs e)
         {
-            new Food(id).Show();
+            new Food().Show();
         }
 
         private void BnMovie_Click(object sender, EventArgs e)
@@ -116,7 +116,8 @@ namespace MBECSharp
                 rdo.Text = reader["Title"].ToString();
                 rdo.Location = new Point(11, 40 + (28 * iCnt));
                 rdo.Size = new Size(79, 22);
-                rdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+                rdo.TabIndex = 20 + iCnt;
+                rdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(colorPicker.CP[iCnt-1,0])))), ((int)(((byte)(colorPicker.CP[iCnt - 1,1])))), ((int)(((byte)(colorPicker.CP[iCnt - 1,2])))));
                 rdo.CheckedChanged += radioButton_CheckedChanged;
 
                 //Add textbox for package price
@@ -229,7 +230,6 @@ namespace MBECSharp
             double dbTtlPrice;
             double dbDepDue;
             double dbDepPaid;
-            double dbTtlPaid;
             double dbTtlDue;
             double dbPerGuest;
 
@@ -290,7 +290,7 @@ namespace MBECSharp
             //Set deposit due
             dbDepDue = Math.Round(dbTtlPrice / 2, 2);
 
-            //Get amount of deposit that was paid
+            //Get amount that was paid
             if (txtDepPaid.TextLength > 0)
             {
                 dbDepPaid = Math.Round(Convert.ToDouble(txtDepPaid.Text), 2);
@@ -300,18 +300,8 @@ namespace MBECSharp
                 dbDepPaid = 0;
             }
 
-            //Get amount paid
-            if (txtTtlPaid.TextLength > 0)
-            {
-                dbTtlPaid = Math.Round(Convert.ToDouble(txtTtlPaid.Text), 2);
-            }
-            else
-            {
-                dbTtlPaid = 0;
-            }
-
             //Set total still due
-            dbTtlDue = dbTtlPrice - dbDepPaid - dbTtlPaid;
+            dbTtlDue = dbTtlPrice - dbDepPaid;
 
             //Set amount per guest
             dbPerGuest = Math.Round(dbTtlPrice / cntGuest, 2);
@@ -329,7 +319,6 @@ namespace MBECSharp
             txtDepDue.Text = String.Format("{0:N2}", dbDepDue);
             txtDepPaid.Text = String.Format("{0:N2}", dbDepPaid);
             txtTtlDue.Text = String.Format("{0:N2}", dbTtlDue);
-            txtTtlPaid.Text = String.Format("{0:N2}", dbTtlPaid);
             txtPerGuest.Text = String.Format("{0:N2}", dbPerGuest);
         }
 
@@ -342,7 +331,6 @@ namespace MBECSharp
             double dbTtlPrice;
             double dbDepDue;
             double dbDepPaid;
-            double dbTtlPaid;
             double dbTtlDue;
             double dbPerGuest;
 
@@ -384,7 +372,7 @@ namespace MBECSharp
                 dbPerGuest = 0;
             }
 
-            //Get amount of deposit that was paid
+            //Get amount that was paid
             if (txtDepPaid.TextLength > 0)
             {
                 dbDepPaid = Convert.ToDouble(txtDepPaid.Text);
@@ -394,18 +382,8 @@ namespace MBECSharp
                 dbDepPaid = 0;
             }
 
-            //Get amount paid
-            if (txtTtlPaid.TextLength > 0)
-            {
-                dbTtlPaid = Convert.ToDouble(txtTtlPaid.Text.Substring(1));
-            }
-            else
-            {
-                dbTtlPaid = 0;
-            }
-
             //Set total still due
-            dbTtlDue = dbTtlPrice - dbDepPaid - dbTtlPaid;
+            dbTtlDue = dbTtlPrice - dbDepPaid;
 
             //Update textboxes
             txtSvcChg.Text = String.Format("{0:N2}", dbSvc);
@@ -413,12 +391,15 @@ namespace MBECSharp
             txtDepDue.Text = String.Format("{0:N2}", dbDepDue);
             txtDepPaid.Text = String.Format("{0:N2}", dbDepPaid);
             txtTtlDue.Text = String.Format("{0:N2}", dbTtlDue);
-            txtTtlPaid.Text = String.Format("{0:N2}", dbTtlPaid);
             txtPerGuest.Text = String.Format("{0:N2}", dbPerGuest);
         }
 
         private void TxtGuests_Leave(object sender, EventArgs e)
         {
+            if(Convert.ToInt32(txtGuests.Text) < 10)
+            {
+                txtGuests.Text = "10";
+            }
             if (rboChecked && txtGuests.Text != nbrGuest)
             {
                 removeAmts();
@@ -504,6 +485,11 @@ namespace MBECSharp
             reader.Close();
             sqlstr.Dispose();
             conn.Close();
+        }
+
+        private void TxtGuests_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
