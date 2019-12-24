@@ -101,6 +101,12 @@
     <Compile Include="Area.Designer.cs">
       <DependentUpon>Area.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBirthday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBirthday.Designer.cs">
+      <DependentUpon>frmBirthday.cs</DependentUpon>
+    </Compile>
     <Compile Include="BDPackages.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,11 +121,11 @@
     </Compile>
     <Compile Include="classAddItems.cs" />
     <Compile Include="classPackage.cs" />
-    <Compile Include="Food.cs">
+    <Compile Include="Items.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Food.Designer.cs">
-      <DependentUpon>Food.cs</DependentUpon>
+    <Compile Include="Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
     </Compile>
     <Compile Include="CalendarView.cs">
       <SubType>Form</SubType>
@@ -153,6 +159,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBirthday.resx">
+      <DependentUpon>frmBirthday.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BDPackages.resx">
       <DependentUpon>BDPackages.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,8 +171,8 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Food.resx">
-      <DependentUpon>Food.cs</DependentUpon>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>

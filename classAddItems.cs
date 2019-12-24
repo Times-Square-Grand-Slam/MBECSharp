@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MBECSharp
+﻿namespace MBECSharp
 {
     static class AdditionalItems
     {
-        public static string[] Item;
-        public static string[] Descr;
-        public static int[] id;
-        public static int[] addItemID;
-        public static int[] AlctType;
-        public static double[] Cost;
-        public static string[] Taxable;
-        public static double[] Tax;
-        public static int[] Nbr;
+        public static string[] Item;        //Short description
+        public static string[] Descr;       //Long description
+        public static int[] id;             //Item ID
+        public static int[] AlctType;       //Allication ID
+        public static double[] Cost;        //Cost of item
+        public static string[] Taxable;     //If item is taxable
+        public static double[] Tax;         //Amount of tax on item
+        public static int[] Nbr;            //Number of items
+        public static string[] Food;        //Food items
+        public static int aiCnt;            //Number of additional items selected
     }
 
     static class colorPicker

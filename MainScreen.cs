@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MBECSharp
@@ -19,17 +12,18 @@ namespace MBECSharp
 
         private void btBDPack_Click(object sender, EventArgs e)
         {
-            Form fmBD = Application.OpenForms["BDPackages"];
+            //Form fmBD = Application.OpenForms["BDPackages"];
+            Form fmBD = Application.OpenForms["frmBirthday"];
             if (fmBD != null)
             {
                 if (fmBD.WindowState == FormWindowState.Minimized)
-                    fmBD.WindowState = FormWindowState.Normal;
+                    fmBD.WindowState = FormWindowState.Maximized;
 
                 fmBD.BringToFront();
             }
             else
             {
-                new BDPackages().Show();
+                new frmBirthday().Show();
             }
         }
 
@@ -46,7 +40,7 @@ namespace MBECSharp
             else
             {
                 new CalendarView().Show();
-            }            
+            }
         }
 
         private void btExit_Click(object sender, EventArgs e)
@@ -56,7 +50,7 @@ namespace MBECSharp
 
         private void btCorpPack_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.OleDb;
-using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
 
 namespace MBECSharp
@@ -25,43 +18,17 @@ namespace MBECSharp
         {
             InitializeComponent();
             conn.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;" +
-                                    @"Data Source=\\TSSERVER\serverfolders\IT\IT Staff\Phil Darden\MBECSharp\Events.accdb;" +
+                                    @"Data Source=\\10.0.20.15\serverfolders\IT\IT Staff\Phil Darden\MBECSharp\Events.accdb;" +
                                     @"Persist Security Info=False;";
         }
 
-        private void BnFood_Click(object sender, EventArgs e)
+        private void Btn_Click(object sender, EventArgs e)
         {
-            new Food().Show();
-        }
-
-        private void BnMovie_Click(object sender, EventArgs e)
-        {
-            new Movie().Show();
-        }
-
-        private void BnBowl_Click(object sender, EventArgs e)
-        {
-            new Bowling().Show();
-        }
-
-        private void BnArcade_Click(object sender, EventArgs e)
-        {
-            new Arcade().Show();
-        }
-
-        private void BnAct_Click(object sender, EventArgs e)
-        {
-            new Activities().Show();
-        }
-
-        private void BnPartyArea_Click(object sender, EventArgs e)
-        {
-            new Area().Show();
-        }
-
-        private void BnMisc_Click(object sender, EventArgs e)
-        {
-            new Misc().Show();
+            Button btn = sender as Button;
+            string strName = btn.Text;
+            Items.hdrColor = btn.BackColor;
+            Items.hdrFont = btn.ForeColor;
+            new Items(strName).Show();
         }
 
         private void BDPackages_Load(object sender, EventArgs e)
@@ -86,7 +53,6 @@ namespace MBECSharp
             AdditionalItems.Item = new string[iCnt];
             AdditionalItems.Descr = new string[iCnt];
             AdditionalItems.id = new int[iCnt];
-            AdditionalItems.addItemID = new int[iCnt];
             AdditionalItems.AlctType = new int[iCnt];
             AdditionalItems.Cost = new double[iCnt];
             AdditionalItems.Taxable = new string[iCnt];
@@ -117,7 +83,7 @@ namespace MBECSharp
                 rdo.Location = new Point(11, 40 + (28 * iCnt));
                 rdo.Size = new Size(79, 22);
                 rdo.TabIndex = 20 + iCnt;
-                rdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(colorPicker.CP[iCnt-1,0])))), ((int)(((byte)(colorPicker.CP[iCnt - 1,1])))), ((int)(((byte)(colorPicker.CP[iCnt - 1,2])))));
+                rdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(colorPicker.CP[iCnt - 1, 0])))), ((int)(((byte)(colorPicker.CP[iCnt - 1, 1])))), ((int)(((byte)(colorPicker.CP[iCnt - 1, 2])))));
                 rdo.CheckedChanged += radioButton_CheckedChanged;
 
                 //Add textbox for package price
@@ -145,13 +111,30 @@ namespace MBECSharp
             }
             reader.Close();
 
-            //Add host/hostest names to dropdown
+            //Add host/host names to dropdown
             sql = "SELECT * FROM EventHost";
             sqlstr.CommandText = sql;
             reader = sqlstr.ExecuteReader();
             while (reader.Read())
             {
                 cbHost.Items.Add(reader["FName"].ToString() + " " + reader["LName"].ToString());
+            }
+            reader.Close();
+
+            //Add contacts
+            sql = "SELECT * FROM ContactInfo";
+            sqlstr.CommandText = sql;
+            reader = sqlstr.ExecuteReader();
+            while (reader.Read())
+            {
+                if (reader["Organization"].ToString() == null)
+                {
+                    cbContactName.Items.Add(reader["CName"].ToString());
+                }
+                else
+                {
+                    cbContactName.Items.Add(reader["CName"].ToString() + " - " + reader["Organization"].ToString());
+                }
             }
             reader.Close();
             sqlstr.Dispose();
@@ -396,7 +379,7 @@ namespace MBECSharp
 
         private void TxtGuests_Leave(object sender, EventArgs e)
         {
-            if(Convert.ToInt32(txtGuests.Text) < 10)
+            if (Convert.ToInt32(txtGuests.Text) < 10)
             {
                 txtGuests.Text = "10";
             }
@@ -428,7 +411,7 @@ namespace MBECSharp
             sqlstr.Connection = conn;
             sqlstr.CommandText = sql;
             OleDbDataReader reader = sqlstr.ExecuteReader();
-            while(reader.Read())
+            while (reader.Read())
             {
                 //Populate package class
                 bdPack.Name = reader["Title"].ToString();
@@ -442,7 +425,7 @@ namespace MBECSharp
             //Repopulate SQL statement
             sql = "SELECT Items.InvDesc, Items.PackCost, Items.NbrPack, Items.IncAddGuest, AlctType.Tax " +
                   "FROM (PackageItems INNER JOIN Items ON PackageItems.ItemID = Items.ID) INNER JOIN AlctType ON Items.AlctTypeID = AlctType.ID " +
-                  "WHERE PackageItems.PackageID = " + i +" " +
+                  "WHERE PackageItems.PackageID = " + i + " " +
                   "ORDER By Items.SortOrder DESC;";
 
             //Update sqlstr and reader
@@ -485,11 +468,6 @@ namespace MBECSharp
             reader.Close();
             sqlstr.Dispose();
             conn.Close();
-        }
-
-        private void TxtGuests_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
