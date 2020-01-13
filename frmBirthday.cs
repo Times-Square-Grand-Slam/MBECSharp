@@ -287,7 +287,7 @@ namespace MBECSharp
             //Add package information to listbox
             for (int i = 0; i <= bdPack.NbrItems - 1; i++)
             {
-                
+
                 //Create new list view item
                 ListViewItem item1 = new ListViewItem();
 
@@ -313,7 +313,7 @@ namespace MBECSharp
                     lvDetails.Items.AddRange(new ListViewItem[] { item1 });
                 }
             }
-            
+
             //Create new list view item
             ListViewItem item2 = new ListViewItem();
 
@@ -360,7 +360,7 @@ namespace MBECSharp
 
         private void gCnt()
         {
-            if(txtGuests.TextLength == 0)
+            if (txtGuests.TextLength == 0)
             {
                 txtGuests.Text = "10";
             }
@@ -419,7 +419,7 @@ namespace MBECSharp
             while (reader.Read())
             {
                 //Add tabs for each category except food
-                if(reader["Catagory"].ToString() != "Food")
+                if (reader["Catagory"].ToString() != "Food")
                 {
                     TabPage myTabPage = new TabPage(reader["Catagory"].ToString());
                     tcAddItem.TabPages.Add(myTabPage);
@@ -436,7 +436,7 @@ namespace MBECSharp
             //Clear reader
             reader.Close();
 
-            
+
         }
 
         private void lvDetails_ColumnWidthChanging(object sender, ColumnWidthChangingEventArgs e)
