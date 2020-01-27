@@ -113,6 +113,8 @@
             this.chSpace = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chAmt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.pnPack.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.tcAddItem.SuspendLayout();
@@ -731,6 +733,8 @@
             // 
             // tpFood
             // 
+            this.tpFood.Controls.Add(this.textBox2);
+            this.tpFood.Controls.Add(this.checkBox1);
             this.tpFood.Controls.Add(this.textBox1);
             this.tpFood.Controls.Add(this.txtCapri);
             this.tpFood.Controls.Add(this.cbPizza2);
@@ -877,7 +881,7 @@
             this.lvDetails.TabStop = false;
             this.lvDetails.UseCompatibleStateImageBehavior = false;
             this.lvDetails.View = System.Windows.Forms.View.Details;
-            this.lvDetails.ColumnWidthChanging += new System.Windows.Forms.ColumnWidthChangingEventHandler(this.lvDetails_ColumnWidthChanging);
+            this.lvDetails.ColumnWidthChanging += new System.Windows.Forms.ColumnWidthChangingEventHandler(this.LvDetails_ColumnWidthChanging);
             // 
             // chZero
             // 
@@ -904,6 +908,22 @@
             this.chAmt.Text = "Amount";
             this.chAmt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.chAmt.Width = 85;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Location = new System.Drawing.Point(15, 135);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(165, 25);
+            this.checkBox1.TabIndex = 8;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(186, 131);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(175, 26);
+            this.textBox2.TabIndex = 9;
             // 
             // frmBirthday
             // 
@@ -1064,5 +1084,7 @@
         private System.Windows.Forms.TextBox txtCapri;
         private System.Windows.Forms.ComboBox cbPizza2;
         private System.Windows.Forms.ComboBox cbPizza1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

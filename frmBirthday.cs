@@ -25,7 +25,7 @@ namespace MBECSharp
         private void BDPackages_Load(object sender, EventArgs e)
         {
             //Allocate memory to additonal items class members
-            itemsArray();
+            ItemsArray();
 
             //Variable
             int iCnt = 0;
@@ -61,7 +61,7 @@ namespace MBECSharp
                 rdo.Size = new Size(79, 22);
                 rdo.TabIndex = 20 + iCnt;
                 rdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(colorPicker.CP[iCnt - 1, 0])))), ((int)(((byte)(colorPicker.CP[iCnt - 1, 1])))), ((int)(((byte)(colorPicker.CP[iCnt - 1, 2])))));
-                rdo.CheckedChanged += radioButton_CheckedChanged;
+                rdo.CheckedChanged += RadioButton_CheckedChanged;
 
                 //Add textbox for package price
                 TextBox txt1 = new TextBox();
@@ -118,13 +118,13 @@ namespace MBECSharp
             conn.Close();
 
             //Populate tab control
-            updateTabs();
+            UpdateTabs();
 
             //Set focus to contacts
             cbContactName.Focus();
         }
 
-        private void radioButton_CheckedChanged(object sender, EventArgs e)
+        private void RadioButton_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton btn = sender as RadioButton;
             string strName = btn.Name;
@@ -133,13 +133,13 @@ namespace MBECSharp
             if (btn.Checked == true)
             {
                 //Add package information to class
-                addPackage();
+                AddPackage();
 
                 //Add package costs to textboxes
-                fillAmts();
+                FillAmts();
 
                 //Add information to listbox
-                addText();
+                AddText();
 
                 //Set boolean to true
                 rboChecked = true;
@@ -147,20 +147,20 @@ namespace MBECSharp
             else
             {
                 //Remove package information from listbox
-                removeText();
+                RemoveText();
 
                 //set boolean to false
                 rboChecked = false;
             }
         }
 
-        private void addPackage()
+        private void AddPackage()
         {
             //Allocate memory to class arrays
             bdPack.arrayUpdate(id);
 
             //Determine guest count
-            gCnt();
+            GCnt();
 
             //Create SQL statement for package
             string sql = "SELECT * FROM Packages WHERE ID = " + id + ";";
@@ -179,6 +179,7 @@ namespace MBECSharp
                 bdPack.Name = reader["Title"].ToString();
                 bdPack.Cost = Convert.ToDouble(reader["Cost"].ToString());
                 bdPack.AdditionalGuest = Convert.ToDouble(reader["AddGuest"].ToString());
+                bdPack.MinGuest = Convert.ToInt32(reader["MinGuest"].ToString());
             }
 
             //Close reader for later use
@@ -242,12 +243,12 @@ namespace MBECSharp
             conn.Close();
         }
 
-        private void fillAmts()
+        private void FillAmts()
         {
             int addGuest;
 
             //Update guest count
-            gCnt();
+            GCnt();
 
             //Determine number of additional guest
             addGuest = bdPack.GuestCnt - 10;
@@ -277,7 +278,7 @@ namespace MBECSharp
             bdPack.Ttl = Math.Round(bdPack.SubTotal, 2) + Math.Round(bdPack.Tax, 2) + Math.Round(bdPack.Svc, 2);
         }
 
-        private void addText()
+        private void AddText()
         {
             //Item cost variables
             double iCost = 0;   //Total cost of item
@@ -331,7 +332,7 @@ namespace MBECSharp
             lvDetails.Items.AddRange(new ListViewItem[] { item2 });
         }
 
-        private void removeText()
+        private void RemoveText()
         {
             for (int i = 0; i <= bdPack.NbrItems + 1; i++)
             {
@@ -342,14 +343,14 @@ namespace MBECSharp
         private void TxtGuests_Leave(object sender, EventArgs e)
         {
             //Determine number of guests and add to package class
-            gCnt();
+            GCnt();
 
             //Determine if package items need to be recalculated
             if (rboChecked && txtGuests.Text != nbrGuest)
             {
-                removeText();
-                fillAmts();
-                addText();
+                RemoveText();
+                FillAmts();
+                AddText();
             }
         }
 
@@ -358,20 +359,20 @@ namespace MBECSharp
             nbrGuest = txtGuests.Text;
         }
 
-        private void gCnt()
+        private void GCnt()
         {
             if (txtGuests.TextLength == 0)
             {
-                txtGuests.Text = "10";
+                txtGuests.Text = bdPack.MinGuest.ToString();
             }
             if (Convert.ToInt32(txtGuests.Text) < 10)
             {
-                txtGuests.Text = "10";
+                txtGuests.Text = bdPack.MinGuest.ToString();
             }
             bdPack.GuestCnt = Convert.ToInt32(txtGuests.Text);
         }
 
-        private void itemsArray()
+        private void ItemsArray()
         {
             //Get number of active items
             string sql = "SELECT Count(*) FROM Items WHERE Active = 'Y'";
@@ -403,8 +404,21 @@ namespace MBECSharp
             conn.Close();
         }
 
-        private void updateTabs()
+        private void UpdateTabs()
         {
+            //Variables
+            int floc = 135;
+            int loc1 = 15;
+            int loc2 = 15;
+            int loc3 = 15;
+            int loc4 = 15;
+            int loc5 = 15;
+            int loc6 = 15;
+            int loc7 = 15;
+            int loc8 = 15;
+            int loc9 = 15;
+            int loc10 = 15;
+
             //Create SQL statement for package
             string sql = "SELECT * FROM ItemsCat ORDER BY ID;";
 
@@ -436,13 +450,35 @@ namespace MBECSharp
             //Clear reader
             reader.Close();
 
+            //Repopulate sql string
+            sql = "SELECT Item, Catagory, AlctTypeID, AddCost, InvDesc, Active, IncAddGuest, SortOrder " +
+                  "FROM Items INNER JOIN ItemsCat ON Items.AddItem = ItemsCat.ID " +
+                  "ORDER BY Items.SortOrder;";
+            sqlstr.CommandText = sql;
+            reader = sqlstr.ExecuteReader();
 
+            //Add additional items to tabs
+            while (reader.Read())
+            {
+                CheckBox cbox = new CheckBox();
+                TextBox tbox = new TextBox();
+
+
+            }
+
+
+            conn.Close();
         }
 
-        private void lvDetails_ColumnWidthChanging(object sender, ColumnWidthChangingEventArgs e)
+        private void LvDetails_ColumnWidthChanging(object sender, ColumnWidthChangingEventArgs e)
         {
             e.Cancel = true;
             e.NewWidth = lvDetails.Columns[e.ColumnIndex].Width;
+        }
+
+        private void PopPizza()
+        {
+
         }
     }
 }

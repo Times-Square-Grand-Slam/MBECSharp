@@ -22,6 +22,7 @@ namespace MBECSharp
         public double Svc;              //Service/Gratuity charge for the package
         public double Dis;              //Amount of discount
         public double Ttl;              //Total cost of package
+        public int MinGuest;            //Minimum number of guests
         public int GuestCnt;            //Total number of guests
 
         public void arrayUpdate(int ID)
