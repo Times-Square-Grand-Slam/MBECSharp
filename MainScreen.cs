@@ -13,7 +13,7 @@ namespace MBECSharp
         private void btBDPack_Click(object sender, EventArgs e)
         {
             //Form fmBD = Application.OpenForms["BDPackages"];
-            Form fmBD = Application.OpenForms["frmBirthday"];
+            Form fmBD = Application.OpenForms["frmBirthdayNew"];
             if (fmBD != null)
             {
                 if (fmBD.WindowState == FormWindowState.Minimized)
@@ -23,7 +23,7 @@ namespace MBECSharp
             }
             else
             {
-                new frmBirthday().Show();
+                new frmBirthdayNew().Show();
             }
         }
 
